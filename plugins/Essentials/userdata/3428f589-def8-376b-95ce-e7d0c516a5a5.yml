@@ -1,0 +1,21 @@
+socialspy: false
+lastAccountName: Permissions_test
+timestamps:
+  login: 1509068778254
+  lastteleport: 1509067087765
+  logout: 1509068798158
+ipAddress: 192.168.0.105
+lastlocation:
+  world: Voxity
+  x: 735.0405048779836
+  y: 66.5
+  z: -646.972760831996
+  yaw: 177.71645
+  pitch: 11.556873
+logoutlocation:
+  world: Voxity
+  x: 736.8540539218641
+  y: 66.5
+  z: -662.0024800980374
+  yaw: 196.6986
+  pitch: 10.87054

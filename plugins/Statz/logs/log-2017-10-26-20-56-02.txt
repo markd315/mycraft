@@ -1,0 +1,33 @@
+This is a log file of Statz made on 2017-10-26 20:56:02
+
+[20:56:02] Enabled Statz!
+[20:56:04] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 0.3016084160239273 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=0.3016084160239273, moveType=WALK, world=Gillamoor}
+[20:56:04] [PLAYERSTAT: TELEPORTS] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 1.0 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=1, world=Gillamoor, destWorld=Gillamoor, cause=PLUGIN}
+[20:56:14] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 0.24110901811171942 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=0.24110901811171942, moveType=WALK, world=Gillamoor}
+[20:56:14] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 4.163352141080683 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=4.163352141080683, moveType=WALK, world=Gillamoor}
+[20:56:14] [PLAYERSTAT: TELEPORTS] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 5.0 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=5.0, world=Gillamoor, destWorld=Gillamoor, cause=PLUGIN}
+[20:56:14] [PLAYERSTAT: TELEPORTS] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 32.0 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=32.0, world=Gillamoor, destWorld=Gillamoor, cause=PLUGIN}
+[20:56:24] [PLAYERSTAT: JOINS] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 1.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=1}
+[20:56:24] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 19.322086146942333 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=19.322086146942333, moveType=WALK, world=Gillamoor}
+[20:56:24] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 16.248582514505895 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=16.248582514505895, moveType=WALK, world=Gillamoor}
+[20:56:24] [PLAYERSTAT: PLAYERS] Set playerName of 134491e8-1170-39ce-90b6-1b8d65726978 to 'TheMightyWill99'.
+[20:56:24] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 1.0 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=1, world=Gillamoor, command=/login, arguments=mwd315}
+[20:56:24] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 1.0 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=1, world=Gillamoor, command=/login, arguments=notchisfascist}
+[20:56:24] [PLAYERSTAT: TELEPORTS] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 2.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=2.0, world=Caoms, destWorld=Caoms, cause=PLUGIN}
+[20:56:24] [PLAYERSTAT: TELEPORTS] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 2.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=2.0, world=Caoms, destWorld=Caoms, cause=UNKNOWN}
+[20:56:34] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 4.435379360513101 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=4.435379360513101, moveType=WALK, world=Gillamoor}
+[20:56:34] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 10.88742786494785 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=10.88742786494785, moveType=WALK, world=Gillamoor}
+[20:56:44] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 0.516277604727458 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=0.516277604727458, moveType=WALK, world=Caoms}
+[20:56:44] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 15.382924622719978 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=15.382924622719978, moveType=WALK, world=Gillamoor}
+[20:56:44] [PLAYERSTAT: TELEPORTS] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 11.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=11.0, world=Caoms, destWorld=Caoms, cause=PLUGIN}
+[20:56:54] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 27.580892062581253 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=27.580892062581253, moveType=WALK, world=Gillamoor}
+[20:56:54] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 11.091422361705082 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=11.091422361705082, moveType=WALK, world=Gillamoor}
+[20:56:54] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 1.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=1, world=Caoms, command=/register, arguments=}
+[20:56:54] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 1.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=1, world=Caoms, command=/register, arguments=ass ass}
+[20:57:04] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of acbcd8c3-4612-394c-9332-643f3c0c2b47 with 9.656479528913314 and query conditions {uuid=acbcd8c3-4612-394c-9332-643f3c0c2b47, value=9.656479528913314, moveType=WALK, world=Gillamoor}
+[20:57:04] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 5.024337959765838 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=5.024337959765838, moveType=WALK, world=Caoms}
+[20:57:04] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 44.25814554660722 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=44.25814554660722, moveType=WALK, world=Gillamoor}
+[20:57:04] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 1.0 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=1, world=Caoms, command=/register, arguments=howdyall howdyall}
+[20:57:09] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of 134491e8-1170-39ce-90b6-1b8d65726978 with 7.902535289191722 and query conditions {uuid=134491e8-1170-39ce-90b6-1b8d65726978, value=7.902535289191722, moveType=WALK, world=Caoms}
+[20:57:09] [PLAYERSTAT: DISTANCE_TRAVELLED] Add value of f816a646-0eca-3b97-abaa-e1db704a865a with 17.192877565392926 and query conditions {uuid=f816a646-0eca-3b97-abaa-e1db704a865a, value=17.192877565392926, moveType=WALK, world=Gillamoor}
+[20:57:09] Disabled Statz!

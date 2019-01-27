@@ -1,0 +1,25 @@
+SignCasinoVersion: 1.1
+# 
+# Sign Casino Blackjack
+# by Silentnight18
+# 
+# Configuration File
+# 
+#
+# This option sets whether or not you want the Tables to link directly to the Owners Economy Account, or to use the deposit system.
+linked-to-accounts: false
+
+# This option should really be left true, saves Tables when the plugin is disabled
+save-on-disable: true
+
+# This option should really be left true, saves Tables when Table changes/completes a hand.
+save-on-disable: true
+
+# This option determines if you want the Table to charge from the Owner's account if the Table goes over it's current amount on payout.
+subtract-overcost: true
+
+# This option sets the increments of Betting for Blackjack.
+betIncrement: 5
+
+# This option simply sets the max betting amount for Blackjack, set to 0 for no limit.
+maxBet: 0

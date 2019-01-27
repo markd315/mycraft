@@ -1,0 +1,173 @@
+# These are the flag values the hotel and room regions will have set to upon creation. Refer here for what each does and the data type http://docs.enginehub.org/manual/worldguard/latest/regions/flags/
+hotel:
+  overrides:
+    PASSTHROUGH: none
+    EXIT-OVERRIDE: none
+  protection:
+    BUILD: none
+    INTERACT: allow
+    BLOCK-BREAK: none
+    BLOCK-PLACE: none
+    USE: allow
+    DAMAGE-ANIMALS: none
+    CHEST-ACCESS: none
+    RIDE: allow
+    PVP: deny
+    SLEEP: allow
+    TNT: deny
+    VEHICLE-PLACE: none
+    VEHICLE-DESTROY: none
+    LIGHTER: deny
+  mobs:
+    CREEPER-EXPLOSION: deny
+    ENDERDRAGON-BLOCK-DAMAGE: deny
+    GHAST-FIREBALL: deny
+    OTHER-EXPLOSION: deny
+    FIRE-SPREAD: deny
+    ENDERMAN-GRIEF: deny
+    MOB-DAMAGE: deny
+    MOB-SPAWNING: deny
+    DENY-SPAWN: none
+    ENTITY-PAINTING-DESTROY: deny
+    ENTITY-ITEM-FRAME-DESTROY: deny
+  nature:
+    LAVA-FIRE: deny
+    LIGHTNING: deny
+    WATER-FLOW: none
+    LAVA-FLOW: none
+    SNOW-FALL: deny
+    SNOW-MELT: deny
+    ICE-FORM: deny
+    ICE-MELT: deny
+    MUSHROOM-GROWTH: deny
+    LEAF-DECAY: deny
+    GRASS-GROWTH: deny
+    MYCELIUM-SPREAD: deny
+    VINE-GROWTH: deny
+    SOIL-DRY: deny
+  map-making:
+    ITEM-PICKUP: none
+    ITEM-DROP: none
+    EXP-DROPS: none
+    DENY-MESSAGE: none
+    ENTRY: none
+    ENTRY-DENY-MESSAGE: none
+    EXIT: none
+    EXIT-DENY-MESSAGE: none
+    EXIT-VIA-TELEPORT: none
+    GREETING: 'true'
+    FAREWELL: 'true'
+    ENDERPEARL: deny
+    INVICIBLE: none
+    GAME-MODE: none
+    TIME-LOCK: none
+    WEATHER-LOCK: none
+    HEAL-DELAY: none
+    HEAL-AMOUNT: none
+    HEAL-MIN-HEALTH: none
+    HEAL-MAX-HEALTH: none
+    FEED-DELAY: none
+    FEED-AMOUNT: none
+    FEED-MIN-HUNGER: none
+    FEED-MAX-HUNGER: none
+    TELEPORT: none
+    SPAWN: none
+    BLOCKED-CMDS: none
+    ALLOWED-CMDS: none
+  miscellaneous:
+    PISTONS: none
+    SEND-CHAT: none
+    RECEIVE-CHAT: none
+    POTION-SPLASH: none
+    NOTIFY-ENTER: none
+    NOTIFY-LEAVE: none
+  unused:
+    ALLOW-SHOP: none
+    BUYABLE: none
+    PRICE: none
+room:
+  overrides:
+    PASSTHROUGH: none
+    EXIT-OVERRIDE: none
+  protection:
+    BUILD: none
+    INTERACT: -g non_members deny
+    BLOCK-BREAK: none
+    BLOCK-PLACE: none
+    USE: -g non_members deny
+    DAMAGE-ANIMALS: none
+    CHEST-ACCESS: -g non_members deny
+    RIDE: -g non_members deny
+    PVP: deny
+    SLEEP: -g non_members deny
+    TNT: deny
+    VEHICLE-PLACE: -g non_members deny
+    VEHICLE-DESTROY: -g non_members deny
+    LIGHTER: deny
+  mobs:
+    CREEPER-EXPLOSION: deny
+    ENDERDRAGON-BLOCK-DAMAGE: deny
+    GHAST-FIREBALL: deny
+    OTHER-EXPLOSION: deny
+    FIRE-SPREAD: deny
+    ENDERMAN-GRIEF: deny
+    MOB-DAMAGE: deny
+    MOB-SPAWNING: deny
+    DENY-SPAWN: none
+    ENTITY-PAINTING-DESTROY: deny
+    ENTITY-ITEM-FRAME-DESTROY: deny
+  nature:
+    LAVA-FIRE: deny
+    LIGHTNING: deny
+    WATER-FLOW: none
+    LAVA-FLOW: none
+    SNOW-FALL: deny
+    SNOW-MELT: deny
+    ICE-FORM: deny
+    ICE-MELT: deny
+    MUSHROOM-GROWTH: deny
+    LEAF-DECAY: deny
+    GRASS-GROWTH: deny
+    MYCELIUM-SPREAD: deny
+    VINE-GROWTH: deny
+    SOIL-DRY: deny
+  map-making:
+    ITEM-PICKUP: none
+    ITEM-DROP: none
+    EXP-DROPS: none
+    DENY-MESSAGE: none
+    ENTRY: none
+    ENTRY-DENY-MESSAGE: none
+    EXIT: none
+    EXIT-DENY-MESSAGE: none
+    EXIT-VIA-TELEPORT: none
+    GREETING: 'true'
+    FAREWELL: 'true'
+    ENDERPEARL: deny
+    INVICIBLE: none
+    GAME-MODE: none
+    TIME-LOCK: none
+    WEATHER-LOCK: none
+    HEAL-DELAY: none
+    HEAL-AMOUNT: none
+    HEAL-MIN-HEALTH: none
+    HEAL-MAX-HEALTH: none
+    FEED-DELAY: none
+    FEED-AMOUNT: none
+    FEED-MIN-HUNGER: none
+    FEED-MAX-HUNGER: none
+    TELEPORT: none
+    SPAWN: none
+    BLOCKED-CMDS: none
+    ALLOWED-CMDS: none
+  miscellaneous:
+    PISTONS: none
+    SEND-CHAT: none
+    RECEIVE-CHAT: none
+    POTION-SPLASH: -g non_members deny
+    NOTIFY-ENTER: none
+    NOTIFY-LEAVE: none
+  unused:
+    ALLOW-SHOP: none
+    BUYABLE: none
+    PRICE: none

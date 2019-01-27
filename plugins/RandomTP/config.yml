@@ -1,0 +1,59 @@
+# ----------------------------------------
+# - RandomTP (Original) v.1.0_Reloaded   -
+# ----------------------------------------
+# - Tnks for downloading this plugin!    -
+# ----------------------------------------
+# In Tp distances the recomended values are those:
+# ----------------------------------------
+# For Far Teleport Distance: 6000         -
+# For Tormal Teleport Distance: 3000      -
+# For Tiny Teleport Distance: 1000        -
+# BY DEFAULT IT WILL BE IN: 3000(Normal)  -
+# ----------------------------------------
+# You can use color codes in messages "&" ! :D
+# ----------------------------------------
+# Configuration:                         -
+# ----------------------------------------
+TpDistances:
+  onCommand: 2000
+  FarSign: 5000
+  NormalSign: 2000
+  TinySign: 300
+  FarGUI: 5000
+  NormalGUI: 2000
+  TinyGUI: 300
+Messages:
+  OnCommand: '&f[&c&lRandomTP&f]&7 You were teleported to a random &6&l distance!'
+  OnSignFar: '&f[&c&lRandomTP&f]&7 You were teleported to a random &c&lfar distance!'
+  OnSignNormal: '&f[&c&lRandomTP&f]&7 You were teleported to a random &6&lnormal distance!'
+  OnSignTiny: '&f[&c&lRandomTP&f]&7 You were teleported to a random &e&lTiny distance!'
+  OnGUIFar: '&f[&c&lRandomTP &3&lGUI&f]&7 You were teleported to a random &c&lfar
+    distance!'
+  OnGUINormal: '&f[&c&lRandomTP &3&lGUI&f]&7 You were teleported to a random &6&lnormal
+    distance!'
+  OnGUITiny: '&f[&c&lRandomTP &3&lGUI&f]&7 You were teleported to a random &e&lTiny
+    distance!'
+  NoPermission: '&f[&c&lRandomTP&f]&c&l You dont have permission do this!'
+CustomSigns:
+  FarSign:
+    Line1: '&cRandomTP'
+    Line2: '&0TP far'
+    Line3: '&0randomly'
+  NormalSign:
+    Line1: '&6RandomTP'
+    Line2: '&0TP normal'
+    Line3: '&0randomly'
+  TinySign:
+    Line1: '&aRandomTP'
+    Line2: '&0TP tiny'
+    Line3: '&0randomly'
+InventoryGUI:
+  SlotFar:
+    Name: '&f[&c&lFar Teleport&f] &7(Right Click)'
+    InvSlot: 1
+  SlotNormal:
+    Name: '&f[&6&lNormal Teleport&f] &7(Right Click)'
+    InvSlot: 4
+  SlotTiny:
+    Name: '&f[&a&lTiny Teleport&f] &7(Right Click)'
+    InvSlot: 7

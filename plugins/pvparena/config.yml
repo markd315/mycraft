@@ -1,0 +1,28 @@
+debug: none
+server_log: false
+stats: true
+tracker: true
+language: en
+onlyPVPinArena: false
+safeadmin: true
+y-offset: 0.5
+whitelist:
+- ungod
+use_shortcuts: false
+only_shortcuts: false
+consoleoffduty: false
+update: both
+materialprefixes:
+- minecraft
+- bukkit
+globalPrefix: PVP Arena
+shortcuts:
+  freeforall:
+  - arena1
+  - arena2
+  teams:
+  - teamarena1
+  - teamarena2
+modulecheck: true
+updatetype: beta
+ver: 1

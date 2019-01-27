@@ -1,0 +1,274 @@
+groups:
+  Newcomer:
+    permissions:
+    - auctions.command.bid
+    - auctions.command.info
+    - authme.player.*
+    - autorank.check
+    - autorank.help
+    - autorank.track
+    - essentials.afk
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.eco
+    - essentials.help
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.unlimited
+    - essentials.spawn
+    - essentials.pay
+    - essentials.more
+    - essentials.msg
+    - -essentials.sell
+    - essentials.tpahere
+    - essentials.tpa
+    - essentials.tpaccept
+    - -essentials.worth
+    - globalshop.trade.*
+    - islandworld.create.normal
+    - islandworld.island.*
+    - mcmmo.ability.*
+    - mcmmo.commands.mcstats
+    - mcmmo.commands.mctop
+    - modifyworld.chat
+    - multiverse.core.list.*
+    - randomtp.tp
+    - randomtp.info
+    - chestshop.buy
+    - chestshop.sell
+    - towny.command.resident.*
+    - towny.town.resident
+    - towny.town.spawn.*
+    - towny.command.towny.*
+    - towny.chat.*
+    - multiverse.access.caoms
+    - multiverse.help
+    - multiverse.core.spawn.self
+    - heavyspleef.player.*
+    - mcjobs.jobs.*
+    - multiverse.portal.access.*
+    options:
+      prefix: '&f[Newcomer]&f'
+      default: true
+    worlds:
+      Akama:
+        permissions:
+        - modifyworld.*
+      Caoms:
+        permissions:
+        - modifyworld.*
+      Caoms_nether:
+        permissions:
+        - modifyworld.*
+      Caoms_the_end:
+        permissions:
+        - modifyworld.*
+      Odawth:
+        permissions:
+        - modifyworld.*
+      Legora:
+        permissions:
+        - modifyworld.*
+  Immigrant:
+    inheritance:
+    - Newcomer
+    permissions:
+    - modifyworld.*
+    - auctions.command.cancel
+    - auctions.command.end
+    - auctions.command.ignore
+    - auctions.command.start
+    - banknotes.*
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.delhome
+    - -essentials.warp.senate_floor
+    - essentials.warp.*
+    - -essentials.sell
+    - -essentials.worth
+    - -towny.command.plot.asmayor
+    - towny.command.plot.*
+    - multiverse.access.*
+    - multiverse.teleport.self.*
+    - pvparena.user
+    - sg.arena.join.*
+    - sg.lobby.join
+    options:
+      prefix: '&7[Immigrant]&f'
+      default: false
+  Citizen:
+    inheritance:
+    - Immigrant
+    permissions:
+    - autorank.checkothers
+    - autorank.leaderboard
+    - essentials.balance.others
+    - essentials.eco.loan
+    - essentials.chat.url
+    - essentials.msg.url
+    - mcmmo.commands.party.*
+    - chestshop.shop.*
+    - SimplePoll.vote
+    - towny.command.town.*
+    - towny.command.nation.*
+    - towny.wild.*
+    - -sc.blackjack.createserver
+    - sc.blackjack.*
+    - casinoslots.use
+    - sg.arena.vote
+    options:
+      prefix: '&2[Citizen]'
+      default: false
+  Senator:
+    inheritance:
+    - Citizen
+    permissions:
+    - autorank.checkothers
+    - autorank.leaderboard
+    - essentials.balance.others
+    - essentials.eco.loan
+    - essentials.chat.url
+    - essentials.msg.url
+    - mcmmo.commands.party.*
+    - chestshop.shop.*
+    - towny.command.town.*
+    - towny.command.nation.*
+    - towny.wild.*
+    - -sc.blackjack.createserver
+    - sc.blackjack.*
+    - casinoslots.use
+    - sg.arena.vote
+    options:
+      prefix: '&1[&4Senator&1]&c'
+      default: false
+  President:
+    inheritance:
+    - Senator
+    options:
+      prefix: '&f[&4P&1r&4e&1s&4i&1d&4e&1n&4t&f]&c'
+      default: false
+  Sponsor:
+    inheritance:
+    - Citizen
+    permissions:
+    - essentials.afk.kickexempt
+    - essentials.fly
+    - essentials.chat.color
+    - essentials.nick
+    - essentials.nick.color
+    - -essentials.sell
+    - -essentials.worth
+    - mcmmo.perks.*
+    - modifyworld.*
+    - randomtp.*
+    - chestshop.nofee
+    - multiverse.exempt.*
+    options:
+      prefix: '&6[&4S&cp&eo&an&3s&1o&5r&6]'
+      default: false
+  Helper:
+    inheritance:
+    - Citizen
+    permissions:
+    - -essentials.sell
+    - -essentials.worth
+    - autorank.leaderboard.broadcast
+    - essentials.afk.kickexempt
+    - essentials.fly
+    - essentials.chat.color
+    - essentials.nick
+    - essentials.nick.color
+    - modifyworld.*
+    - SimplePoll.create
+    - randomtp.*
+    options:
+      prefix: '&3[Helper]&8'
+      default: false
+  Moderator:
+    inheritance:
+    - Helper
+    permissions:
+    - auctions.bypass.end
+    - -essentials.sell
+    - -essentials.worth
+    - essentials.ban.exempt
+    - essentials.delwarp
+    - essentials.feed
+    - essentials.chat.*
+    - essentials.kick.*
+    - essentials.socialspy
+    - essentials.ping
+    - essentials.setwarp
+    - essentials.tempban.*
+    - essentials.jails
+    - essentials.tp.*
+    - essentials.vanish.*
+    - islandworld.islandev.*
+    - mcmmo.perks.*
+    - mobarena.admin.*
+    - multiverse.teleport.others.*
+    - chestshop.mod.*
+    - towny.claimed.*
+    - multiverse.core.spawn.other
+    - sg.arena.forcestart
+    options:
+      prefix: '&1[Moderator]&8'
+      default: false
+    worlds:
+      Voxity:
+        permissions:
+        - modifyworld.*
+  Developer:
+    inheritance:
+    - Moderator
+    permissions:
+    - auctions.bypass.*
+    - autorank.set.*
+    - authme.admin.*
+    - bukkit.command.gamemode
+    - -essentials.sell
+    - -essentials.worth
+    - essentials.ban.*
+    - essentials.broadcast
+    - essentials.burn
+    - essentials.clearinventory.others
+    - essentials.feed.*
+    - essentials.fly.others
+    - essentials.gamemode.*
+    - essentials.give.*
+    - essentials.heal.*
+    - essentials.sethome.others
+    - essentials.signs.*
+    - essentials.realname
+    - essentials.spawn
+    - essentials.spawner.*
+    - essentials.time.*
+    - essentials.unban
+    - essentials.tpall
+    - mobarena.setup.*
+    - chestshop.admin
+    - chestshop.nofee
+    - towny.admin
+    - worldedit.*
+    - monsterbox.*
+    - endlessenchant.*
+    - sc.blackjack.createserver
+    - casinoslots.admin
+    - thespleefminigame.admin
+    - worldguard.region.bypass.Caoms
+    options:
+      prefix: '&8[&6Developer&8]'
+      default: false
+  Admin:
+    inheritance:
+    - Developer
+    permissions:
+    - -essentials.sell
+    - -essentials.worth
+    - '*'
+    options:
+      prefix: '&8[&4Admin&8]'
+      default: false
+users:
+  schema-version: 1

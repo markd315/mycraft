@@ -1,0 +1,47 @@
+# This file contains all the data Autorank needs of players
+c5821ea2-711c-4602-82e2-43e4042795d7:
+  exempt leaderboard: true
+  last group: Admin
+  progress:
+  - 0
+  completed ranks:
+  - Newcomer
+  - Newcomer
+  - Immigrant
+  - Newcomer
+  - Immigrant
+f33e3eae-1894-4759-b97c-6a4d0c07a039:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+acbcd8c3-4612-394c-9332-643f3c0c2b47:
+  exempt leaderboard: true
+  last group: Admin
+  progress: []
+  completed ranks:
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Immigrant
+  - Newcomer
+  - Immigrant
+ff1d7c51-67af-3f54-9ca8-ca15fb01c5f8:
+  exempt leaderboard: false
+  last group: Developer
+  progress: []
+b50ad385-829d-3141-a216-7e7d7539ba7f:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+67caa998-cac2-31b7-a325-804b13dedcde:
+  exempt leaderboard: false
+  last group: Developer
+  progress: []
+  completed ranks:
+  - Newcomer

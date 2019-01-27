@@ -1,0 +1,92 @@
+#
+# Change any message this plugin sends to players
+#
+# Each message can support multiple tags.
+# Tags are listed next to the message they support
+#
+
+messages:
+  #
+  #
+  no_permission: "&cYou don't have permission to use this command"
+  #
+  # Reload command
+  reload: "&6ParticleHats has been reloaded"
+  #
+  # When a player tries to open a specific menu that does't exist.
+  page_error: "&cThat menu doesn't exists"
+  #
+  # Called when a player equips a hat they own
+  # Tags:
+  # - {HAT} : Name of the hat being equipped
+  hat_equip: "{HAT} &7equipped"
+  #
+  # Called when a player equips a had while they're vanished
+  # Tags:
+  # - {HAT} : Name of the hat being equipped
+  hat_equip_vanished: "{HAT} &7equipped while vanished"
+  #
+  # Called if a player lacks permission to use this hat
+  # -- only called if Vault and Experience are disabled
+  hat_no_permission: "&cYou don't have permission for this hat"
+  #
+  # Called when a player toggles their hat on / off
+  # Tags:
+  # - {TOGGLE} : Boolean state of the toggled hat (Enabled | Disabled)
+  # - {HAT} : Name of the hat toggled
+  hat_toggle: "&7Particle {TOGGLE}"
+  #
+  # Called when a player toggles their hat while vanished
+  hat_toggle_vanish: "&cCan't toggle your hat while vanished"
+  #
+  # Called when someone tries to toggle their hat, and they're not wearing one
+  hat_cant_toggle: "&cYou aren't wearing a hat"
+  #
+  # Called when someone toggles a players hat
+  # Tags:
+  # - {TOGGLE} : Boolean state of the toggled hat (Enabled | Disabled)
+  # - {PLAYER_NAME} : The players default name
+  # - {PLAYER_DISPLAY_NAME} : The players in-game name
+  hat_toggle_other: "&7Hat {TOGGLE} &7for {PLAYER_NAME}"
+  #
+  # Called when somone toggles a players hat while they're vanished
+  # Tags:
+  # - {PLAYER_NAME} : The players default name
+  # - {PLAYER_DISPLAY_NAME} : The players in-game name
+  hat_toggle_other_vanished: "&cCan't toggle {PLAYER_NAME}'s hat while they're vanished"
+  #
+  # Called when a player purchases a new hat
+  # Tags:
+  # - {HAT} : Name of the hat purchased
+  hat_purchased: "&7You purchased the {HAT} &7hat!"
+  #
+  # Called if a player tries to purchase an invalid hat
+  hat_invalid_purchase: "&7There is nothing to purchase"
+  #
+  # Called when a player does not have enough funds to purchase a hat
+  # -- only called if Vault of Experience are enabled
+  # Tags:
+  # - {CURRENCY} : Show the currency you have set in the config
+  hat_insufficient_funds: "&cYou don't have enough {CURRENCY} to purchase this hat"
+  #
+  # Called when a player clears their particles
+  hat_clear: "&7All particles cleared"
+  #
+  # Called when someone clears a players particles
+  # Tags:
+  # - {PLAYER_NAME} : The players default name
+  # - {PLAYER_DISPLAY_NAME} : The players in-game name
+  hat_clear_other: "&6Particles cleared for {PLAYER_NAME}"
+  #
+  # Called when somone sets a players hat while they're vanished
+  # Tags:
+  # - {PLAYER_NAME} : The players default name
+  # - {PLAYER_DISPLAY_NAME} : The players in-game name
+  hat_set_vanished: "&cCan't set {PLAYER_NAME}'s hat while they're vanished"
+  #
+  # Called when someone tries to use particles in a disabled world
+  world_disabled: "&7Particles are disabled in this world"
+  #
+  # Called when someone does not have permission for this world 
+  no_world_permission: "&7You don't have permission for this world"
+  

@@ -1,0 +1,6 @@
+global:
+  spins: 0
+  wins: 0
+  losts: 0
+  won: 0.0
+  lost: 0.0

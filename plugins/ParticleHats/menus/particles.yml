@@ -1,0 +1,504 @@
+settings:
+  title: '&8Pick a particle, any particle'
+  size: 6
+  private: false
+items:
+  '10':
+    id: REDSTONE
+    damage-value: 0
+    name: '&6Colourful Redstone Dust'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: reddust
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 1
+    count: 1
+    offset: 0.0
+    animated: true
+  '11':
+    id: INK_SACK
+    damage-value: 1
+    name: '&6Red Hearts'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: heart
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '12':
+    id: SKULL_ITEM
+    damage-value: 1
+    name: '&6Lightning Clouds'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: angryVillager
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '13':
+    id: SKULL_ITEM
+    damage-value: 3
+    name: '&6Happy Villager'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: happyVillager
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '14':
+    id: SKULL_ITEM
+    damage-value: 0
+    name: '&6Colourful Mob Spell'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: mobSpell
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 1
+    count: 1
+    offset: 0.0
+  '15':
+    id: POTION
+    damage-value: 0
+    name: '&6Swirling Spells'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: spell
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '16':
+    id: FIREWORK
+    damage-value: 0
+    name: '&6Twinkling Fireworks'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: fireworksSpark
+    type: Vortex
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '19':
+    id: MONSTER_EGG
+    damage-value: 50
+    name: '&6Large Explosion'
+    description:
+    - '&7Hard to see through'
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: largeexplode
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '20':
+    id: GHAST_TEAR
+    damage-value: 0
+    name: '&6Huge Explosion'
+    description:
+    - '&7Impossible to see through.'
+    - '&7Good for annoying people.'
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: hugeexplosion
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '21':
+    id: BOOK
+    damage-value: 0
+    name: '&6Cryptic Letters'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: enchantmenttable
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '22':
+    id: SNOW_BALL
+    damage-value: 0
+    name: '&6Breaking Snowballs'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: snowballpoof
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 2
+    offset: 0.0
+  '23':
+    id: BOAT
+    damage-value: 0
+    name: '&6Water Splash'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: splash
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 2
+    offset: 0.0
+  '24':
+    id: WATER_BUCKET
+    damage-value: 0
+    name: '&6Dripping Water'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: dripWater
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '25':
+    id: LAVA_BUCKET
+    damage-value: 0
+    name: '&6Dripping Lava'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: dripLava
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '28':
+    id: FIREBALL
+    damage-value: 0
+    name: '&6Lava Fire'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: lava
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+  '29':
+    id: INK_SACK
+    damage-value: 15
+    name: '&6Cloudy with a chance of particles'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: cloud
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 3
+    offset: 0.0
+    node:
+      particle: dripWater
+      type: Trail
+      location: Feet
+      mode: Active
+      speed: 0
+      count: 1
+      offset: -0.2
+  '30':
+    id: BARRIER
+    damage-value: 0
+    name: '&6Barrier'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: barrier
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+  '31':
+    id: FLINT_AND_STEEL
+    damage-value: 0
+    name: '&6Smoke'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: smoke
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '32':
+    id: SKULL_ITEM
+    damage-value: 1
+    name: '&6Ambient Mob Spell'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: mobSpellAmbient
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 1
+    count: 1
+    offset: 0.0
+    animated: true
+  '33':
+    id: BREWING_STAND_ITEM
+    damage-value: 0
+    name: '&6Witch Magic'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: witchMagic
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '34':
+    id: TORCH
+    damage-value: 0
+    name: '&6Flame'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: flame
+    type: Cape
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+  '40':
+    id: TNT
+    damage-value: 0
+    name: '&6Explosion'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: explode
+    type: Trail
+    location: Feet
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 2
+    offset: 0.0
+  '41':
+    id: BEDROCK
+    damage-value: 0
+    name: '&6Depth Suspend'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: depthSuspend
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '42':
+    id: OBSIDIAN
+    damage-value: 0
+    name: '&6Portal'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: all
+    no-permission: ''
+    no-permission-lore: []
+    particle: portal
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: true
+  '43':
+    id: NOTE_BLOCK
+    damage-value: 0
+    name: '&6Music Notes'
+    description:
+    - '&9{TYPE} &7- &9{LOCATION}'
+    permission: donator
+    no-permission: ''
+    no-permission-lore: []
+    particle: enchantmenttable
+    type: Halo
+    location: Head
+    mode: Active
+    action: Equip
+    price: 0
+    speed: 1
+    count: 1
+    offset: 0.0
+    animated: true
+    block-data:
+      id: GOLD_BLOCK
+      damage-value: 0
+  '49':
+    id: SKULL_ITEM
+    damage-value: 3
+    name: '&6Toggle your hat'
+    description: []
+    permission: default
+    no-permission: ''
+    no-permission-lore: []
+    particle: none
+    type: Halo
+    location: Head
+    mode: Active
+    action: Toggle
+    price: 0
+    speed: 0
+    count: 1
+    offset: 0.0
+    animated: false

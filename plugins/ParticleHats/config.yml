@@ -1,0 +1,105 @@
+#
+# Permissions:
+# - particlehats.command.all: Grants access to all commands
+#
+#   Particles:
+#   - particlehats.particle.all: Grants access to all particles
+#   - particlehats.particle.<custom>
+#     Each particle can have its own permission set.
+#
+#   Command permissions:
+#   - /h create : particlehats.command.create_menu
+#   - /h edit : particlehats.command.edit (to edit every menu) & particlehats.command.edit.<menu name> (for specific menus)
+#   - /h reload : particlehats.command.reload
+#   - /h toggle <player> : particlehats.command.toggle_other
+#   - /h set <player> : particlehats.command.set
+#   - /h list : particlehats.command.list
+#   - /h clear <player> : particlehats.command.clear_other
+#   - /h : particlehats.command.h
+#   - /h help : particlehats.command.help
+#   - /h open <menu name | page number> : particlehats.command.open (for every menu) & particlehats.command.open.<menu name> (for specific menus)
+#   - /h open <player> <menu name | page number> : particlehats.command.open_other
+#   - /h set <player> : particlehats.command.set
+#
+defaults:
+  #
+  # Generate the default config files
+  # Includes:
+  # - particles.yml
+  generate_config_files: true
+  #
+  # Choose which world particles are allowed in
+  disabled_worlds: []
+  #
+  # Will only display particles if the player has permission for that world
+  check_world_permission: false
+  #
+  # Default properties for the halo particle effect
+  halo:
+    # More points will make the cycle slower
+    points: 12
+    radius: 0.8
+  #
+  # This determines how often special particle effects are displayed
+  # Default is to update every 2 ticks
+  effect:
+    update_frequency: 2
+  #
+  flags:
+    # Enable vault support and allow players to purchase hats using an economy plugin.
+    # (This flag will take priority if both vault & experience are enabled)
+    vault: false
+    #
+    # Enable experience support and allow players to purchase hats using experience points.
+    experience: false
+    #
+    # Allow players to equip hats based on permission (Can be enabled alongside vault / experience)
+    permission: false
+    #
+    # Enable support for vanish plugins (SuperVanish, PremiumVanish, VanishNoPacket)
+    # Particles will be disabled whenever a player is vanished
+    vanish: false
+  #
+  # Set the type of currenty displayed in the plugin.
+  currency_type: "Coins"
+  #
+  # Close the menu after a player has selected a hat.
+  close_menu_on_equip: true
+  #
+  # The sound that will play when a player interacts with the menu
+  # This plugin was built using spigot api 1.9, if your server is running 1.8 then sound
+  # will not work because of the major changes in sound enum values
+  menu_sound:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    #
+    # Ranges from 0 to 1, anything higher will default to 1
+    volume: 1
+    #
+    # Ranges from 0.0 to 2.0, 1.0 being normal
+    pitch: 1.0
+  #
+  # This will let you set how many seconds the plugin will wait before setting a player to afk
+  # (Only used when you set a particles mode to : WHEN_AFK or WHEN_MOVING)
+  afk:
+    cooldown: 1
+  #
+  combat:
+    # This will let you set how many seconds the plugin will wait before resetting a players combat state
+    # (Only used when you set a particles mode to : WHEN_PEACEFUL)
+    cooldown: 1
+    #
+    # These flags allow you to control which type of entity is checked when a particle has the WHEN_PEACEFUL mode selected
+    # Particles will not be displayed if a player is marked as "in combat", you can choose which entity will trigger this event
+    #
+    # Check for combat with other players
+    check_players: true
+    #
+    # Check for combat with hostile mobs
+    check_monsters: true
+    #
+    # Check for combat with friendly animals
+    check_animals: false
+    #
+    # Check for combat with friendly npc's
+    check_npc: false

@@ -1,0 +1,4 @@
+This is a log file of Statz made on 2017-10-26 20:04:52
+
+[20:04:52] Enabled Statz!
+[20:05:53] Disabled Statz!

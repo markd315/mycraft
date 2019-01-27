@@ -1,0 +1,11 @@
+active_particle:
+  name: mobSpell
+  display_name: '&6Colourful Mob Spell'
+  type: 2
+  speed: 1
+  count: 1
+  location: 1
+  mode: 0
+  status: true
+  offset: 0.0
+  animated: false

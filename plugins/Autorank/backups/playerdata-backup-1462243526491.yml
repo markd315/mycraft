@@ -1,0 +1,13 @@
+# This file contains all the data Autorank needs of players
+c5821ea2-711c-4602-82e2-43e4042795d7:
+  exempt leaderboard: true
+  last group: Citizen
+  progress: []
+  completed ranks:
+  - Newcomer
+f33e3eae-1894-4759-b97c-6a4d0c07a039:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer

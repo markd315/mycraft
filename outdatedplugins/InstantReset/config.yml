@@ -1,0 +1,5 @@
+# Where to look for world templates.
+templatedir: templates
+worlddir: worlds
+resetOnRestart: false
+worlds: {}

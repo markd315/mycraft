@@ -1,0 +1,5 @@
+# This file stores all uuids of players that Autorank has looked up before.
+# Each file stores accounts with the starting letter of the player's name.
+notch:
+  uuid: b50ad385-829d-3141-a216-7e7d7539ba7f
+  updateTime: 1470161526951

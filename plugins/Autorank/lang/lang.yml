@@ -1,0 +1,127 @@
+# Language file
+already-completed-requirement: '&cYou have already completed this requirement!'
+autorank-reloaded: '&3Autorank has been reloaded.'
+blocks-moved-requirement: Travel at least {0} {1}
+broken-blocks-requirement: Break at least {0}
+cannot-check-console: '&cCannot check for console!'
+damage-taken-requirement: Take at least {0} damage
+data-imported: New data has been imported!
+day-plural: days
+day-singular: day
+do-not-meet-requirements-for: 'You do not meet requirements for #&6{0}&c:'
+done-marker: Done
+exp-requirement: Have at least level {0} in exp
+factions-power-requirement: Have at least {0} power in your faction
+fish-caught-requirement: Catch at least {0} fish
+gamemode-requirement: Be in gamemode {0}
+global-time-requirement: Play for at least {0} on any of the servers
+hour-plural: hours
+hour-singular: hour
+invalid-format: '&cInvalid format, use {0}.'
+invalid-number: '&c{0} is not a valid number!'
+item-requirement: Obtain {0}
+items-crafted-requirement: Craft at least {0} item(s)
+location-requirement: Be at {0}
+mcmmo-power-level-requirement: Have at least power level {0}
+mcmmo-skill-level-requirement: Have at least level {0} in {1}
+meets-all-requirements: meets all the requirements for rank {0}
+meets-all-requirements-without-rank-up: meets all the requirements
+minute-plural: minutes
+minute-singular: minute
+money-requirement: Have at least {0}
+mysql-is-not-enabled: '&cMySQL is not enabled!'
+no-groups: no groups
+no-next-rankup: Does not have a next rankup.
+no-permission: '&cYou need ({0}) for that!'
+optional-marker: Optional
+permission-requirement: Have permission {0}
+placed-blocks-requirement: Place at least {0}
+player-is-excluded: '&c{0} is excluded from ranking!'
+player-is-invalid: '&6{0}&4 has never been logged before.'
+player-kills-requirement: Kill at least {0} player(s)
+player-not-online: '&6{0}&4 is not online!'
+playtime-changed: Changed playtime of {0} to {1}.
+ranked-up-now: ' and will now be ranked up.'
+second-plural: seconds
+second-singular: second
+successfully-completed-requirement: 'You have successfully completed requirement &6{0}&a:'
+time-requirement: Play for at least {0}
+times-sheared-requirement: Shear at least {0} sheep
+total-mobs-killed-requirement: Kill at least {0}
+total-time-requirement: Be with this server for at least {0}
+unknown-player: '&cPlayer {0} is unknown and couldn''t be identified.'
+vote-requirement: Vote at least {0} times
+world-guard-region-requirement: Be in region {0}
+world-requirement: Be in {0}
+requirement-progress: 'Progress of requirement {0}:'
+essentials-geoip-location-requirement: Be from area {0}
+in-biome-requirement: Be in biome {0}
+food-eaten-requirement: Eat at least {0}
+you-are-a-robot: '&cYou are a robot, {0}'
+achievement-multiple-requirement: Obtain at least {0} achievements
+achievement-single-requirement: Obtain Achievement '{0}'
+acid-island-level-requirement: Have at least an (acid) island level of {0}.
+already-completed-path: but has already completed this path before.
+already-on-this-path: '&4You''re already on this path!'
+and: and
+ar-times-header: '&a----------- [Times of &6{0}&a] -----------'
+ar-times-player-played: '&6{0}&9 played:'
+ar-times-this-month: '&eThis month: &d{0}'
+ar-times-this-week: '&cThis week: &d{0}'
+ar-times-today: '&3Today: &d{0}'
+ar-times-total: '&aTotal: &d{0}'
+askyblock-level-requirement: Have at least an (skyblock) island level of {0}.
+chosen-path: '&2You have chosen &7''{0}''&2.'
+command-result: 'Perform the following command(s): {0}'
+effect-result: Play '{0}' effect on you.
+grief-prevention-bonus-blocks-requirement: Have at least {0} bonus blocks in GriefPrevention
+grief-prevention-claimed-blocks-requirement: Have at least {0} claimed blocks in GriefPrevention
+grief-prevention-claims-count-requirement: Have at least {0} claims in GriefPrevention
+grief-prevention-remaining-blocks-requirement: Have at least {0} remaining blocks
+  to use in claims in GriefPrevention
+has-played-for: '&6{0}&7 has played for {1}.'
+invalid-leaderboard-type: '&4You have not specified a valid leaderboard type! &eOnly
+  ''total'', ''daily'', ''weekly'' and ''monthly'' are allowed.'
+jobs-current-points-requirement: Have at least {0} points in Jobs
+jobs-experience-requirement: Have at least {0} experience in the job '{1}'
+jobs-level-requirement: Have at least level {0} in the job '{1}'
+jobs-total-points-requirement: Have at least {0} points in total in Jobs
+leaderboard-footer: '&a------------------------------------'
+leaderboard-header-all-time: '&a-------- Leaderboard (All time) --------'
+leaderboard-header-daily: '&a-------- Leaderboard (Daily time) --------'
+leaderboard-header-monthly: '&a-------- Leaderboard (Monthly time) --------'
+leaderboard-header-weekly: '&a-------- Leaderboard (Weekly time) --------'
+message-result: 'Send you the following message: {0}'
+no-further-path-found: none (no path found)
+no-path-found-with-that-name: '&4There was no ranking path found with that name.'
+partial-completion-not-enabled: '&4You cannot use this command as this server has
+  not enabled partial completion!'
+progress-reset: '&eYour progress for the rank is reset.'
+rank-change-result: Change rank to {0}.
+completed-path-now: ' and now completed his path.'
+reset-daily-time: '&6[Autorank] &5A new day has arrived! &eAll daily times have been
+  reset.'
+reset-monthly-time: '&6[Autorank] &5A new month has arrived! &eAll monthly times have
+  been reset.'
+reset-weekly-time: '&6[Autorank] &5A new week has arrived! &eAll weekly times have
+  been reset.'
+rpgme-combat-level-requirement: Have at least a combat level of {0} in RPGme.
+rpgme-power-level-requirement: Have at least a combined level {0} of RPGMe.
+rpgme-skill-level-requirement: Have at least level {0} in {1} in RPGme.
+spawn-firework-result: Spawn firework at {0}.
+teleport-result: Get teleported to {0}.
+group-requirement: Be in group {0}.
+money-result: Reward you with {0}.
+automatically-assigned-path: '&2You have automatically been assigned the path ''&6{0}&2''.'
+completed-requirement: '&2You completed requirement &6{0}&2: &3{1}'
+no-path-left-to-choose: '&2{0} has played for {1} and currently has no path. There
+  are no paths left to choose.'
+path-not-allowed-to-retake: '&4You already completed this path before. You are not
+  allowed to retake it!'
+no-paths-to-choose: '&4There are no paths that you can choose.'
+only-default-path: '&4You don''t have to choose a path for this rank, there is only
+  one.'
+no-further-rankup-found: none (no rankup found)
+already-completed-rank: but has already completed this rankup before.
+derank-message: '&4You have been demoted to {0} since you did not meet a specific
+  requirement: {1}'

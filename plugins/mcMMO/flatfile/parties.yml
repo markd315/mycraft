@@ -1,0 +1,17 @@
+Orange:
+  Leader: acbcd8c3-4612-394c-9332-643f3c0c2b47|Markd315
+  Locked: true
+  Level: 10
+  Xp: 4412
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - acbcd8c3-4612-394c-9332-643f3c0c2b47|Markd315
+  - c5821ea2-711c-4602-82e2-43e4042795d7|Markd315

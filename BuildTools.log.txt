@@ -1,0 +1,36 @@
+git version 2.15.0.windows.1
+markd315
+markd315@gmail.com
+Attempting to build version: 'latest' use --rev <version> to override
+Found version
+{
+	"name": "2066",
+	"description": "Jenkins build 2066",
+	"refs": {
+		"BuildData": "bcf503132cdd66b4f92e41a8174e1b901467ec81",
+		"Bukkit": "60268ac8be079ac815ee0d63ed1c1c4935258e44",
+		"CraftBukkit": "2aba349f1a39a804826584ef9abbd9f5bae565ea",
+		"Spigot": "f56e2e787f425025af0d7410ff4cdb4f8edf7f3b"
+	},
+	"toolsVersion": 84,
+	"javaVersions": [52, 55]
+}
+
+Pulling updates for C:\Users\markd\Desktop\Games\Spigot\BuildData\.git
+Successfully fetched updates!
+Checked out: bcf503132cdd66b4f92e41a8174e1b901467ec81
+Pulling updates for C:\Users\markd\Desktop\Games\Spigot\Bukkit\.git
+Exception in thread "main" org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:131)
+	at org.spigotmc.builder.Builder.pull(Builder.java:669)
+	at org.spigotmc.builder.Builder.main(Builder.java:324)
+	at org.spigotmc.builder.Bootstrap.main(Bootstrap.java:40)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: file:///C:\Users\Riven\Desktop\Games\buildtools\Bukkit: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:131)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:106)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:565)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:442)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:323)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:292)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:119)
+	... 3 more

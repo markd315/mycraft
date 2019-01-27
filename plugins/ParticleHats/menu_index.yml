@@ -1,0 +1,27 @@
+# ----
+# "menus" contains a list of menus that will show up
+# when a player runs /h, they are shown in order.
+# ----
+menus:
+- "particles.yml"
+#
+# Purchase menu properties
+# Used whenever a player is purchasing a new hat
+# This will only be used if you have enabled Vault / Exp support
+settings:
+  title: "&8Confirm Purchase"
+  size: 5
+items:
+  # PURCHASE_ITEM will be replaced with the hat the player is purchasing
+  '13':
+    id: PURCHASE_ITEM
+  '30':
+    id: DIAMOND_BLOCK
+    damage-value: 0
+    name: "&6Confirm Purchase"
+    action: PURCHASE
+  '32':
+    id: REDSTONE_BLOCK
+    damage-value: 0
+    name: "&6Cancel Purchase"  
+    action: NEXT_PAGE  

@@ -1,0 +1,26 @@
+# This is a Paths.yml generated from your SimpleConfig.yml. 
+# Beware that there can be errors made by the automatic transferring of formats.
+# 
+# To test this file with Autorank, perform the following steps:
+# 1. Stop your server (very important);
+# 2. Rename this file to 'Paths.yml' (without the quotation marks);
+# 3. Restart your server and voilá!
+Immigrant to Citizen:
+    prerequisites:
+        in group:
+            value: Immigrant
+    requirements:
+        time:
+            value: 2h
+    results:
+        manuadd &p Citizen
+Newcomer to Immigrant:
+    prerequisites:
+        in group:
+            value: Newcomer
+    requirements:
+        time:
+            value: 1m
+    results:
+        manuadd &p Immigrant
+

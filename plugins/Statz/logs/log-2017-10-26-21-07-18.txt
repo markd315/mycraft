@@ -1,0 +1,9 @@
+This is a log file of Statz made on 2017-10-26 21:07:18
+
+[21:07:18] Enabled Statz!
+[21:07:21] [PLAYERSTAT: JOINS] Add value of 3428f589-def8-376b-95ce-e7d0c516a5a5 with 1.0 and query conditions {uuid=3428f589-def8-376b-95ce-e7d0c516a5a5, value=1}
+[21:07:21] [PLAYERSTAT: PLAYERS] Set playerName of 3428f589-def8-376b-95ce-e7d0c516a5a5 to 'Permissions_test'.
+[21:07:21] [PLAYERSTAT: TELEPORTS] Add value of 3428f589-def8-376b-95ce-e7d0c516a5a5 with 1.0 and query conditions {uuid=3428f589-def8-376b-95ce-e7d0c516a5a5, value=1, world=Caoms, destWorld=Caoms, cause=UNKNOWN}
+[21:07:42] [PLAYERSTAT: COMMANDS_PERFORMED] Add value of 3428f589-def8-376b-95ce-e7d0c516a5a5 with 1.0 and query conditions {uuid=3428f589-def8-376b-95ce-e7d0c516a5a5, value=1, world=Caoms, command=/register, arguments=mwd315 mwd315}
+[21:07:52] [PLAYERSTAT: TIMES_KICKED] Add value of 3428f589-def8-376b-95ce-e7d0c516a5a5 with 1.0 and query conditions {uuid=3428f589-def8-376b-95ce-e7d0c516a5a5, value=1, world=Caoms, reason=§4Login timeout exceeded, you have been kicked from the server, please try again!}
+[21:08:13] Disabled Statz!

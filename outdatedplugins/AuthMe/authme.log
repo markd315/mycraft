@@ -1,0 +1,844 @@
+[08-02 16:39:51]: SQLite driver loaded
+[08-02 16:39:51]: SQLite Setup finished
+[08-02 16:39:51]: Unhooked from Permissions!
+[08-02 16:39:51]: Hooked into PermissionsEx!
+[08-02 16:39:51]: Hooked successfully into Essentials
+[08-02 16:39:51]: Hooked successfully into Multiverse-Core
+[08-02 16:39:51]: ERROR: WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-02 16:39:51]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 16:39:51]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 16:39:51]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-02 16:40:14]: Debug: Craft Scheduler Thread - 8:REMOVE PLAYER markd315
+[08-02 16:42:21]: Debug: Server thread:REMOVE PLAYER markd315
+[08-02 16:42:21]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-02 16:42:24]: SQLite driver loaded
+[08-02 16:42:24]: SQLite Setup finished
+[08-02 16:42:24]: Unhooked from Permissions!
+[08-02 16:42:24]: Hooked into PermissionsEx!
+[08-02 16:42:24]: Hooked successfully into Essentials
+[08-02 16:42:24]: Hooked successfully into Multiverse-Core
+[08-02 16:42:24]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-02 16:42:24]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 16:42:24]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 16:42:24]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-02 16:42:34]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:42:34]: Markd315 registered 10.0.0.105
+[08-02 16:42:34]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:42:34]: Markd315 logged in!
+[08-02 16:42:34]: Debug: Craft Scheduler Thread - 25:ADDED PLAYER TO CACHE markd315
+[08-02 16:44:59]: Debug: Craft Scheduler Thread - 29:REMOVE PLAYER markd315
+[08-02 16:44:59]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:45:08]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:45:08]: Markd315 logged in!
+[08-02 16:45:08]: Debug: Craft Scheduler Thread - 30:ADDED PLAYER TO CACHE markd315
+[08-02 16:48:42]: Debug: Craft Scheduler Thread - 29:REMOVE PLAYER markd315
+[08-02 16:48:42]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:49:04]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:49:04]: Markd315 logged in!
+[08-02 16:49:04]: Debug: Craft Scheduler Thread - 25:ADDED PLAYER TO CACHE markd315
+[08-02 16:49:42]: Debug: Server thread:REMOVE PLAYER markd315
+[08-02 16:49:42]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-02 16:49:46]: SQLite driver loaded
+[08-02 16:49:46]: SQLite Setup finished
+[08-02 16:49:46]: Unhooked from Permissions!
+[08-02 16:49:46]: Hooked into PermissionsEx!
+[08-02 16:49:46]: Hooked successfully into Essentials
+[08-02 16:49:46]: Hooked successfully into Multiverse-Core
+[08-02 16:49:46]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-02 16:49:46]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 16:49:46]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 16:49:46]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-02 16:50:45]: Markd315 logged in!
+[08-02 16:50:45]: Debug: Craft Scheduler Thread - 43:ADDED PLAYER TO CACHE markd315
+[08-02 16:50:45]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:50:54]: Debug: Craft Scheduler Thread - 40:REMOVE PLAYER markd315
+[08-02 16:50:54]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 16:57:18]: Debug: Craft Scheduler Thread - 48:REMOVE PLAYER cocacola0610
+[08-02 16:57:18]: Debug: Craft Scheduler Thread - 52:REMOVE PLAYER cocacola0610
+[08-02 16:58:24]: Debug: Craft Scheduler Thread - 52:REMOVE PLAYER cocacola0610
+[08-02 16:58:24]: Debug: Craft Scheduler Thread - 48:REMOVE PLAYER cocacola0610
+[08-02 16:59:37]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-02 16:59:37]: CocaCola0610 registered 10.0.0.115
+[08-02 16:59:37]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-02 16:59:37]: CocaCola0610 logged in!
+[08-02 16:59:37]: Debug: Craft Scheduler Thread - 48:ADDED PLAYER TO CACHE cocacola0610
+[08-02 17:04:13]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 17:04:18]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 17:04:18]: Markd315 logged in!
+[08-02 17:04:18]: Debug: Craft Scheduler Thread - 63:ADDED PLAYER TO CACHE markd315
+[08-02 17:11:34]: Debug: Server thread:REMOVE PLAYER markd315
+[08-02 17:11:34]: Debug: Server thread:REMOVE PLAYER cocacola0610
+[08-02 17:11:34]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-02 17:13:42]: SQLite driver loaded
+[08-02 17:13:42]: SQLite Setup finished
+[08-02 17:13:42]: Unhooked from Permissions!
+[08-02 17:13:42]: Hooked into PermissionsEx!
+[08-02 17:13:42]: Hooked successfully into Essentials
+[08-02 17:13:42]: Hooked successfully into Multiverse-Core
+[08-02 17:13:42]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-02 17:13:42]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 17:13:42]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 17:13:42]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-02 17:13:58]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 17:13:58]: Markd315 logged in!
+[08-02 17:13:58]: Debug: Craft Scheduler Thread - 2:ADDED PLAYER TO CACHE markd315
+[08-02 17:14:11]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 17:14:11]: Debug: Craft Scheduler Thread - 7:REMOVE PLAYER markd315
+[08-02 17:14:22]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 17:14:22]: Markd315 logged in!
+[08-02 17:14:22]: Debug: Craft Scheduler Thread - 14:ADDED PLAYER TO CACHE markd315
+[08-02 17:16:27]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-02 17:16:27]: CocaCola0610 logged in!
+[08-02 17:16:27]: Debug: Craft Scheduler Thread - 19:ADDED PLAYER TO CACHE cocacola0610
+[08-02 17:18:43]: Debug: Craft Scheduler Thread - 20:REMOVE PLAYER cocacola0610
+[08-02 17:18:43]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-02 17:20:43]: Debug: Server thread:REMOVE PLAYER markd315
+[08-02 17:20:43]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-02 17:21:00]: SQLite driver loaded
+[08-02 17:21:00]: SQLite Setup finished
+[08-02 17:21:00]: Unhooked from Permissions!
+[08-02 17:21:00]: Hooked into PermissionsEx!
+[08-02 17:21:00]: Hooked successfully into Essentials
+[08-02 17:21:00]: Hooked successfully into Multiverse-Core
+[08-02 17:21:00]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-02 17:21:00]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 17:21:00]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 17:21:00]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-02 21:59:05]: Markd315 used the wrong password
+[08-02 21:59:07]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-02 21:59:07]: Markd315 logged in!
+[08-02 21:59:07]: Debug: Craft Scheduler Thread - 323:ADDED PLAYER TO CACHE markd315
+[08-02 23:32:11]: Debug: Server thread:REMOVE PLAYER markd315
+[08-02 23:32:11]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-03 19:32:54]: SQLite driver loaded
+[08-03 19:32:54]: SQLite Setup finished
+[08-03 19:32:54]: Unhooked from Permissions!
+[08-03 19:32:54]: Hooked into PermissionsEx!
+[08-03 19:32:54]: Hooked successfully into Essentials
+[08-03 19:32:54]: Hooked successfully into Multiverse-Core
+[08-03 19:32:54]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-03 19:32:54]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-03 19:32:54]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-03 19:32:54]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-03 19:45:10]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 19:45:10]: CocaCola0610 logged in!
+[08-03 19:45:10]: Debug: Craft Scheduler Thread - 22:ADDED PLAYER TO CACHE cocacola0610
+[08-03 19:46:00]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-03 19:46:00]: Heather registered 10.0.0.115
+[08-03 19:46:00]: Heather logged in!
+[08-03 19:46:00]: Debug: Craft Scheduler Thread - 24:ADDED PLAYER TO CACHE heather
+[08-03 19:46:00]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-03 19:50:09]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 19:50:09]: Markd315 logged in!
+[08-03 19:50:09]: Debug: Craft Scheduler Thread - 34:ADDED PLAYER TO CACHE markd315
+[08-03 19:51:35]: Debug: Craft Scheduler Thread - 30:REMOVE PLAYER cocacola0610
+[08-03 19:51:35]: CocaCola0610 unregistered himself
+[08-03 19:51:44]: Debug: Craft Scheduler Thread - 30:REMOVE PLAYER cocacola0610
+[08-03 19:52:21]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 19:52:21]: CocaCola0610 registered 10.0.0.103
+[08-03 19:52:21]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 19:52:21]: CocaCola0610 logged in!
+[08-03 19:52:21]: Debug: Craft Scheduler Thread - 43:ADDED PLAYER TO CACHE cocacola0610
+[08-03 19:55:39]: Debug: Server thread:REMOVE PLAYER markd315
+[08-03 19:55:39]: Debug: Server thread:REMOVE PLAYER cocacola0610
+[08-03 19:55:39]: Debug: Server thread:REMOVE PLAYER heather
+[08-03 19:55:39]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-03 19:55:43]: SQLite driver loaded
+[08-03 19:55:43]: SQLite Setup finished
+[08-03 19:55:43]: Unhooked from Permissions!
+[08-03 19:55:43]: Hooked into PermissionsEx!
+[08-03 19:55:43]: Hooked successfully into Essentials
+[08-03 19:55:43]: Hooked successfully into Multiverse-Core
+[08-03 19:55:43]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-03 19:55:43]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-03 19:55:43]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-03 19:55:43]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-03 19:56:04]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 19:56:04]: Markd315 logged in!
+[08-03 19:56:04]: Debug: Craft Scheduler Thread - 49:ADDED PLAYER TO CACHE markd315
+[08-03 19:56:16]: Debug: Craft Scheduler Thread - 49:REMOVE PLAYER cocacola0610
+[08-03 19:56:19]: Heather used the wrong password
+[08-03 19:56:24]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-03 19:56:24]: Heather logged in!
+[08-03 19:56:24]: Debug: Craft Scheduler Thread - 49:ADDED PLAYER TO CACHE heather
+[08-03 19:56:40]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 19:56:40]: CocaCola0610 logged in!
+[08-03 19:56:40]: Debug: Craft Scheduler Thread - 44:ADDED PLAYER TO CACHE cocacola0610
+[08-03 20:02:27]: Debug: Craft Scheduler Thread - 44:REMOVE PLAYER heather
+[08-03 20:02:27]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-03 20:05:21]: Debug: Craft Scheduler Thread - 64:REMOVE PLAYER markd315
+[08-03 20:05:21]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:06:57]: Debug: Server thread:REMOVE PLAYER cocacola0610
+[08-03 20:06:57]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-03 20:07:01]: SQLite driver loaded
+[08-03 20:07:01]: SQLite Setup finished
+[08-03 20:07:01]: Unhooked from Permissions!
+[08-03 20:07:01]: Hooked into PermissionsEx!
+[08-03 20:07:01]: Hooked successfully into Essentials
+[08-03 20:07:01]: Hooked successfully into Multiverse-Core
+[08-03 20:07:01]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-03 20:07:01]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-03 20:07:01]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-03 20:07:01]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-03 20:07:36]: CocaCola0610 logged in!
+[08-03 20:07:36]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 20:07:36]: Debug: Craft Scheduler Thread - 67:ADDED PLAYER TO CACHE cocacola0610
+[08-03 20:10:15]: SQLite driver loaded
+[08-03 20:10:15]: SQLite Setup finished
+[08-03 20:10:15]: Unhooked from Permissions!
+[08-03 20:10:15]: Hooked into PermissionsEx!
+[08-03 20:10:15]: Hooked successfully into Essentials
+[08-03 20:10:15]: Hooked successfully into Multiverse-Core
+[08-03 20:10:15]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-03 20:10:15]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-03 20:10:15]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-03 20:10:15]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-03 20:11:15]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-03 20:11:17]: SQLite driver loaded
+[08-03 20:11:17]: SQLite Setup finished
+[08-03 20:11:17]: Unhooked from Permissions!
+[08-03 20:11:17]: Hooked into PermissionsEx!
+[08-03 20:11:17]: Hooked successfully into Essentials
+[08-03 20:11:17]: Hooked successfully into Multiverse-Core
+[08-03 20:11:18]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-03 20:11:18]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-03 20:11:18]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-03 20:11:18]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-03 20:11:38]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:11:38]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:11:38]: Markd315 logged in!
+[08-03 20:11:38]: Debug: Craft Scheduler Thread - 24:ADDED PLAYER TO CACHE markd315
+[08-03 20:12:31]: Debug: Craft Scheduler Thread - 2:REMOVE PLAYER markd315
+[08-03 20:12:31]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:12:45]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:12:45]: Markd315 logged in!
+[08-03 20:12:45]: Debug: Craft Scheduler Thread - 21:ADDED PLAYER TO CACHE markd315
+[08-03 20:12:48]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-03 20:12:48]: Heather logged in!
+[08-03 20:12:48]: Debug: Craft Scheduler Thread - 21:ADDED PLAYER TO CACHE heather
+[08-03 20:17:33]: Debug: Craft Scheduler Thread - 26:REMOVE PLAYER markd315
+[08-03 20:17:33]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-03 20:21:54]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 20:21:54]: CocaCola0610 logged in!
+[08-03 20:21:54]: Debug: Craft Scheduler Thread - 36:ADDED PLAYER TO CACHE cocacola0610
+[08-03 20:40:32]: Debug: Craft Scheduler Thread - 53:REMOVE PLAYER cocacola0610
+[08-03 20:40:41]: Debug: Craft Scheduler Thread - 54:REMOVE PLAYER heather
+[08-03 20:40:50]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-03 20:40:50]: CocaCola0610 logged in!
+[08-03 20:40:50]: Debug: Craft Scheduler Thread - 48:ADDED PLAYER TO CACHE cocacola0610
+[08-03 20:41:16]: Debug: Craft Scheduler Thread - 54:REMOVE PLAYER cocacola0610
+[08-03 20:41:16]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-04 00:06:13]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 11:41:52]: SQLite driver loaded
+[08-04 11:41:52]: SQLite Setup finished
+[08-04 11:41:52]: Unhooked from Permissions!
+[08-04 11:41:52]: Hooked into PermissionsEx!
+[08-04 11:41:52]: Hooked successfully into Essentials
+[08-04 11:41:52]: Hooked successfully into Multiverse-Core
+[08-04 11:41:52]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 11:41:52]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 11:41:52]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 11:41:52]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 11:42:14]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 11:42:14]: Markd315 logged in!
+[08-04 11:42:14]: Debug: Craft Scheduler Thread - 15:ADDED PLAYER TO CACHE markd315
+[08-04 13:07:07]: Debug: Craft Scheduler Thread - 136:REMOVE PLAYER markd315
+[08-04 13:07:14]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 15:17:51]: SQLite driver loaded
+[08-04 15:17:51]: SQLite Setup finished
+[08-04 15:17:51]: Unhooked from Permissions!
+[08-04 15:17:51]: Hooked into PermissionsEx!
+[08-04 15:17:51]: Hooked successfully into Essentials
+[08-04 15:17:51]: Hooked successfully into Multiverse-Core
+[08-04 15:17:51]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 15:17:51]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 15:17:51]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 15:17:51]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 17:59:42]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 17:59:42]: Markd315 logged in!
+[08-04 17:59:42]: Debug: Craft Scheduler Thread - 219:ADDED PLAYER TO CACHE markd315
+[08-04 20:02:23]: Debug: Craft Scheduler Thread - 373:REMOVE PLAYER markd315
+[08-04 20:05:24]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:05:24]: Markd315 logged in!
+[08-04 20:05:24]: Debug: Craft Scheduler Thread - 387:ADDED PLAYER TO CACHE markd315
+[08-04 20:05:28]: Debug: Craft Scheduler Thread - 387:REMOVE PLAYER markd315
+[08-04 20:05:28]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:18:58]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:19:03]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:19:03]: Markd315 logged in!
+[08-04 20:19:03]: Debug: Craft Scheduler Thread - 391:ADDED PLAYER TO CACHE markd315
+[08-04 20:22:47]: Debug: Thread-4:REMOVE PLAYER markd315
+[08-04 20:22:47]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 20:37:48]: SQLite driver loaded
+[08-04 20:37:48]: SQLite Setup finished
+[08-04 20:37:48]: Unhooked from Permissions!
+[08-04 20:37:48]: Hooked into PermissionsEx!
+[08-04 20:37:48]: Hooked successfully into Essentials
+[08-04 20:37:48]: Hooked successfully into Multiverse-Core
+[08-04 20:37:48]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 20:37:48]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 20:37:48]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 20:37:48]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 20:38:00]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:38:00]: Markd315 logged in!
+[08-04 20:38:00]: Debug: Craft Scheduler Thread - 1:ADDED PLAYER TO CACHE markd315
+[08-04 20:40:04]: Debug: Craft Scheduler Thread - 17:REMOVE PLAYER markd315
+[08-04 20:40:04]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:41:42]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 20:41:42]: Markd315 logged in!
+[08-04 20:41:42]: Debug: Craft Scheduler Thread - 20:ADDED PLAYER TO CACHE markd315
+[08-04 21:48:22]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-04 21:48:22]: CocaCola0610 logged in!
+[08-04 21:48:22]: Debug: Craft Scheduler Thread - 104:ADDED PLAYER TO CACHE cocacola0610
+[08-04 22:12:26]: Debug: Craft Scheduler Thread - 142:REMOVE PLAYER cocacola0610
+[08-04 22:24:04]: Debug: Server thread:REMOVE PLAYER markd315
+[08-04 22:24:04]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 22:24:56]: SQLite driver loaded
+[08-04 22:24:56]: SQLite Setup finished
+[08-04 22:24:56]: Unhooked from Permissions!
+[08-04 22:24:56]: Hooked into PermissionsEx!
+[08-04 22:24:56]: Hooked successfully into Essentials
+[08-04 22:24:56]: Hooked successfully into Multiverse-Core
+[08-04 22:24:56]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 22:24:56]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 22:24:56]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 22:24:56]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 22:28:46]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 22:28:46]: Markd315 used the wrong password
+[08-04 22:28:48]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 22:28:48]: Markd315 logged in!
+[08-04 22:28:48]: Debug: Craft Scheduler Thread - 9:ADDED PLAYER TO CACHE markd315
+[08-04 22:54:05]: Debug: Server thread:REMOVE PLAYER markd315
+[08-04 22:54:05]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 23:06:10]: SQLite driver loaded
+[08-04 23:06:10]: SQLite Setup finished
+[08-04 23:06:10]: Unhooked from Permissions!
+[08-04 23:06:10]: Hooked into PermissionsEx!
+[08-04 23:06:10]: Hooked successfully into Essentials
+[08-04 23:06:10]: Hooked successfully into Multiverse-Core
+[08-04 23:06:10]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 23:06:10]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 23:06:10]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 23:06:10]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 23:06:21]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 23:06:21]: Markd315 logged in!
+[08-04 23:06:21]: Debug: Craft Scheduler Thread - 3:ADDED PLAYER TO CACHE markd315
+[08-04 23:10:41]: Debug: Server thread:REMOVE PLAYER markd315
+[08-04 23:10:41]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 23:10:47]: SQLite driver loaded
+[08-04 23:10:47]: SQLite Setup finished
+[08-04 23:10:47]: Unhooked from Permissions!
+[08-04 23:10:47]: Hooked into PermissionsEx!
+[08-04 23:10:47]: Hooked successfully into Essentials
+[08-04 23:10:47]: Hooked successfully into Multiverse-Core
+[08-04 23:10:47]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 23:10:47]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 23:10:47]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 23:10:47]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 23:11:02]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 23:11:02]: Markd315 logged in!
+[08-04 23:11:02]: Debug: Craft Scheduler Thread - 0:ADDED PLAYER TO CACHE markd315
+[08-04 23:18:20]: Debug: Server thread:REMOVE PLAYER markd315
+[08-04 23:18:20]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-04 23:18:25]: SQLite driver loaded
+[08-04 23:18:25]: SQLite Setup finished
+[08-04 23:18:25]: Unhooked from Permissions!
+[08-04 23:18:25]: Hooked into PermissionsEx!
+[08-04 23:18:25]: Hooked successfully into Essentials
+[08-04 23:18:25]: Hooked successfully into Multiverse-Core
+[08-04 23:18:25]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-04 23:18:25]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-04 23:18:25]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-04 23:18:25]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-04 23:18:36]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-04 23:18:36]: Markd315 logged in!
+[08-04 23:18:36]: Debug: Craft Scheduler Thread - 38:ADDED PLAYER TO CACHE markd315
+[08-04 23:24:53]: Debug: Server thread:REMOVE PLAYER markd315
+[08-04 23:24:53]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-05 22:11:21]: SQLite driver loaded
+[08-05 22:11:21]: SQLite Setup finished
+[08-05 22:11:21]: Unhooked from Permissions!
+[08-05 22:11:21]: Hooked into PermissionsEx!
+[08-05 22:11:21]: Hooked successfully into Essentials
+[08-05 22:11:21]: Hooked successfully into Multiverse-Core
+[08-05 22:11:21]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-05 22:11:21]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-05 22:11:21]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-05 22:11:21]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-05 22:17:20]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-05 22:17:20]: Markd315 logged in!
+[08-05 22:17:20]: Debug: Craft Scheduler Thread - 18:ADDED PLAYER TO CACHE markd315
+[08-05 22:24:20]: Debug: Craft Scheduler Thread - 22:REMOVE PLAYER markd315
+[08-05 22:24:20]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 04:46:50]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-06 17:15:40]: SQLite driver loaded
+[08-06 17:15:40]: SQLite Setup finished
+[08-06 17:15:40]: Unhooked from Permissions!
+[08-06 17:15:40]: Hooked into PermissionsEx!
+[08-06 17:15:40]: Hooked successfully into Essentials
+[08-06 17:15:40]: Hooked successfully into Multiverse-Core
+[08-06 17:15:40]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-06 17:15:40]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-06 17:15:40]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-06 17:15:40]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-06 17:21:03]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-06 17:21:35]: SQLite driver loaded
+[08-06 17:21:35]: SQLite Setup finished
+[08-06 17:21:35]: Unhooked from Permissions!
+[08-06 17:21:35]: Hooked into PermissionsEx!
+[08-06 17:21:35]: Hooked successfully into Essentials
+[08-06 17:21:35]: Hooked successfully into Multiverse-Core
+[08-06 17:21:35]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-06 17:21:35]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-06 17:21:35]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-06 17:21:35]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-06 17:22:27]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 17:22:27]: Markd315 logged in!
+[08-06 17:22:27]: Debug: Craft Scheduler Thread - 16:ADDED PLAYER TO CACHE markd315
+[08-06 17:26:01]: Debug: Craft Scheduler Thread - 19:REMOVE PLAYER markd315
+[08-06 17:26:01]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 17:30:10]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 17:30:10]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 17:30:10]: Markd315 logged in!
+[08-06 17:30:10]: Debug: Craft Scheduler Thread - 24:ADDED PLAYER TO CACHE markd315
+[08-06 18:01:18]: Debug: Craft Scheduler Thread - 65:REMOVE PLAYER markd315
+[08-06 18:02:56]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-06 23:16:04]: SQLite driver loaded
+[08-06 23:16:04]: SQLite Setup finished
+[08-06 23:16:04]: Unhooked from Permissions!
+[08-06 23:16:04]: Hooked into PermissionsEx!
+[08-06 23:16:04]: Hooked successfully into Essentials
+[08-06 23:16:04]: Hooked successfully into Multiverse-Core
+[08-06 23:16:04]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-06 23:16:04]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-06 23:16:04]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-06 23:16:04]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-06 23:16:15]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-06 23:16:15]: Markd315 logged in!
+[08-06 23:16:15]: Debug: Craft Scheduler Thread - 13:ADDED PLAYER TO CACHE markd315
+[08-07 01:49:13]: Debug: Craft Scheduler Thread - 212:REMOVE PLAYER markd315
+[08-07 01:53:57]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-17 18:30:43]: SQLite driver loaded
+[08-17 18:30:43]: SQLite Setup finished
+[08-17 18:30:43]: Unhooked from Permissions!
+[08-17 18:30:43]: Hooked into PermissionsEx!
+[08-17 18:30:43]: Hooked successfully into Essentials
+[08-17 18:30:43]: Hooked successfully into Multiverse-Core
+[08-17 18:30:43]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-17 18:30:43]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-17 18:30:43]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-17 18:30:43]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-17 18:31:02]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-17 18:31:02]: CocaCola0610 logged in!
+[08-17 18:31:02]: Debug: Craft Scheduler Thread - 13:ADDED PLAYER TO CACHE cocacola0610
+[08-17 18:44:35]: Debug: AuthMe-CacheLoader:REFRESH cocacola0610
+[08-17 18:44:35]: Debug: Craft Scheduler Thread - 26:REMOVE PLAYER cocacola0610
+[08-17 23:18:02]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-18 00:33:45]: SQLite driver loaded
+[08-18 00:33:45]: SQLite Setup finished
+[08-18 00:33:45]: Unhooked from Permissions!
+[08-18 00:33:45]: Hooked into PermissionsEx!
+[08-18 00:33:45]: Hooked successfully into Essentials
+[08-18 00:33:45]: Hooked successfully into Multiverse-Core
+[08-18 00:33:45]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-18 00:33:45]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-18 00:33:45]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-18 00:33:45]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-18 00:34:43]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-18 00:35:02]: SQLite driver loaded
+[08-18 00:35:02]: SQLite Setup finished
+[08-18 00:35:02]: Unhooked from Permissions!
+[08-18 00:35:02]: Hooked into PermissionsEx!
+[08-18 00:35:02]: Hooked successfully into Essentials
+[08-18 00:35:02]: Hooked successfully into Multiverse-Core
+[08-18 00:35:02]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-18 00:35:02]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-18 00:35:02]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-18 00:35:02]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-18 00:35:14]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-18 00:35:14]: Markd315 logged in!
+[08-18 00:35:14]: Debug: Craft Scheduler Thread - 18:ADDED PLAYER TO CACHE markd315
+[08-18 01:50:19]: Debug: Craft Scheduler Thread - 121:REMOVE PLAYER markd315
+[08-18 01:50:29]: AuthMe 5.2-BETA3-b1134 disabled!
+[08-18 19:31:16]: SQLite driver loaded
+[08-18 19:31:16]: SQLite Setup finished
+[08-18 19:31:16]: Unhooked from Permissions!
+[08-18 19:31:16]: Hooked into PermissionsEx!
+[08-18 19:31:16]: Hooked successfully into Essentials
+[08-18 19:31:16]: Hooked successfully into Multiverse-Core
+[08-18 19:31:16]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-18 19:31:16]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-18 19:31:16]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-18 19:31:16]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-18 19:32:23]: Debug: Craft Scheduler Thread - 2:REMOVE PLAYER markd315
+[08-18 19:32:23]: Debug: Craft Scheduler Thread - 23:REMOVE PLAYER markd315
+[08-18 19:42:24]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-18 19:42:24]: Markd315 logged in!
+[08-18 19:42:24]: Debug: Craft Scheduler Thread - 34:ADDED PLAYER TO CACHE markd315
+[08-18 20:14:46]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-18 20:14:46]: Heather logged in!
+[08-18 20:14:46]: Debug: Craft Scheduler Thread - 93:ADDED PLAYER TO CACHE heather
+[08-18 20:15:42]: Debug: AuthMe-CacheLoader:REFRESH heather
+[08-18 20:15:42]: Debug: Craft Scheduler Thread - 95:REMOVE PLAYER heather
+[08-19 18:53:12]: SQLite driver loaded
+[08-19 18:53:12]: SQLite Setup finished
+[08-19 18:53:12]: Unhooked from Permissions!
+[08-19 18:53:12]: Hooked into PermissionsEx!
+[08-19 18:53:12]: Hooked successfully into Essentials
+[08-19 18:53:12]: Hooked successfully into Multiverse-Core
+[08-19 18:53:12]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-19 18:53:12]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-19 18:53:12]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-19 18:53:12]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-19 18:53:27]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-19 18:53:27]: Markd315 logged in!
+[08-19 18:53:27]: Debug: Craft Scheduler Thread - 4:ADDED PLAYER TO CACHE markd315
+[08-19 19:24:41]: Debug: Craft Scheduler Thread - 48:REMOVE PLAYER markd315
+[08-20 16:20:00]: SQLite driver loaded
+[08-20 16:20:00]: SQLite Setup finished
+[08-20 16:20:00]: Unhooked from Permissions!
+[08-20 16:20:00]: Hooked into PermissionsEx!
+[08-20 16:20:00]: Hooked successfully into Essentials
+[08-20 16:20:00]: Hooked successfully into Multiverse-Core
+[08-20 16:20:00]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-20 16:20:00]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-20 16:20:00]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-20 16:20:00]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-20 18:37:49]: Debug: AuthMe-CacheLoader:REFRESH permissions_test
+[08-20 18:37:49]: Permissions_test registered 127.0.0.1
+[08-20 18:37:49]: Debug: AuthMe-CacheLoader:REFRESH permissions_test
+[08-20 18:37:49]: The user Permissions_test has 2 accounts:
+[08-20 18:37:49]: §7markd315§7, §apermissions_test.
+[08-20 18:37:49]: Permissions_test logged in!
+[08-20 18:37:49]: Debug: Craft Scheduler Thread - 213:ADDED PLAYER TO CACHE permissions_test
+[08-20 18:43:03]: Debug: Craft Scheduler Thread - 218:REMOVE PLAYER permissions_test
+[08-20 18:43:03]: Debug: AuthMe-CacheLoader:REFRESH permissions_test
+[08-20 19:24:50]: Debug: Craft Scheduler Thread - 274:REMOVE PLAYER markd315
+[08-20 19:24:50]: Debug: Craft Scheduler Thread - 289:REMOVE PLAYER markd315
+[08-20 19:28:03]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-20 19:28:03]: The user Markd315 has 2 accounts:
+[08-20 19:28:03]: §7§amarkd315§7, permissions_test.
+[08-20 19:28:03]: Markd315 logged in!
+[08-20 19:28:03]: Debug: Craft Scheduler Thread - 288:ADDED PLAYER TO CACHE markd315
+[08-20 19:34:01]: Debug: Craft Scheduler Thread - 301:REMOVE PLAYER markd315
+[08-20 19:34:01]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[08-21 16:35:31]: SQLite driver loaded
+[08-21 16:35:31]: SQLite Setup finished
+[08-21 16:35:31]: Unhooked from Permissions!
+[08-21 16:35:31]: Hooked into PermissionsEx!
+[08-21 16:35:31]: Hooked successfully into Essentials
+[08-21 16:35:31]: Hooked successfully into Multiverse-Core
+[08-21 16:35:31]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[08-21 16:35:32]: Development builds are available on our jenkins, thanks to f14stelt.
+[08-21 16:35:32]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-21 16:35:32]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[08-21 17:09:58]: AuthMe 5.2-BETA3-b1134 disabled!
+[09-30 16:14:32]: SQLite driver loaded
+[09-30 16:14:32]: SQLite Setup finished
+[09-30 16:14:32]: Unhooked from Permissions!
+[09-30 16:14:32]: Hooked into PermissionsEx!
+[09-30 16:14:32]: Hooked successfully into Essentials
+[09-30 16:14:32]: Hooked successfully into Multiverse-Core
+[09-30 16:14:32]: Development builds are available on our jenkins, thanks to f14stelt.
+[09-30 16:14:32]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[09-30 16:14:32]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[09-30 16:14:51]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[09-30 16:14:51]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[09-30 16:14:51]: Markd315 logged in!
+[09-30 16:14:51]: Debug: Craft Scheduler Thread - 2:ADDED PLAYER TO CACHE markd315
+[09-30 16:14:51]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[09-30 16:30:39]: Debug: Craft Scheduler Thread - 18:REMOVE PLAYER markd315
+[10-23 23:28:52]: SQLite driver loaded
+[10-23 23:28:52]: SQLite Setup finished
+[10-23 23:28:52]: Unhooked from Permissions!
+[10-23 23:28:52]: Hooked into PermissionsEx!
+[10-23 23:28:52]: Hooked successfully into Essentials
+[10-23 23:28:52]: Hooked successfully into Multiverse-Core
+[10-23 23:28:52]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[10-23 23:28:52]: Development builds are available on our jenkins, thanks to f14stelt.
+[10-23 23:28:52]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[10-23 23:28:52]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[10-23 23:29:03]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[10-23 23:29:03]: The user Markd315 has 2 accounts:
+[10-23 23:29:03]: §7§amarkd315§7, permissions_test.
+[10-23 23:29:03]: Markd315 logged in!
+[10-23 23:29:03]: Debug: Craft Scheduler Thread - 11:ADDED PLAYER TO CACHE markd315
+[12-31 22:30:24]: SQLite driver loaded
+[12-31 22:30:24]: SQLite Setup finished
+[12-31 22:30:24]: Unhooked from Permissions!
+[12-31 22:30:24]: Hooked into PermissionsEx!
+[12-31 22:30:24]: Hooked successfully into Essentials
+[12-31 22:30:24]: Hooked successfully into Multiverse-Core
+[12-31 22:30:24]: Development builds are available on our jenkins, thanks to f14stelt.
+[12-31 22:30:24]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[12-31 22:30:24]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[12-31 22:31:06]: AuthMe 5.2-BETA3-b1134 disabled!
+[12-31 22:33:05]: SQLite driver loaded
+[12-31 22:33:05]: SQLite Setup finished
+[12-31 22:33:05]: Unhooked from Permissions!
+[12-31 22:33:05]: Hooked into PermissionsEx!
+[12-31 22:33:05]: Hooked successfully into Essentials
+[12-31 22:33:05]: Hooked successfully into Multiverse-Core
+[12-31 22:33:05]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[12-31 22:33:05]: Development builds are available on our jenkins, thanks to f14stelt.
+[12-31 22:33:05]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[12-31 22:33:05]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[12-31 22:34:27]: AuthMe 5.2-BETA3-b1134 disabled!
+[12-31 22:36:54]: SQLite driver loaded
+[12-31 22:36:54]: SQLite Setup finished
+[12-31 22:36:54]: Unhooked from Permissions!
+[12-31 22:36:54]: Hooked into PermissionsEx!
+[12-31 22:36:54]: Hooked successfully into Essentials
+[12-31 22:36:54]: Hooked successfully into Multiverse-Core
+[12-31 22:36:54]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[12-31 22:36:54]: Development builds are available on our jenkins, thanks to f14stelt.
+[12-31 22:36:54]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[12-31 22:36:54]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[12-31 22:38:51]: AuthMe 5.2-BETA3-b1134 disabled!
+[01-01 01:18:44]: SQLite driver loaded
+[01-01 01:18:44]: SQLite Setup finished
+[01-01 01:18:44]: Unhooked from Permissions!
+[01-01 01:18:44]: Hooked into PermissionsEx!
+[01-01 01:18:44]: Hooked successfully into Essentials
+[01-01 01:18:44]: Hooked successfully into Multiverse-Core
+[01-01 01:18:44]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[01-01 01:18:44]: Development builds are available on our jenkins, thanks to f14stelt.
+[01-01 01:18:44]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[01-01 01:18:44]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[01-01 01:20:17]: AuthMe 5.2-BETA3-b1134 disabled!
+[01-29 00:41:16]: SQLite driver loaded
+[01-29 00:41:16]: SQLite Setup finished
+[01-29 00:41:16]: Unhooked from Permissions!
+[01-29 00:41:16]: Hooked into PermissionsEx!
+[01-29 00:41:16]: Hooked successfully into Essentials
+[01-29 00:41:16]: Hooked successfully into Multiverse-Core
+[01-29 00:41:16]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[01-29 00:41:16]: Development builds are available on our jenkins, thanks to f14stelt.
+[01-29 00:41:16]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[01-29 00:41:16]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[01-29 01:07:16]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[01-29 01:07:16]: The user Markd315 has 2 accounts:
+[01-29 01:07:16]: §7§amarkd315§7, permissions_test.
+[01-29 01:07:16]: Markd315 logged in!
+[01-29 01:07:16]: Debug: pool-3-thread-30:ADDED PLAYER TO CACHE markd315
+[01-29 01:09:10]: Debug: pool-3-thread-24:REMOVE PLAYER markd315
+[01-29 01:09:10]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[01-29 02:16:11]: Markd315 used the wrong password
+[01-29 02:16:13]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[01-29 02:16:13]: The user Markd315 has 2 accounts:
+[01-29 02:16:13]: §7§amarkd315§7, permissions_test.
+[01-29 02:16:13]: Markd315 logged in!
+[01-29 02:16:13]: Debug: pool-3-thread-89:ADDED PLAYER TO CACHE markd315
+[01-29 02:23:47]: Debug: pool-3-thread-96:REMOVE PLAYER markd315
+[01-29 02:23:47]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[04-28 19:07:12]: SQLite driver loaded
+[04-28 19:07:12]: SQLite Setup finished
+[04-28 19:07:12]: Unhooked from Permissions!
+[04-28 19:07:12]: Hooked into PermissionsEx!
+[04-28 19:07:12]: Hooked successfully into Essentials
+[04-28 19:07:12]: Hooked successfully into Multiverse-Core
+[04-28 19:07:12]: Development builds are available on our jenkins, thanks to f14stelt.
+[04-28 19:07:12]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-28 19:07:12]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[04-28 19:09:52]: AuthMe 5.2-BETA3-b1134 disabled!
+[04-28 19:10:13]: SQLite driver loaded
+[04-28 19:10:13]: SQLite Setup finished
+[04-28 19:10:13]: Unhooked from Permissions!
+[04-28 19:10:13]: Hooked into PermissionsEx!
+[04-28 19:10:13]: Hooked successfully into Essentials
+[04-28 19:10:13]: Hooked successfully into Multiverse-Core
+[04-28 19:10:14]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-28 19:10:14]: Development builds are available on our jenkins, thanks to f14stelt.
+[04-28 19:10:14]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-28 19:10:14]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[04-28 19:18:34]: AuthMe 5.2-BETA3-b1134 disabled!
+[04-28 19:18:55]: SQLite driver loaded
+[04-28 19:18:55]: SQLite Setup finished
+[04-28 19:18:55]: Unhooked from Permissions!
+[04-28 19:18:55]: Hooked into PermissionsEx!
+[04-28 19:18:55]: Hooked successfully into Essentials
+[04-28 19:18:55]: Hooked successfully into Multiverse-Core
+[04-28 19:18:56]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-28 19:18:56]: Development builds are available on our jenkins, thanks to f14stelt.
+[04-28 19:18:56]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-28 19:18:56]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[04-28 19:20:18]: AuthMe 5.2-BETA3-b1134 disabled!
+[04-28 19:20:54]: SQLite driver loaded
+[04-28 19:20:54]: SQLite Setup finished
+[04-28 19:20:54]: Unhooked from Permissions!
+[04-28 19:20:54]: Hooked into PermissionsEx!
+[04-28 19:20:54]: Hooked successfully into Essentials
+[04-28 19:20:54]: Hooked successfully into Multiverse-Core
+[04-28 19:20:54]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-28 19:20:54]: Development builds are available on our jenkins, thanks to f14stelt.
+[04-28 19:20:54]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-28 19:20:54]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[04-28 19:22:20]: AuthMe 5.2-BETA3-b1134 disabled!
+[04-28 19:22:40]: SQLite driver loaded
+[04-28 19:22:40]: SQLite Setup finished
+[04-28 19:22:40]: Unhooked from Permissions!
+[04-28 19:22:40]: Hooked into PermissionsEx!
+[04-28 19:22:40]: Hooked successfully into Essentials
+[04-28 19:22:40]: Hooked successfully into Multiverse-Core
+[04-28 19:22:40]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[04-28 19:22:40]: Development builds are available on our jenkins, thanks to f14stelt.
+[04-28 19:22:40]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[04-28 19:22:40]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[04-28 19:23:05]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[04-28 19:23:05]: The user Markd315 has 2 accounts:
+[04-28 19:23:05]: §7§amarkd315§7, permissions_test.
+[04-28 19:23:05]: Markd315 logged in!
+[04-28 19:23:05]: Debug: Craft Scheduler Thread - 2:ADDED PLAYER TO CACHE markd315
+[04-28 19:24:08]: Debug: Server thread:REMOVE PLAYER markd315
+[04-28 19:24:08]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-23 04:30:36]: SQLite driver loaded
+[05-23 04:30:36]: SQLite Setup finished
+[05-23 04:30:36]: Unhooked from Permissions!
+[05-23 04:30:36]: Hooked into PermissionsEx!
+[05-23 04:30:36]: Hooked successfully into Essentials
+[05-23 04:30:36]: Hooked successfully into Multiverse-Core
+[05-23 04:30:36]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-23 04:30:36]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-23 04:30:36]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-23 04:30:36]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-23 04:40:08]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-23 05:05:55]: SQLite driver loaded
+[05-23 05:05:55]: SQLite Setup finished
+[05-23 05:05:55]: Unhooked from Permissions!
+[05-23 05:05:55]: Hooked into PermissionsEx!
+[05-23 05:05:55]: Hooked successfully into Essentials
+[05-23 05:05:55]: Hooked successfully into Multiverse-Core
+[05-23 05:05:55]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-23 05:05:55]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-23 05:05:55]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-23 05:05:55]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-23 05:07:15]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:07:15]: The user Markd315 has 2 accounts:
+[05-23 05:07:15]: §7§amarkd315§7, permissions_test.
+[05-23 05:07:15]: Markd315 logged in!
+[05-23 05:07:15]: Debug: Craft Scheduler Thread - 17:ADDED PLAYER TO CACHE markd315
+[05-23 05:07:36]: Debug: Craft Scheduler Thread - 17:REMOVE PLAYER markd315
+[05-23 05:07:36]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:08:14]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-23 05:08:19]: SQLite driver loaded
+[05-23 05:08:19]: SQLite Setup finished
+[05-23 05:08:19]: Unhooked from Permissions!
+[05-23 05:08:19]: Hooked into PermissionsEx!
+[05-23 05:08:19]: Hooked successfully into Essentials
+[05-23 05:08:19]: Hooked successfully into Multiverse-Core
+[05-23 05:08:20]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-23 05:08:20]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-23 05:08:20]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-23 05:08:20]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-23 05:09:03]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:09:03]: The user Markd315 has 2 accounts:
+[05-23 05:09:03]: §7§amarkd315§7, permissions_test.
+[05-23 05:09:03]: Markd315 logged in!
+[05-23 05:09:03]: Debug: Craft Scheduler Thread - 26:ADDED PLAYER TO CACHE markd315
+[05-23 05:09:11]: Debug: Craft Scheduler Thread - 26:REMOVE PLAYER markd315
+[05-23 05:09:11]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:09:33]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:09:33]: The user Markd315 has 2 accounts:
+[05-23 05:09:33]: §7§amarkd315§7, permissions_test.
+[05-23 05:09:33]: Markd315 logged in!
+[05-23 05:09:33]: Debug: Craft Scheduler Thread - 25:ADDED PLAYER TO CACHE markd315
+[05-23 05:09:42]: Debug: Craft Scheduler Thread - 26:REMOVE PLAYER markd315
+[05-23 05:09:42]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 05:10:10]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-23 15:06:35]: SQLite driver loaded
+[05-23 15:06:35]: SQLite Setup finished
+[05-23 15:06:35]: Unhooked from Permissions!
+[05-23 15:06:35]: Hooked into PermissionsEx!
+[05-23 15:06:35]: Hooked successfully into Essentials
+[05-23 15:06:35]: Hooked successfully into Multiverse-Core
+[05-23 15:06:35]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-23 15:06:35]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-23 15:06:35]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-23 15:06:35]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-23 15:08:34]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 15:08:34]: The user Markd315 has 2 accounts:
+[05-23 15:08:34]: §7§amarkd315§7, permissions_test.
+[05-23 15:08:34]: Markd315 logged in!
+[05-23 15:08:34]: Debug: Craft Scheduler Thread - 24:ADDED PLAYER TO CACHE markd315
+[05-23 15:21:20]: Debug: Craft Scheduler Thread - 40:REMOVE PLAYER markd315
+[05-23 15:21:20]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 15:21:48]: The user Markd315 has 2 accounts:
+[05-23 15:21:48]: §7§amarkd315§7, permissions_test.
+[05-23 15:21:48]: Markd315 logged in!
+[05-23 15:21:48]: Debug: Craft Scheduler Thread - 46:ADDED PLAYER TO CACHE markd315
+[05-23 15:21:48]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 15:23:12]: Debug: Craft Scheduler Thread - 46:REMOVE PLAYER markd315
+[05-23 15:23:12]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 15:59:34]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 15:59:34]: The user Markd315 has 2 accounts:
+[05-23 15:59:34]: §7§amarkd315§7, permissions_test.
+[05-23 15:59:34]: Markd315 logged in!
+[05-23 15:59:34]: Debug: Craft Scheduler Thread - 70:ADDED PLAYER TO CACHE markd315
+[05-23 16:09:57]: Debug: Craft Scheduler Thread - 95:REMOVE PLAYER markd315
+[05-23 16:09:57]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 16:10:07]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-23 16:10:40]: SQLite driver loaded
+[05-23 16:10:40]: SQLite Setup finished
+[05-23 16:10:40]: Unhooked from Permissions!
+[05-23 16:10:40]: Hooked into PermissionsEx!
+[05-23 16:10:40]: Hooked successfully into Essentials
+[05-23 16:10:40]: Hooked successfully into Multiverse-Core
+[05-23 16:10:40]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-23 16:10:40]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-23 16:10:40]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-23 16:10:40]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-23 16:12:16]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 16:12:16]: Markd315 logged in!
+[05-23 16:12:16]: Debug: Craft Scheduler Thread - 10:ADDED PLAYER TO CACHE markd315
+[05-23 16:12:20]: Debug: Craft Scheduler Thread - 10:REMOVE PLAYER markd315
+[05-23 16:12:20]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 17:39:03]: Markd315 used the wrong password
+[05-23 17:39:10]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-23 17:39:10]: Markd315 logged in!
+[05-23 17:39:10]: Debug: Craft Scheduler Thread - 61:ADDED PLAYER TO CACHE markd315
+[05-23 20:00:53]: Debug: Craft Scheduler Thread - 264:REMOVE PLAYER markd315
+[05-23 20:00:53]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-25 00:14:06]: AuthMe 5.2-BETA3-b1134 disabled!
+[05-25 00:15:41]: SQLite driver loaded
+[05-25 00:15:41]: SQLite Setup finished
+[05-25 00:15:41]: Unhooked from Permissions!
+[05-25 00:15:41]: Hooked into PermissionsEx!
+[05-25 00:15:41]: Hooked successfully into Essentials
+[05-25 00:15:41]: Hooked successfully into Multiverse-Core
+[05-25 00:15:41]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[05-25 00:15:41]: Development builds are available on our jenkins, thanks to f14stelt.
+[05-25 00:15:41]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[05-25 00:15:41]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[05-25 00:16:15]: Debug: AuthMe-CacheLoader:REFRESH markd315
+[05-25 00:16:15]: Markd315 logged in!
+[05-25 00:16:15]: Debug: Craft Scheduler Thread - 10:ADDED PLAYER TO CACHE markd315
+[05-25 00:20:32]: Debug: Server thread:REMOVE PLAYER markd315
+[05-25 00:20:32]: AuthMe 5.2-BETA3-b1134 disabled!
+[07-21 20:03:12]: SQLite driver loaded
+[07-21 20:03:12]: SQLite Setup finished
+[07-21 20:03:12]: Unhooked from Permissions!
+[07-21 20:03:12]: Hooked into PermissionsEx!
+[07-21 20:03:12]: Hooked successfully into Essentials
+[07-21 20:03:12]: Hooked successfully into Multiverse-Core
+[07-21 20:03:12]: Development builds are available on our jenkins, thanks to f14stelt.
+[07-21 20:03:12]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-21 20:03:12]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[07-21 20:09:43]: AuthMe 5.2-BETA3-b1134 disabled!
+[07-21 20:13:57]: SQLite driver loaded
+[07-21 20:13:57]: SQLite Setup finished
+[07-21 20:13:57]: Unhooked from Permissions!
+[07-21 20:13:57]: Hooked into PermissionsEx!
+[07-21 20:13:57]: Hooked successfully into Essentials
+[07-21 20:13:57]: Hooked successfully into Multiverse-Core
+[07-21 20:13:57]: [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[07-21 20:13:57]: Development builds are available on our jenkins, thanks to f14stelt.
+[07-21 20:13:57]: Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-21 20:13:57]: AuthMe 5.2-BETA3-b1134 correctly enabled!
+[07-21 20:15:18]: Debug: Craft Scheduler Thread - 19:REMOVE PLAYER markd315
+[07-21 20:18:05]: Debug: Craft Scheduler Thread - 21:REMOVE PLAYER markd315
+[07-21 20:23:48]: Debug: Craft Scheduler Thread - 20:REMOVE PLAYER ghyut1
+[07-21 20:23:48]: Debug: Craft Scheduler Thread - 20:REMOVE PLAYER ghyut1
+[07-21 20:24:34]: Debug: Craft Scheduler Thread - 27:REMOVE PLAYER markd315
+[07-21 20:24:53]: Debug: Craft Scheduler Thread - 27:REMOVE PLAYER ghyut1
+[07-21 20:24:53]: Debug: Craft Scheduler Thread - 26:REMOVE PLAYER ghyut1
+[07-21 20:24:58]: AuthMe 5.2-BETA3-b1134 disabled!

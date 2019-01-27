@@ -1,0 +1,23 @@
+lastAccountName: CocaCola0610
+timestamps:
+  login: 1471473049897
+  logout: 1471473875245
+  lastteleport: 1471473860688
+ipAddress: 10.0.0.103
+lastlocation:
+  world: Gillamoor
+  x: 682.9348433983153
+  y: 4.0
+  z: 520.6782064852463
+  yaw: 294.45166
+  pitch: 10.500146
+logoutlocation:
+  world: Caoms
+  x: 11.124908668766285
+  y: 145.5
+  z: -19.36178532953993
+  yaw: -204.74782
+  pitch: 13.049994
+afk: false
+money: '23.0'
+socialspy: false

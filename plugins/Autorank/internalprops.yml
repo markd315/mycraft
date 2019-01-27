@@ -1,0 +1,40 @@
+# This is the internal properties file of Autorank. 
+# You should not touch any values here, unless instructed by a developer.
+# Autorank uses these to keep track of certain aspects of the plugin.
+cached leaderboard: []
+leaderboard last updated: 1509067650216
+has converted uuids: true
+tracked month: 9
+tracked week: 44
+tracked day: 5
+leaderboards:
+  total_time:
+    cached leaderboard:
+    - §a-------- Leaderboard (All time) --------
+    - §61 | §bCocaCola0610 - §70 days, 1 hour and 20 minutes.
+    - §62 | §bHeather - §70 days, 0 hours and 46 minutes.
+    - §63 | §bghyut1 - §70 days, 0 hours and 7 minutes.
+    - §64 | §bPermissions_test - §70 days, 0 hours and 5 minutes.
+    - §65 | §bnotch - §70 days, 0 hours and 2 minutes.
+    - §a------------------------------------
+  daily_time:
+    cached leaderboard:
+    - §a-------- Leaderboard (Daily time) --------
+    - §61 | §bdalekcaan64 - §70 days, 0 hours and 56 minutes.
+    - §62 | §bTheMightyWill99 - §70 days, 0 hours and 23 minutes.
+    - §63 | §bPermissions_test - §70 days, 0 hours and 11 minutes.
+    - §64 | §bReadersprite - §70 days, 0 hours and 7 minutes.
+    - §a------------------------------------
+  weekly_time:
+    cached leaderboard:
+    - §a-------- Leaderboard (Weekly time) --------
+    - §61 | §bdalekcaan64 - §70 days, 0 hours and 9 minutes.
+    - §62 | §bReadersprite - §70 days, 0 hours and 7 minutes.
+    - §a------------------------------------
+  monthly_time:
+    cached leaderboard:
+    - §a-------- Leaderboard (Monthly time) --------
+    - §61 | §bdalekcaan64 - §70 days, 0 hours and 9 minutes.
+    - §62 | §bReadersprite - §70 days, 0 hours and 7 minutes.
+    - §a------------------------------------
+is converted to new format: true

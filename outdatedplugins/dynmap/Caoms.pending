@@ -1,0 +1,36 @@
+tiles:
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -4,0,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -2,3,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -12,6,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -3,0,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 0,-3,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -8,6,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 1,4,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 1,-3,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -7,6,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -2,-2,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -5,3,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -2,-1,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -5,4,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 4,14,iso_SE_30_hires,0
+invalid:
+    ct: [
+        ]
+    t: [
+        ]
+    flat: [
+        ]
