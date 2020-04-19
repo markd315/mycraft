@@ -19,21 +19,25 @@
 groups:
   towny:
     worlds:
-    - Caoms
-    - Caoms_nether
-    - Caoms_the_end
+    - Sonora
+    - Sonora_nether
+    - Sonora_the_end
     - Akama
-    - Ehiria
     default-gamemode: SURVIVAL
-  factions:
+  pvp1:
     worlds:
-    - Voxity
     - Legora
     - Lachrysa
     default-gamemode: SURVIVAL
+  pvp2:
+    worlds:
+    - Voxity
+    - Lachrysa
+    - Ehiria
+    default-gamemode: SURVIVAL
   skyblock:
     worlds:
-    - Odawth
+    - EpicSkyblock
     default-gamemode: SURVIVAL
   freebuild:
     worlds:

@@ -1,8 +1,16 @@
-lastOnline=1471473875599
-registered=1439417816985
+lastOnline=0
+registered=1587162702230
 isNPC=false
+isJailed=false
+JailSpawn=0
+JailDays=0
+JailTown=
 title=
 surname=
+town=Zanzaland
+town-ranks=
+nation-ranks=
 friends=
 
 protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

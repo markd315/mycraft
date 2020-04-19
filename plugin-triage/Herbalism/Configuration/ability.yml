@@ -1,0 +1,31 @@
+Agriculturist:
+  Max_Grade: 5
+  Max_Grade_Level: 50
+  Effect:
+    Max_Value: 50
+    Base_Value: 10
+  Requirement:
+    Permission: null
+    Level: 10
+    
+Cultivator:
+  Max_Grade: 4
+  Max_Grade_Level: 70
+  Effect:
+    Max_Value: 20
+    Base_Value: 5
+  Requirement:
+    Permission: null
+    Level: 25
+    
+Luck:
+  Max_Grade: 3
+  Max_Grade_Level: 100
+  Effect:
+    Max_Value: 3
+    Base_Value: 2
+    Max_Chance: 10
+    Base_Chance: 5
+  Requirement:
+    Permission: null
+    Level: 50

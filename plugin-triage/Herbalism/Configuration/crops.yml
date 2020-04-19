@@ -1,0 +1,508 @@
+Grain_Default:
+  Name: "Wheat"
+  Category: "Grain"
+  Plant: "Crops"
+  Duration: 7200
+  Icon:
+    Material: "Wheat"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 10.2
+    Item:
+      Seeds_Default:
+        Chance: 100.0
+        Min: 0
+        Max: 3
+      Grain_Default:
+        Chance: 100.0
+        
+Grain_Barley:
+  Name: "Barley"
+  Category: "Grain"
+  Plant: "Crops"
+  Duration: 14400
+  Icon:
+    Material: "Wheat"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 20.4
+    Item:
+      Seeds_Barley:
+        Chance: 100.0
+        Min: 0
+        Max: 3
+      Grain_Barley:
+        Chance: 100.0
+        
+Grain_Oat:
+  Name: "Oat"
+  Category: "Grain"
+  Plant: "Crops"
+  Duration: 21600
+  Icon:
+    Material: "Wheat"
+    Shiny: false
+  Requirement:
+    Level: 30
+    Permission: null
+  Drops:
+    Exp: 48.0
+    Item:
+      Seeds_Oat:
+        Chance: 100.0
+        Min: 0
+        Max: 3
+      Grain_Oat:
+        Chance: 100.0
+        
+Carrot_Default:
+  Name: "Carrot"
+  Category: "Carrot"
+  Plant: "Carrot"
+  Duration: 600
+  Icon:
+    Material: "Carrot_Item"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 0.9
+    Item:
+      Carrot_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+        
+Carrot_Nantes:
+  Name: "Nantes Carrot"
+  Category: "Carrot"
+  Plant: "Carrot"
+  Duration: 900
+  Icon:
+    Material: "Carrot_Item"
+    Shiny: false
+  Requirement:
+    Level: 4
+    Permission: null
+  Drops:
+    Exp: 1.4
+    Item:
+      Carrot_Nantes:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+        
+Carrot_Chantenay:
+  Name: "Chantenay Carrot"
+  Category: "Carrot"
+  Plant: "Carrot"
+  Duration: 1200
+  Icon:
+    Material: "Carrot_Item"
+    Shiny: false
+  Requirement:
+    Level: 35
+    Permission: null
+  Drops:
+    Exp: 2.8
+    Item:
+      Carrot_Chantenay:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+        
+Carrot_Imperator:
+  Name: "Imperator Carrot"
+  Category: "Carrot"
+  Plant: "Carrot"
+  Duration: 1200
+  Icon:
+    Material: "Carrot_Item"
+    Shiny: false
+  Requirement:
+    Level: 57
+    Permission: null
+  Drops:
+    Exp: 3.6
+    Item:
+      Carrot_Imperator:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+        
+Potato_Default:
+  Name: "Potato"
+  Category: "Potato"
+  Plant: "Potato"
+  Duration: 1500
+  Icon:
+    Material: "Potato_Item"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 2.1
+    Item:
+      Potato_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+      Potato_Poisonous:
+        Chance: 5.0
+        
+Potato_Russet:
+  Name: "Russet Potato"
+  Category: "Potato"
+  Plant: "Potato"
+  Duration: 1800
+  Icon:
+    Material: "Potato_Item"
+    Shiny: false
+  Requirement:
+    Level: 7
+    Permission: null
+  Drops:
+    Exp: 2.9
+    Item:
+      Potato_Russet:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+      Potato_Poisonous:
+        Chance: 5.0
+        
+Potato_Katahdin:
+  Name: "Katahdin Potato"
+  Category: "Potato"
+  Plant: "Potato"
+  Duration: 2400
+  Icon:
+    Material: "Potato_Item"
+    Shiny: false
+  Requirement:
+    Level: 40
+    Permission: null
+  Drops:
+    Exp: 6.0
+    Item:
+      Potato_Katahdin:
+        Chance: 100.0
+        Min: 1
+        Max: 4
+      Potato_Poisonous:
+        Chance: 5.0
+ 
+Beetroot_Default:
+  Name: "Beetroot"
+  Category: "Beetroot"
+  Plant: "Beetroot"
+  Duration: 2000
+  Icon:
+    Material: "Beetroot"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 2.8
+    Item:
+      Beetroot_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+      Seeds_Beetroot_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 2
+        
+Beetroot_Alto:
+  Name: "Alto Beetroot"
+  Category: "Beetroot"
+  Plant: "Beetroot"
+  Duration: 2200
+  Icon:
+    Material: "Beetroot"
+    Shiny: false
+  Requirement:
+    Level: 11
+    Permission: null
+  Drops:
+    Exp: 3.7
+    Item:
+      Beetroot_Alto:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+      Seeds_Beetroot_Alto:
+        Chance: 100.0
+        Min: 1
+        Max: 2
+        
+Beetroot_Boltardy:
+  Name: "Boltardy Beetroot"
+  Category: "Beetroot"
+  Plant: "Beetroot"
+  Duration: 2300
+  Icon:
+    Material: "Beetroot"
+    Shiny: false
+  Requirement:
+    Level: 45
+    Permission: null
+  Drops:
+    Exp: 6.1
+    Item:
+      Beetroot_Boltardy:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+      Seeds_Beetroot_Boltardy:
+        Chance: 100.0
+        Min: 1
+        Max: 2
+        
+Melon_Default:
+  Name: "Melon"
+  Category: "Melon"
+  Plant: "Melon"
+  Duration: 2400
+  Sustainable: true
+  Icon:
+    Material: "Melon_Slice"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 3.4
+    Item:
+      Melon_Default:
+        Chance: 100.0
+        Min: 3
+        Max: 7
+      Seeds_Melon_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Melon_Honeydew:
+  Name: "Honeydew Melon"
+  Category: "Melon"
+  Plant: "Melon"
+  Duration: 2600
+  Sustainable: true
+  Icon:
+    Material: "Melon_Slice"
+    Shiny: false
+  Requirement:
+    Level: 15
+    Permission: null
+  Drops:
+    Exp: 4.7
+    Item:
+      Melon_Honeydew:
+        Chance: 100.0
+        Min: 3
+        Max: 7
+      Seeds_Melon_Honeydew:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Melon_Cantalope:
+  Name: "Cantalope Melon"
+  Category: "Melon"
+  Plant: "Melon"
+  Duration: 2600
+  Sustainable: true
+  Icon:
+    Material: "Melon_Slice"
+    Shiny: false
+  Requirement:
+    Level: 51
+    Permission: null
+  Drops:
+    Exp: 7.3
+    Item:
+      Melon_Cantalope:
+        Chance: 100.0
+        Min: 3
+        Max: 7
+      Seeds_Melon_Cantalope:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Melon_Golden_Prize:
+  Name: "Golden Prize Melon"
+  Category: "Melon"
+  Plant: "Melon"
+  Duration: 4500
+  Sustainable: true
+  Icon:
+    Material: "Speckled_Melon"
+    Shiny: false
+  Requirement:
+    Level: 64
+    Permission: null
+  Drops:
+    Exp: 14.3
+    Item:
+      Melon_Golden_Prize:
+        Chance: 100.0
+        Min: 3
+        Max: 4
+      Seeds_Melon_Golden_Prize:
+        Chance: 100.0
+        Min: 1
+        Max: 2
+        
+Pumpkin_Default:
+  Name: "Pumpkin"
+  Category: "Pumpkin"
+  Plant: "Pumpkin"
+  Duration: 3000
+  Sustainable: true
+  Icon:
+    Material: "Pumpkin"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 4.3
+    Item:
+      Pumpkin_Default:
+        Chance: 100.0
+      Seeds_Pumpkin_Default:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Pumpkin_Bellatrix:
+  Name: "Pumpkin"
+  Category: "Pumpkin"
+  Plant: "Pumpkin"
+  Duration: 3000
+  Sustainable: true
+  Icon:
+    Material: "Pumpkin"
+    Shiny: false
+  Requirement:
+    Level: 10
+    Permission: null
+  Drops:
+    Exp: 5.8
+    Item:
+      Pumpkin_Bellatrix:
+        Chance: 100.0
+      Seeds_Pumpkin_Bellatrix:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Pumpkin_Hulk:
+  Name: "Pumpkin"
+  Category: "Pumpkin"
+  Plant: "Pumpkin"
+  Duration: 3300
+  Sustainable: true
+  Icon:
+    Material: "Pumpkin"
+    Shiny: false
+  Requirement:
+    Level: 72
+    Permission: null
+  Drops:
+    Exp: 11.2
+    Item:
+      Pumpkin_Hulk:
+        Chance: 100.0
+      Seeds_Pumpkin_Hulk:
+        Chance: 100.0
+        Min: 1
+        Max: 3
+        
+Cocoa_Default:
+  Name: "Cocoa"
+  Category: "Cocoa"
+  Plant: "Cocoa"
+  Duration: 1500
+  Icon:
+    Material: "Cocoa_Beans"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 2.1
+    Item:
+      Cocoa_Default:
+        Chance: 100.0
+        Min: 2
+        Max: 3
+        
+Cocoa_Forastero:
+  Name: "Cocoa"
+  Category: "Cocoa"
+  Plant: "Cocoa"
+  Duration: 1800
+  Icon:
+    Material: "Cocoa_Beans"
+    Shiny: false
+  Requirement:
+    Level: 25
+    Permission: null
+  Drops:
+    Exp: 3.8
+    Item:
+      Cocoa_Forastero:
+        Chance: 100.0
+        Min: 2
+        Max: 3
+        
+Cocoa_Criocollo:
+  Name: "Cocoa"
+  Category: "Cocoa"
+  Plant: "Cocoa"
+  Duration: 2400
+  Icon:
+    Material: "Cocoa_Beans"
+    Shiny: false
+  Requirement:
+    Level: 80
+    Permission: null
+  Drops:
+    Exp: 8.7
+    Item:
+      Cocoa_Criocollo:
+        Chance: 100.0
+        Min: 2
+        Max: 3
+        
+Nether_Wart_Default:
+  Name: "Nether Wart"
+  Category: "Nether_Wart"
+  Plant: "Nether_Wart"
+  Duration: 1800
+  Icon:
+    Material: "Nether_Stalk"
+    Shiny: false
+  Requirement:
+    Level: 1
+    Permission: null
+  Drops:
+    Exp: 2.6
+    Item:
+      Nether_Wart_Default:
+        Chance: 100.0
+        Min: 2
+        Max: 3

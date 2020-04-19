@@ -26,8 +26,6 @@ groups:
     - essentials.tpaccept
     - -essentials.worth
     - globalshop.trade.*
-    - islandworld.create.normal
-    - islandworld.island.*
     - mcmmo.ability.*
     - mcmmo.commands.mcstats
     - mcmmo.commands.mctop
@@ -45,7 +43,7 @@ groups:
     - towny.command.towny.*
     - towny.chat.*
     - towny.wild.*
-    - multiverse.access.caoms
+    - multiverse.access.sonora
     - multiverse.help
     - multiverse.core.spawn.self
     - heavyspleef.player.*
@@ -58,16 +56,16 @@ groups:
       Akama:
         permissions:
         - modifyworld.*
-      Caoms:
+      Sonora:
         permissions:
         - modifyworld.*
       Gillamoor:
         permissions:
         - modifyworld.*
-      Caoms_nether:
+      Sonora_nether:
         permissions:
         - modifyworld.*
-      Caoms_the_end:
+      Sonora_the_end:
         permissions:
         - modifyworld.*
       Odawth:
@@ -87,10 +85,16 @@ groups:
     - auctions.command.start
     - banknotes.*
     - essentials.clearinventory
+    - -essentials.warp.senate_floor
+    - -essentials.warps.senate_floor
     - essentials.compass
     - essentials.delhome
-    - -essentials.warp.senate_floor
+    - essentials.warps
+    - essentials.warps.*
+    - essentials.warps.list
+    - essentials.warp
     - essentials.warp.*
+    - essentials.warp.list
     - -essentials.sell
     - -essentials.worth
     - -towny.command.plot.asmayor
@@ -115,7 +119,8 @@ groups:
     - essentials.msg.url
     - mcmmo.commands.party.*
     - chestshop.shop.*
-    - SimplePoll.vote
+    - poll.command.*
+    - -poll.command.delete
     - towny.command.town.*
     - towny.command.nation.*
     - towny.wild.*
@@ -210,10 +215,10 @@ groups:
     - essentials.jails
     - essentials.tp.*
     - essentials.vanish.*
-    - islandworld.islandev.*
     - mcmmo.perks.*
     - mobarena.admin.*
     - multiverse.teleport.others.*
+    - poll.command.delete
     - chestshop.mod.*
     - towny.claimed.*
     - multiverse.core.spawn.other
@@ -262,7 +267,7 @@ groups:
     - sc.blackjack.createserver
     - casinoslots.admin
     - thespleefminigame.admin
-    - worldguard.region.bypass.Caoms
+    - worldguard.region.bypass.Sonora
     options:
       prefix: '&8[&6Developer&8]'
       default: false
@@ -280,9 +285,7 @@ users:
   schema-version: 1
   acbcd8c3-4612-394c-9332-643f3c0c2b47:
     group:
-    - Newcomer
     - Admin
-    - Immigrant
     options:
       name: Markd315
   ff1d7c51-67af-3f54-9ca8-ca15fb01c5f8:

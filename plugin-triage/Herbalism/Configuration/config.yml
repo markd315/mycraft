@@ -1,0 +1,128 @@
+Configuration:
+  General:
+    Version: 1.0
+    #Version of the config.
+    
+    Locale: "en"
+    #Locale language
+  
+  Metrics:
+    Message: true
+    #Send message to console when connecting metrics.
+  
+  Hook:
+    Message: false
+    #Send message to console about dependencies information.
+    
+  Utility:    
+    Tooltip: "&8&l[&4&l?&8&l]"
+    #Character for text tooltip.
+    
+    Currency: "$"
+    #Symbol for currency.
+      
+  Effect:
+    Range: 50
+    #Max distance to hear particles and sounds.
+    
+  List:
+    Content: 5
+    #Max number of content to be displayed
+    
+  Priority:
+    Actionbar: 5
+    #Actionbar Priority
+    
+    BossBar: 3
+    #Bossbar Priority
+    
+  Database:
+    Server_Type: "SQLite"
+    #Database Server Type:
+    #- SQLite
+    #- MySQL
+    
+    Server_Identifier: "Default"
+    #Server identifier for database
+    
+    Load_Timeout: 5
+    #Load timeout database in seconds
+    
+    Periode_Save: 300
+    #Period save database in seconds
+    
+    Client_Host: "localhost"
+    Client_Port: 3306
+    Client_Database: "database"
+    Client_Username: "root"
+    Client_Password: null
+    
+  Menu:
+    Enable_Page_Back: true
+    #Enable page back
+    
+    Enable_Page_Home: true
+    #Enable page home
+    
+  Herbalism:
+    Max_Level: 100
+    #Herbalism max level
+    
+    Max_Total_Plant: 100
+    #Max total plants per player
+    
+    Max_Total_Level: 100
+    #Level when Player reaches max_total_plant
+    
+    Base_Total_Plant: 40
+    #Starting plants for players
+    
+    Formula_Exp_A: 1.0
+    Formula_Exp_B: 40.0
+    Formula_Exp_C: 400.0
+    #Formula Exp = (a * level^2) + (b * level) + c
+    
+  Crops:
+    Enable_Trample: false
+    #Enable trampling crops
+    
+    Enable_Hologram: true
+    #Enable hologram information
+    
+    Enable_BossBar: true
+    #Enable bossbar information
+    
+    Enable_Actionbar: false
+    #Enable actionbar information
+    
+    Period_Update: 1200
+    #Period crops update in ticks
+    
+    Duration_Hologram: 50
+    #Duration of hologram in ticks
+    
+    Time_Decay_Relative: 2.0
+    #Time decay based on multiplication of growing time
+    
+  BossBar:
+    Color_Small: "Red"
+    Color_Medium: "Yellow"
+    Color_Tall: "Green"
+    #Available Colors:
+    #- Pink
+    #- Blue
+    #- Red
+    #- Green
+    #- Yellow
+    #- Purple
+    #- White
+    
+    Style_Small: "Progress"
+    Style_Medium: "Progress"
+    Style_Tall: "Progress"
+    #Available Styles:
+    #- Progress
+    #- Notched_6
+    #- Notched_10
+    #- Notched_12
+    #- Notched_20

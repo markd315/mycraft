@@ -1,0 +1,435 @@
+#-----=====[ Plugin Message ]=====-----#
+
+Plugin:
+  Deactivated:
+  - "{prefix} Plugin was deactivated from control panel"
+  Information_Not_Match:
+  - "{prefix} Information of plugin doesn't match!"
+  Lack_Dependency:
+  - "{prefix} To make this plugin work, you need to install &c{dependency}"
+  Not_Installed:
+  - "{prefix} Plugin &c{plugin} &ris not installed!"
+
+#-----=====[ Console Message ]=====-----#
+
+Console:
+  Command_Forbiden: 
+  - "{prefix} Only player can execute this command!"
+
+#-----=====[ Character Message ]=====-----#
+
+Character:
+  Special: 
+  - "{prefix} Cannot contain special characters!"
+
+#-----=====[ Command Message ]=====-----#
+
+Command:
+  Disabled: 
+  - "{prefix} This command is disabled!"
+  Herbalism_Reload_Success: 
+  - "{prefix} Success reload plugin"
+  Herbalism_Menu_Not_Exist:
+  - "{prefix} Menu &d{menu} &rdoes not exist!"
+  Herbalism_Load_Success_To_Sender:
+  - "{prefix} You give &c{amount}x {item_id} &rto &d{target}"
+  Herbalism_Load_Success_To_Target: 
+  - "{prefix} You're given &c{amount}x {item_id} &rfrom &d{sender}"
+  Herbalism_Load_Success_Self:
+  - "{prefix} You are get &c{amount}x {item_id}"
+  Herbalism_Exp_Set_Success_To_Sender:
+  - "{prefix} Set Exp of player &d{target} &rto &c{exp}"
+  Herbalism_Exp_Set_Success_To_Target:
+  - "{prefix} Your exp changed to &c{exp}"
+  Herbalism_Exp_Add_Success_To_Sender:
+  - "{prefix} Add Exp of player &d{target} &rby &c{exp}"
+  Herbalism_Exp_Add_Success_To_Target:
+  - "{prefix} Your exp added by &c{exp}"
+  Herbalism_Exp_Take_Success_To_Sender:
+  - "{prefix} Take Exp of player &d{target} &rby &c{exp}"
+  Herbalism_Exp_Take_Success_To_Target:
+  - "{prefix} Your exp taken by &c{exp}"       
+  Herbalism_Level_Set_Success_To_Sender:
+  - "{prefix} Set level of player &d{target} &rto &c{level}"
+  Herbalism_Level_Set_Success_To_Target:
+  - "{prefix} Your level changed to &c{level}"
+  Herbalism_Level_Add_Success_To_Sender:
+  - "{prefix} Add level of player &d{target} &rby &c{level}"
+  Herbalism_Level_Add_Success_To_Target:
+  - "{prefix} Your level added by &c{level}"
+  Herbalism_Level_Take_Success_To_Sender:
+  - "{prefix} Take level of player &d{target} &rby &c{level}"
+  Herbalism_Level_Take_Success_To_Target:
+  - "{prefix} Your level taken by &c{level}"
+  Herbalism_Harvest_Buy_Success: 
+  - "{prefix} Success purchase of &c{amount} {item} &rfor &e{money}{symbol_currency}"
+  Herbalism_Harvest_Sell_Success: 
+  - "{prefix} Success sale of &c{amount} {item} &rfor &e{money}{symbol_currency}"
+  Herbalism_Fertilizer_Buy_Success: 
+  - "{prefix} Success purchase of &c{amount} {item} &rfor &e{money}{symbol_currency}"
+
+#-----=====[ Argument Message ]=====-----#
+
+Argument:
+  Not_Complete: 
+  - "{prefix} Argument command is not complete!"
+  Category_Not_Exists:
+  - "{prefix} Category &d{category} &rdoes not exist!"
+  Database_Player_Not_Registered:
+  - "{prefix} This player is not registered in database!"
+  Item_Not_Exists:
+  - "{prefix} Item with id &d{item_id} &rdoes not exist!"
+  Invalid_Value: 
+  - "{prefix} Invalid value amount!"
+  Invalid_Command: 
+  - "{prefix} Argument command is invalid!"
+  Lack_Money: 
+  - "{prefix} You do not have enough money!"
+  Lack_Item: 
+  - "{prefix} You don't have enough items!"
+  Format_Usage:
+  - "{tooltip_description} &3/{command} {main_argument}"
+  Herbalism_Help: 
+  - "{tooltip_help} &3/herbalism help &b[<page>]"
+  Herbalism_About: 
+  - "{tooltip_about} &3/herbalism about"
+  Herbalism_Reload: 
+  - "{tooltip_reload} &3/herbalism reload"
+  Herbalism_Menu: 
+  - "{tooltip_menu} &3/herbalism menu &3[<menu>]"
+  Herbalism_Stats: 
+  - "{tooltip_stats} &3/herbalism stats &b[<player>]"
+  Herbalism_Load:
+  - "{tooltip_load} &3/herbalism load &b<category> <nameid> [<player>] [<amount>]"
+  Herbalism_Exp: 
+  - "{tooltip_exp} &3/herbalism exp &b<set|add|take> <value> [<player>]"
+  Herbalism_Level: 
+  - "{tooltip_level} &3/herbalism level &b<set|add|take> <value> [<player>]"
+
+#-----=====[ Tooltip Message ]=====-----#
+
+Tooltip:
+  Herbalism_Help: "Show all commands"
+  Herbalism_About: "Show all information about the plugin"
+  Herbalism_Reload: "Reload Configuration"
+  Herbalism_Menu: "Open plugin menu"
+  Herbalism_Stats: "Check player stats"
+  Herbalism_Load: "Load item from database"
+  Herbalism_Exp: "Change player exp"
+  Herbalism_Level: "Change player level"
+  
+#-----=====[ Herbalism Message ]=====-----#
+
+Herbalism:
+  Stats:
+  - "&8&l&m=-=-=-=-=-=&r &2&lHerbalism Stats &8&l&m=-=-=-=-=-="
+  - ""
+  - "&2Name&f&l: &6{player_name}"
+  - "&2Level&f&l: &7{player_level}"
+  - "&2Plants&f&l: &7{player_crops}/{player_max_crops}"
+  - "&2Exp&f&l: &7{player_exp}/{player_exp_up}"
+  - ""
+  - "&8&l&m=-=-=-=-=-=&r &2&lHerbalism Stats &8&l&m=-=-=-=-=-="
+
+#-----=====[ Crops Message ]=====-----#
+
+Crops:
+  Fertilize_Success: 
+  - "{prefix} "
+  Fertilize_Failed: 
+  - "{prefix} "
+  Fertilize_Lack_Level: 
+  - "{prefix} You must reach &dlevel {level} &rto use this fertilizer"
+  Break_Not_Owner: 
+  - "{prefix} You are not the owner of this plant!"
+  Plant_Not_Allowed: 
+  - "{prefix} You can not use this seed!"
+  Plant_Limit: 
+  - "{prefix} Your crops has reached the limit!"
+  Plant_Ripe: 
+  - "{prefix} This plant already matured"
+  
+#-----=====[ Ability Message ]=====-----#
+
+Ability:
+  Name_Cultivator: "Cultivator{ability_grade}"
+  Name_Agriculturist: "Agriculturist{ability_grade}"
+  Name_Luck: "Farmer's Luck{ability_grade}"
+  Description_Cultivator:
+  - "All crops grow {ability_effect_value}% faster"
+  Description_Agriculturist:
+  - "All fertilizer effect {ability_effect_value}% stronger"
+  Description_Luck:
+  - "Chance of {ability_effect_chance}% to get {ability_effect_value}x drops"
+
+#-----=====[ Title Message ]=====-----#
+
+Title:
+  Player_Level_Up: "&2&lLevel Up!"
+  
+#-----=====[ Subtitle Message ]=====-----#
+
+Subtitle:
+  Player_Level_Up: "&cLevel {herbalism_level} Herbalism"
+
+#-----=====[ Actionbar Message ]=====-----#
+  
+Actionbar:
+  Crops_Information_Grow: "&2{crops_name} &8[&9Owner: &3{crops_owner}&8]"
+  Crops_Information_Harvest: "&2{crops_name} &8[&9Owner: &3{crops_owner}&8] [&dReady to harvest&8]"
+  Crops_Fertilize_Success: "&acrop time has been reduced for &d{time}"
+  Crops_Fertilize_Failed: "&cYou've given fertilizer to this plant"
+  Player_Exp_Gain: "&0&l[&2&l+{exp_gain}&0&l] &aHerbalism Experience"
+  
+#-----=====[ BossBar Message ]=====-----#
+  
+BossBar:
+  Crops_Information_Grow: "&2{crops_name} &8[&9Owner: &3{crops_owner}&8]"
+  Crops_Information_Harvest: "&2{crops_name} &8[&9Owner: &3{crops_owner}&8] [&dReady to harvest&8]"
+  
+#-----=====[ Hologram Message ]=====-----#
+
+Hologram:
+  Crops_Information_Grow:
+  - "&8[ &2{crops_name} &8]"
+  - "{crops_icon}"
+  - "&9Owner: &3{crops_owner}"
+  - "&aHarvest: &c{crops_time_harvest}"    
+  Crops_Information_Harvest:
+  - "&8[ &2{crops_name} &8]"
+  - "{crops_icon}"
+  - "&9Owner: &3{crops_owner}"
+  - "&aHarvest: &dReady to harvest"
+  - "&6Decay: &c{crops_time_decay}"
+  
+#-----=====[ Menu Message ]=====-----#
+
+Menu:
+  Page_Title_Home: "&2&lHerbalism Menu"
+  Page_Title_Player: "&2&lPlayer Menu"
+  Page_Title_Shop: "&2&lShop Menu"
+  Page_Title_Shop_Harvest_Buy: "&2&lBuy Harvest &0[&4{page}&0/&4{max_page}&0]"
+  Page_Title_Shop_Harvest_Sell: "&2&lSell Harvest &0[&4{page}&0/&4{max_page}&0]"
+  Page_Title_Shop_Fertilizer_Buy: "&2&lBuy Fertilizer &0[&4{page}&0/&4{max_page}&0]"
+  Page_Title_Progress: "&2&lProgress Menu"
+  Page_Title_Progress_Ability: "&2&lAbility Menu &0[&4{page}&0/&4{max_page}&0]"
+  Page_Title_Progress_Crops: "&2&lCrops Menu &0[&4{page}&0/&4{max_page}&0]"
+  Page_Title_Progress_Fertilizer: "&2&lFertilizer Menu &0[&4{page}&0/&4{max_page}&0]"
+  Item_Header_Home_Player: "&8[&a&lPlayer&8]"
+  Item_Header_Home_Shop: "&8[&a&lShop&8]"
+  Item_Header_Player_Stats: "&8[&a&lPlayer Stats&8]"
+  Item_Header_Player_Progress: "&8[&a&lProgress&8]"
+  Item_Header_Progress_Stats: "&8[&a&lProgress Stats&8]"
+  Item_Header_Progress_Ability: "&8[&a&lAbility&8]"
+  Item_Header_Progress_Crops: "&8[&a&lCrops&8]"
+  Item_Header_Progress_Fertilizer: "&8[&a&lFertilizer&8]"
+  Item_Header_Progress_Ability_Unlocked: "&d&l{ability_name}"
+  Item_Header_Progress_Ability_Locked: "&d&l{ability_name} &8[&c&lLocked&8]"
+  Item_Header_Progress_Crops_Unlocked: "&a&l{crops_id}"
+  Item_Header_Progress_Crops_Locked: "&a&l{crops_id} &8[&c&lLocked&8]"
+  Item_Header_Progress_Fertilizer_Unlocked: "&a&l{fertilizer_id}"
+  Item_Header_Progress_Fertilizer_Locked: "&a&l{fertilizer_id} &8[&c&lLocked&8]"
+  Item_Header_Shop_Locked: "{item_name} &8[&c&lLocked&8]"
+  Item_Header_Shop_Information: "&8[&a&lInformation&8]"
+  Item_Header_Shop_Harvest_Buy: "&8[&a&lBuy Harvest&8]"
+  Item_Header_Shop_Harvest_Sell: "&8[&a&lSell Harvest&8]"
+  Item_Header_Shop_Fertilizer_Buy: "&8[&a&lBuy Fertilizer&8]"
+  Item_Header_Page_Home: "&8[&a&lHome&8]"
+  Item_Header_Page_Back: "&8[&eBack&8]"
+  Item_Header_Page_Next: "&8[&aNext&8]"
+  Item_Header_Page_Previous: "&8[&aPrevious&8]"
+  Item_Lores_Home_Player:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen player menu {done} &8]"
+  Item_Lores_Home_Shop:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen shop menu {done} &8]"
+  Item_Lores_Player_Stats:
+  - "&8&m-------------------------"
+  - ""
+  - "&2Name&f&l: &6{player_name}"
+  - "&2Level&f&l: &7{player_level}"
+  - "&2Plants&f&l: &7{player_crops}/{player_max_crops}"
+  - "&2Exp&f&l: &7{player_exp}/{player_exp_up}"
+  Item_Lores_Player_Progress:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen progress menu {done} &8]"
+  Item_Lores_Progress_Stats:
+  - "&8&m-------------------------"
+  - ""
+  - "&2Unlocked Ability: &f{player_unlocked_ability} / {max_ability}"
+  - "&2Unlocked Crops: &f{player_unlocked_crops} / {max_crops}"
+  - "&2Unlocked Fertilizer: &f{player_unlocked_fertilizer} / {max_fertilizer}"
+  Item_Lores_Progress_Ability:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen ability menu {done} &8]"
+  Item_Lores_Progress_Crops:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen crops menu {done} &8]"
+  Item_Lores_Progress_Fertilizer:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen fertilizer menu {done} &8]"
+  Item_Lores_Progress_Ability_Unlocked:
+  - "&8&m-------------------------"
+  - ""
+  - "&2Description:"
+  - "{ability_descriptions}"
+  Item_Lores_Progress_Ability_Locked:
+  - "&8&m-------------------------"
+  - ""
+  - "&6Requirement:"
+  - "&7► Permission: &f{requirement_permission}"
+  - "&7► Level: &f{requirement_level}"
+  Item_Lores_Progress_Crops_Unlocked:
+  - "&8&m-------------------------"
+  - ""
+  - "&2Category: &9{crops_category}"
+  - "&2Duration: &7{crops_duration} seconds"
+  - "&2Experience: &7{crops_drops_exp}"
+  - "&2Items:"
+  - "{crops_drops_item}"
+  Item_Lores_Progress_Crops_Locked:
+  - "&8&m-------------------------"
+  - ""
+  - "&6Requirement:"
+  - "&7► Permission: &f{requirement_permission}"
+  - "&7► Level: &f{requirement_level}"
+  Item_Lores_Progress_Fertilizer_Unlocked:
+  - "&8&m-------------------------"
+  - ""
+  - "&eEffect:"
+  - "&7► Time Growth: &f+{effect_growth_additional}s"
+  - "&7► Time Harvest: &f-{effect_growth_percent}%"
+  Item_Lores_Progress_Fertilizer_Locked:
+  - "&8&m-------------------------"
+  - ""
+  - "&6Requirement:"
+  - "&7► Permission: &f{requirement_permission}"
+  - "&7► Level: &f{requirement_level}"
+  Item_Lores_Shop_Information:
+  - "&8&m-------------------------"
+  - ""
+  - "&2Buy/sell herbalism item in this"
+  - "&2menu. You can buy an item if"
+  - "&2the requirements are met"
+  Item_Lores_Shop_Harvest_Buy:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fBuy item harvest {done} &8]"
+  Item_Lores_Shop_Harvest_Sell:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fSell item harvest {done} &8]"
+  Item_Lores_Shop_Fertilizer_Buy:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fBuy item fertilizer {done} &8]"
+  Item_Lores_Page_Home:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fOpen home menu {done} &8]"
+  Item_Lores_Page_Back:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fBack to previous menu {done} &8]"
+  Item_Lores_Page_Next:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fChange to next page {done} &8]"
+  Item_Lores_Page_Previous:
+  - "&8&m-------------------------"
+  - ""
+  - "&8[ &bClick: &fChange to previous page {done} &8]"
+  Item_Lores_Menu_Disabled:
+  - "&8&m-------------------------"
+  - ""
+  - "&cThis menu is not available"
+  Item_Format_Progress_Ability_Description:
+  - "&2► &a{ability_description}"
+  Item_Format_Progress_Ability_Requirement:
+  - "&2► &d{ability_requirement}"
+  Item_Format_Progress_Crops_Drops_Item:
+  - "&2► &a{crops_drops_item} &8[&d{crops_drop_item_chance}%&8]"
+  Item_Format_Shop_Harvest_Buy_Component:
+  - ""
+  - "&2Price&f&l: &e{price}{symbol_currency}"
+  - ""
+  - "&8[ &bLeft-Click: &fBuy 1 {item} {done} &8]"
+  - "&8[ &bRight-Click: &fBuy 64 {item} {done} &8]"
+  Item_Format_Shop_Harvest_Sell_Component:
+  - ""
+  - "&2Price&f&l: &e{price}{symbol_currency}"
+  - ""
+  - "&8[ &bLeft-Click: &fSell 1 {item} {done} &8]"
+  - "&8[ &bRight-Click: &fSell 64 {item} {done} &8]"
+  Item_Format_Shop_Fertilizer_Buy_Component:
+  - ""
+  - "&2Price&f&l: &e{price}{symbol_currency}"
+  - ""
+  - "&8[ &bLeft-Click: &fBuy 1 {item} {done} &8]"
+  - "&8[ &bRight-Click: &fBuy 64 {item} {done} &8]"
+
+#-----=====[ Help Message ]=====-----#
+
+Help:
+  Header: "&6{plugin} Help:"
+  Page: "&8&l[&6&l{previous}&8&l]&r&8&l&m=======&r&8&l[&r &2Page &7(&d{page}&7/&d{maxpage}&7) &8&l]&8&l&m=======&r&8&l[&6&l{next}&8&l]"
+  Previous_Page: "&cPrevious Page"
+  Next_Page: "&cNext Page" 
+
+#-----=====[ List Message ]=====-----#
+
+List:
+  Header: "&7&l&m---&8&l&m==[&r &2List &7(&d{page}&8/&d{maxpage}&7) &8&l&m]==&7&l&m---"
+  Item: "&8&l[&2&l{index}&8&l] &c{item}"
+
+#-----=====[ Permission Message ]=====-----#
+
+Permission:
+  Lack: 
+  - "{prefix} You don't have permission &c{permission}"
+
+#-----=====[ Player Message ]=====-----#
+
+Player:
+  Target_Offline: 
+  - "{prefix} Target player is not online!"
+  Not_Exists:
+  - "{prefix} Player with name &d{player} &ris not exists!"
+
+#-----=====[ File Message ]=====-----#
+
+File:
+  Not_Exists: 
+  - "File target doesn't exist!"
+
+#-----=====[ Database Message ]=====-----#
+
+Database:
+  Load_Timeout: "{prefix} Load &d{load_count} &7(&c{load_progress}&7) &rdata from database &6{database}"
+  Load_Finished: "{prefix} Success to load &d{load_max} &rfrom database &6{database}"
+  Data_Not_Synchronized: "{prefix} Data is being synchronized"
+
+#-----=====[ Item Message ]=====-----#
+
+Item:
+  MainHand_Empty: 
+  - "{prefix} Item in mainhand is empty!"
+  Not_Exist: 
+  - "{prefix} Item with name &c{nameid} &ris not exists!"
+  Database_Empty: 
+  - "{prefix} Database item is empty!"
+  
+#-----=====[ Time Message ]=====-----#
+
+Time:
+  Duration_Days: "{time_day} days {time_hour} hours"
+  Duration_Hours: "{time_hour} hours {time_minutes} minutes"
+  Duration_Minutes: "{time_minutes} minutes {time_seconds} seconds"
+  Duration_Seconds: "{time_seconds} seconds"

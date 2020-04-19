@@ -1,1094 +1,859 @@
-[23:46:21] [Server thread/INFO]: Loading properties
-[23:46:21] [Server thread/WARN]: resource-pack-hash is deprecated and found along side resource-pack-sha1. resource-pack-hash will be ignored.
-[23:46:21] [Server thread/INFO]: Default game type: SURVIVAL
-[23:46:21] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-93e20b3-31d3159 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[23:46:22] [Server thread/INFO]: Debug logging is disabled
-[23:46:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:46:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:46:22] [Server thread/INFO]: Generating keypair
-[23:46:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:46:23] [Server thread/INFO]: Using default channel type
-[23:46:23] [Server thread/ERROR]: Ambiguous plugin name `AuthMe' for files `plugins\AuthMe-5.3.2.jar' and `plugins\AuthMe-5.2-BETA3-spigot.jar' in `plugins'
-[23:46:25] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core' for files `plugins\Multiverse-Core-2.5.jar' and `plugins\Multiverse-Core-2.5.0-SNAPSHOT.jar' in `plugins'
-[23:46:25] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Portals' for files `plugins\Multiverse-Portals-2.5.0.jar' and `plugins\Multiverse-Portals-2.5.0-SNAPSHOT.jar' in `plugins'
-[23:46:26] [Server thread/ERROR]: Ambiguous plugin name `PerWorldInventory' for files `plugins\perworldinventory-1.7.8.jar' and `plugins\perworldinventory-1.11.1.jar' in `plugins'
-[23:46:27] [Server thread/ERROR]: Could not load 'plugins\SC_Blackjack.jar' in folder 'plugins': uses the space-character (0x20) in its name
-[23:46:27] [Server thread/ERROR]: Could not load 'plugins\Simple_Poll.jar' in folder 'plugins': uses the space-character (0x20) in its name
-[23:46:27] [Server thread/ERROR]: Ambiguous plugin name `WorldGuard' for files `plugins\worldguard-6.2.1.jar' and `plugins\worldguard-6.1.1-SNAPSHOT.jar' in `plugins'
-[23:46:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[23:46:27] [Server thread/ERROR]: Could not load 'plugins\DiceFurniture.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: FurnitureLib
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:216) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:308) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:28] [Server thread/ERROR]: Could not load 'plugins\GlobalShop.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/avaje/ebeaninternal/server/lib/util/InvalidDataException
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:326) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:308) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.NoClassDefFoundError: com/avaje/ebeaninternal/server/lib/util/InvalidDataException
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:398) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	... 6 more
-Caused by: java.lang.ClassNotFoundException: com.avaje.ebeaninternal.server.lib.util.InvalidDataException
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:398) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	... 6 more
-[23:46:28] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
-[23:46:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.3
-[23:46:28] [Server thread/INFO]: [ColoredSigns] Loading ColoredSigns v2.0
-[23:46:28] [Server thread/INFO]: [Questioner] Loading Questioner v0.6
-[23:46:28] [Server thread/INFO]: [CityWorld] Loading CityWorld v3.01
-[23:46:28] [Server thread/INFO]: [TerrainControl] Loading TerrainControl v2.7.1
-[23:46:28] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
-[23:46:28] [Server thread/INFO]: [Lift] Loading Lift v52
-[23:46:28] [Server thread/INFO]: [XPConomy] Loading XPConomy v1.1
-[23:46:28] [Server thread/INFO]: [XPConomy] Has been loaded
-[23:46:28] [Server thread/INFO]: [RandomTP] Loading RandomTP v1.0.5
-[23:46:28] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.21
-[23:46:28] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
-[23:46:28] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
-[23:46:28] [Server thread/INFO]: [Pegasus] Loading Pegasus v1.0.1
-[23:46:28] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vTeamCity
-[23:46:28] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.13.1
-[23:46:28] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[23:46:28] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[23:46:28] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.05-SNAPSHOT-b136
-[23:46:28] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
-[23:46:28] [Server thread/INFO]: [Vault] Loading Vault v1.5.3-b37
-[23:46:28] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
-[23:46:28] [Server thread/INFO]: [ParticleHats] Loading ParticleHats v3.0.1
-[23:46:28] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.8.12
-[23:46:28] [Server thread/INFO]: [SWatchdog] Loading SWatchdog v1.19
-[23:46:28] [Server thread/INFO]: [mcjobs] Loading mcjobs v3.2.0
-[23:46:28] [Server thread/INFO]: [PVP Arena] Loading pvparena v1.3.1.50
-[23:46:28] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.3.2-b1726
-[23:46:28] [Server thread/INFO]: [Autorank] Loading Autorank v3.7
-[23:46:28] [Server thread/INFO]: [Towny] Loading Towny v0.89.2.0
-[23:46:28] [Server thread/INFO]: [MobArena] Loading MobArena v0.96.9
-[23:46:28] [Server thread/INFO]: [MonsterBox] Loading MonsterBox v1.2
-[23:46:28] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.7.8
-[23:46:28] [Server thread/INFO]: [Auctions] Loading Auctions v2.1.2-SNAPSHOT
-[23:46:28] [Server thread/INFO]: [Banknotes] Loading Banknotes v0.1.5
-[23:46:28] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.42
-[23:46:28] [Server thread/INFO]: [IslandWorld] Loading IslandWorld v6.5
-[23:46:28] [Server thread/INFO]: [HeavySpleef] Loading HeavySpleef v2.1.1
-[23:46:28] [Server thread/INFO]: [Hotels] Loading Hotels v0.6.1
-[23:46:28] [Server thread/INFO]: [PlayerInfo] Loading PlayerInfo v2.0
-[23:46:28] [Server thread/INFO]: [CasinoSlots] Loading CasinoSlots v2.5.7-b11
-[23:46:28] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
-[23:46:28] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
-[23:46:28] [Server thread/INFO]: [CityWorld] Enabling CityWorld v3.01
-[23:46:28] [Server thread/INFO]: [TerrainControl] Enabling TerrainControl v2.7.1
-[23:46:28] [Server thread/INFO]: [TerrainControl] [INFO] 20 Global custom objects loaded
-[23:46:28] [Server thread/ERROR]: Error occurred while enabling TerrainControl v2.7.1 (Is it up to date?)
-java.lang.NoClassDefFoundError: net/minecraft/server/v1_8_R3/WorldGenFactory
-	at com.khorn.terraincontrol.bukkit.TCPlugin.onEnable(TCPlugin.java:88) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_8_R3.WorldGenFactory
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:91) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	... 9 more
-[23:46:28] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.05-SNAPSHOT-b136
-[23:46:28] [Server thread/WARN]: [mcMMO] Invalid material: POTION_POISON
-[23:46:28] [Server thread/WARN]: [mcMMO] Potion format for Treasures.yml has changed
-[23:46:28] [Server thread/WARN]: [mcMMO] Invalid material: POTION_INSTANT_HEAL
-[23:46:28] [Server thread/WARN]: [mcMMO] Potion format for Treasures.yml has changed
-[23:46:28] [Server thread/WARN]: [mcMMO] Invalid material: POTION_FIRE_RESISTANCE
-[23:46:28] [Server thread/WARN]: [mcMMO] Potion format for Treasures.yml has changed
-[23:46:28] [Server thread/WARN]: [mcMMO] Invalid material: POTION_SPEED
-[23:46:28] [Server thread/WARN]: [mcMMO] Potion format for Treasures.yml has changed
-[23:46:28] [Server thread/ERROR]: [mcMMO] There was an error while enabling mcMMO!
-[23:46:28] [Server thread/WARN]: java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
-[23:46:28] [Server thread/WARN]: 	at com.gmail.nossr50.config.HiddenConfig.load(HiddenConfig.java:33)
-[23:46:28] [Server thread/WARN]: 	at com.gmail.nossr50.config.HiddenConfig.<init>(HiddenConfig.java:20)
-[23:46:28] [Server thread/WARN]: 	at com.gmail.nossr50.config.HiddenConfig.getInstance(HiddenConfig.java:25)
-[23:46:28] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.loadConfigFiles(mcMMO.java:382)
-[23:46:28] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:141)
-[23:46:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[23:46:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
-[23:46:28] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
-[23:46:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384)
-[23:46:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333)
-[23:46:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206)
-[23:46:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
-[23:46:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[23:46:28] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.5.05-SNAPSHOT-b136
-[23:46:28] [Server thread/ERROR]: Error occurred while disabling mcMMO v1.5.05-SNAPSHOT-b136 (Is it up to date?)
-java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
-	at com.gmail.nossr50.config.AutoUpdateConfigLoader.loadFile(AutoUpdateConfigLoader.java:28) ~[?:?]
-	at com.gmail.nossr50.config.ConfigLoader.<init>(ConfigLoader.java:26) ~[?:?]
-	at com.gmail.nossr50.config.AutoUpdateConfigLoader.<init>(AutoUpdateConfigLoader.java:22) ~[?:?]
-	at com.gmail.nossr50.config.AdvancedConfig.<init>(AdvancedConfig.java:21) ~[?:?]
-	at com.gmail.nossr50.config.AdvancedConfig.getInstance(AdvancedConfig.java:27) ~[?:?]
-	at com.gmail.nossr50.skills.alchemy.Alchemy.<clinit>(Alchemy.java:51) ~[?:?]
-	at com.gmail.nossr50.mcMMO.onDisable(mcMMO.java:205) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:421) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:195) [mcMMO.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:28] [Server thread/INFO]: [Vault] Enabling Vault v1.5.3-b37
-[23:46:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[23:46:29] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[23:46:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[23:46:29] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[23:46:29] [Server thread/INFO]: [Vault] Enabled Version 1.5.3-b37
-[23:46:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:46:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:46:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:46:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:46:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[23:46:29] [Server thread/INFO]: Preparing level "Caoms"
-[23:46:29] [Server thread/INFO]: -------- World Settings For [Caoms] --------
-[23:46:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:29] [Server thread/INFO]: View Distance: 10
-[23:46:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:29] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:29] [Server thread/INFO]: Structure Info Saving: true
-[23:46:29] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:29] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:29] [Server thread/INFO]: -------- World Settings For [Caoms_nether] --------
-[23:46:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:29] [Server thread/INFO]: View Distance: 10
-[23:46:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:29] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:29] [Server thread/INFO]: Structure Info Saving: true
-[23:46:29] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:29] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:30] [Server thread/INFO]: -------- World Settings For [Caoms_the_end] --------
-[23:46:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:30] [Server thread/INFO]: View Distance: 10
-[23:46:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:30] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:30] [Server thread/INFO]: Structure Info Saving: true
-[23:46:30] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:30] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: 141107)
-[23:46:31] [Server thread/INFO]: Preparing spawn area: 35%
-[23:46:32] [Server thread/INFO]: Preparing spawn area: 83%
-[23:46:32] [Server thread/INFO]: Preparing start region for level 1 (Seed: -112264684490207063)
-[23:46:33] [Server thread/INFO]: Preparing spawn area: 75%
-[23:46:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: -112264684490207063)
-[23:46:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.3
-[23:46:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[23:46:34] [Server thread/INFO]: [ColoredSigns] Enabling ColoredSigns v2.0
-[23:46:34] [Server thread/INFO]: [ColoredSigns] ColoredSigns enabling.
-[23:46:34] [Server thread/WARN]: [ColoredSigns] PermissionsEx support is disabled.
-[23:46:34] [Server thread/INFO]: [ColoredSigns] Starting services.. loading file and library's.
-[23:46:34] [Server thread/INFO]: [Questioner] Enabling Questioner v0.6
-[23:46:34] [Server thread/INFO]: [Questioner] v0.6 - Enabled
-[23:46:34] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
-[23:46:34] [Server thread/WARN]: §4Version mismatch! Please update EssentialsGeoIP to the same version.
-[23:46:34] [Server thread/INFO]: Bukkit version format changed. Version not checked.
-[23:46:34] [Server thread/INFO]: git-Spigot-93e20b3-31d3159 (MC: 1.12.2)
-[23:46:34] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
-[23:46:34] [Server thread/INFO]: Using locale en_US
-[23:46:35] [Server thread/INFO]: Using locale en_US
-[23:46:35] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[23:46:35] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
-[23:46:35] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[23:46:35] [Server thread/INFO]: [Lift] Enabling Lift v52
-[23:46:35] [Server thread/INFO]: Lift v52 is now enabled!
-[23:46:35] [Server thread/INFO]: [XPConomy] Enabling XPConomy v1.1
-[23:46:35] [Server thread/INFO]: [XPConomy] Has been enabled
-[23:46:35] [Server thread/INFO]: [RandomTP] Enabling RandomTP v1.0.5
-[23:46:35] [Server thread/INFO]: [RandomTP] has been enabled correctly!
-[23:46:35] [Server thread/INFO]: #######################################################
-[23:46:35] [Server thread/INFO]: ##                RandomTP (Oficial)                 ##
-[23:46:35] [Server thread/INFO]: ##                 By ThePoshoGamer                  ##
-[23:46:35] [Server thread/INFO]: #######################################################
-[23:46:35] [Server thread/INFO]: ##    Tnks for downloading this resource plugin!     ##
-[23:46:35] [Server thread/INFO]: ##             [RandomTP] Reloaded 1.0               ##
-[23:46:35] [Server thread/INFO]: #######################################################
-[23:46:35] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.21
-[23:46:35] [Server thread/INFO]: [Lockette] Version 1.8.21 is being enabled!  Yay!  (Core version 1.3.5)
-[23:46:35] [Server thread/ERROR]: [Lockette] Detected Bukkit build [v1_12_R1], but requires version [1.8] or greater!
-[23:46:35] [Server thread/ERROR]: [Lockette] Aborting enable!
-[23:46:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
-[23:46:36] [Server thread/INFO]: -------- World Settings For [Legora] --------
-[23:46:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:36] [Server thread/INFO]: View Distance: 10
-[23:46:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:36] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:36] [Server thread/INFO]: Structure Info Saving: true
-[23:46:36] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:36] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:36] [Server thread/INFO]: Preparing start region for level 3 (Seed: -2811765969372114165)
-[23:46:36] [Server thread/INFO]: -------- World Settings For [Odawth] --------
-[23:46:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:36] [Server thread/INFO]: View Distance: 10
-[23:46:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:36] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:36] [Server thread/INFO]: Structure Info Saving: true
-[23:46:36] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:36] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:36] [Server thread/INFO]: Preparing start region for level 4 (Seed: -1725912244701963780)
-[23:46:37] [Server thread/INFO]: Preparing spawn area for Odawth, 97%
-[23:46:38] [Server thread/INFO]: -------- World Settings For [SCBB] --------
-[23:46:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:38] [Server thread/INFO]: View Distance: 10
-[23:46:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:38] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:38] [Server thread/INFO]: Structure Info Saving: true
-[23:46:38] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:38] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:38] [Server thread/INFO]: Preparing start region for level 5 (Seed: -2317396084306833102)
-[23:46:39] [Server thread/INFO]: Preparing spawn area for SCBB, 52%
-[23:46:40] [Server thread/INFO]: Preparing spawn area for SCBB, 85%
-[23:46:41] [Server thread/INFO]: -------- World Settings For [Gillamoor] --------
-[23:46:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:41] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:41] [Server thread/INFO]: View Distance: 10
-[23:46:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:41] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:41] [Server thread/INFO]: Structure Info Saving: true
-[23:46:41] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:41] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:42] [Server thread/INFO]: Preparing start region for level 6 (Seed: -8879552332167272676)
-[23:46:43] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: IslandWorld
-[23:46:43] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[23:46:43] [Server thread/INFO]: [CityWorld] *****************************************************
-[23:46:43] [Server thread/INFO]: [CityWorld] ** WARNING, RUNNING ON AN OLD VERSION OF MINECRAFT **
-[23:46:43] [Server thread/INFO]: [CityWorld] *****************************************************
-[23:46:43] [Server thread/INFO]: [CityWorld] Needs 1.9 or better
-[23:46:43] [Server thread/INFO]:  \__Exception: CityWorld
-[23:46:43] [Server thread/WARN]: java.lang.Exception: CityWorld
-[23:46:43] [Server thread/WARN]: 	at me.daddychurchill.CityWorld.CityWorldGenerator.<init>(CityWorldGenerator.java:135)
-[23:46:43] [Server thread/WARN]: 	at me.daddychurchill.CityWorld.CityWorld.getDefaultWorldGenerator(CityWorld.java:22)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.WorldCreator.getGeneratorForName(WorldCreator.java:311)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.WorldCreator.generator(WorldCreator.java:183)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager$3.call(WorldManager.java:442)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.UnsafeCallWrapper.wrap(UnsafeCallWrapper.java:32)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:439)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:725)
-[23:46:43] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:309)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384)
-[23:46:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333)
-[23:46:43] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
-[23:46:43] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
-[23:46:43] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
-[23:46:43] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
-[23:46:43] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
-[23:46:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[23:46:43] [Server thread/INFO]: -------- World Settings For [Voxity] --------
-[23:46:43] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:43] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:43] [Server thread/INFO]: View Distance: 10
-[23:46:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:43] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:43] [Server thread/INFO]: Structure Info Saving: true
-[23:46:43] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:43] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:44] [Server thread/INFO]: Preparing start region for level 7 (Seed: -6496417696552006208)
-[23:46:45] [Server thread/INFO]: Preparing spawn area for Voxity, 28%
-[23:46:45] [Server thread/INFO]: [CityWorld] *****************************************************
-[23:46:45] [Server thread/INFO]: [CityWorld] ** WARNING, RUNNING ON AN OLD VERSION OF MINECRAFT **
-[23:46:45] [Server thread/INFO]: [CityWorld] *****************************************************
-[23:46:45] [Server thread/INFO]: [CityWorld] Needs 1.9 or better
-[23:46:45] [Server thread/INFO]:  \__Exception: CityWorld
-[23:46:45] [Server thread/WARN]: java.lang.Exception: CityWorld
-[23:46:45] [Server thread/WARN]: 	at me.daddychurchill.CityWorld.CityWorldGenerator.<init>(CityWorldGenerator.java:135)
-[23:46:45] [Server thread/WARN]: 	at me.daddychurchill.CityWorld.CityWorld.getDefaultWorldGenerator(CityWorld.java:22)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.WorldCreator.getGeneratorForName(WorldCreator.java:311)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.WorldCreator.generator(WorldCreator.java:183)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager$3.call(WorldManager.java:442)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.UnsafeCallWrapper.wrap(UnsafeCallWrapper.java:32)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:439)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorld(WorldManager.java:403)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.listeners.MVWorldListener.loadWorld(MVWorldListener.java:57)
-[23:46:45] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[23:46:45] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[23:46:45] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[23:46:45] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.createWorld(CraftServer.java:952)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:454)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:466)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:447)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:422)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:725)
-[23:46:45] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:309)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384)
-[23:46:45] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333)
-[23:46:45] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
-[23:46:45] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
-[23:46:45] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
-[23:46:45] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
-[23:46:45] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
-[23:46:45] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[23:46:46] [Server thread/INFO]: -------- World Settings For [Lachrysa] --------
-[23:46:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:46] [Server thread/INFO]: View Distance: 10
-[23:46:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:46] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:46] [Server thread/INFO]: Structure Info Saving: true
-[23:46:46] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:46] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:46] [Server thread/INFO]: Preparing start region for level 8 (Seed: -5108882095131447564)
-[23:46:46] [Server thread/INFO]: -------- World Settings For [Ehiria] --------
-[23:46:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:46] [Server thread/INFO]: View Distance: 10
-[23:46:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:46] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:46] [Server thread/INFO]: Structure Info Saving: true
-[23:46:46] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:46] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:46] [Server thread/INFO]: Preparing start region for level 9 (Seed: -9014513414827894076)
-[23:46:47] [Server thread/INFO]: -------- World Settings For [Akama] --------
-[23:46:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:46:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:46:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:46:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:46:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:46:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:46:47] [Server thread/INFO]: View Distance: 10
-[23:46:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:46:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:46:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[23:46:47] [Server thread/INFO]: Mob Spawn Range: 4
-[23:46:47] [Server thread/INFO]: Structure Info Saving: true
-[23:46:47] [Server thread/INFO]: Max TNT Explosions: 100
-[23:46:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:46:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:46:47] [Server thread/INFO]: Random Lighting Updates: false
-[23:46:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:46:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:46:47] [Server thread/INFO]: Preparing start region for level 10 (Seed: -7351357370226400712)
-[23:46:47] [Server thread/INFO]: [Multiverse-Core] 11 - World(s) loaded.
-[23:46:48] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[23:46:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Caoms'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_nether) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_nether) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_nether) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_nether) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Caoms_nether'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_the_end) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_the_end) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_the_end) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Caoms_the_end) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Caoms_the_end'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Legora) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Legora) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Legora) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Legora) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Legora'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Odawth) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Odawth) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Odawth) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Odawth) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Odawth'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (SCBB) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (SCBB) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (SCBB) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (SCBB) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SCBB'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Gillamoor) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Gillamoor) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Gillamoor) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Gillamoor) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Gillamoor'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Voxity) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Voxity) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Voxity) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Voxity) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Voxity'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Lachrysa) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Lachrysa) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Lachrysa) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Lachrysa) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lachrysa'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Ehiria) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Ehiria) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Ehiria) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Ehiria) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Ehiria'
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Akama) TNT ignition is PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Akama) Lighters are PERMITTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Akama) Lava fire is blocked.
-[23:46:48] [Server thread/INFO]: [WorldGuard] (Akama) Fire spread is UNRESTRICTED.
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Akama'
-[23:46:48] [Server thread/INFO]: [WorldGuard] Loading region data...
-[23:46:48] [Server thread/INFO]: [Pegasus] Enabling Pegasus v1.0.1
-[23:46:48] [Server thread/ERROR]: Error occurred while enabling Pegasus v1.0.1 (Is it up to date?)
-java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/EntityHorse
-	at io.github.hartorn.Pegasus.CustomEntityType.<clinit>(CustomEntityType.java:11) ~[?:?]
-	at io.github.hartorn.Pegasus.CustomEntityHelper.registerEntities(CustomEntityHelper.java:16) ~[?:?]
-	at io.github.hartorn.Pegasus.Pegasus.onEnable(Pegasus.java:60) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.EntityHorse
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:91) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	... 14 more
-[23:46:49] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vTeamCity
-[23:46:49] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.13.1
-[23:46:49] [Server thread/ERROR]: Error occurred while enabling EssentialsGeoIP v2.13.1 (Is it up to date?)
-java.lang.NoSuchMethodError: com.earth2me.essentials.I18n._(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:28) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:49] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[23:46:49] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[23:46:49] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[23:46:49] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[23:46:49] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[23:46:49] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[23:46:49] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
-[23:46:49] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751
-[23:46:49] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret
-[23:46:50] [Server thread/INFO]: [MVPLogging] 6 - Portals(s) loaded
-[23:46:50] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[23:46:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
-[23:46:50] [Server thread/INFO]: [ParticleHats] Enabling ParticleHats v3.0.1
-[23:46:50] [Server thread/INFO]: ParticleHats) Loading ParticleHats v3.0.1
-[23:46:50] [Server thread/INFO]: ParticleHats) 
-[23:46:50] [Server thread/INFO]: ParticleHats) Initializing config files
-[23:46:50] [Server thread/INFO]: ParticleHats) Loading config.yml
-[23:46:50] [Server thread/INFO]: ParticleHats) Loading messages.yml
-[23:46:50] [Server thread/INFO]: ParticleHats) Loading menu_index.yml
-[23:46:50] [Server thread/INFO]: ParticleHats) Loading particles.yml
-[23:46:51] [Server thread/INFO]: ParticleHats) done
-[23:46:51] [Server thread/INFO]: ParticleHats) 
-[23:46:51] [Server thread/INFO]: ParticleHats) ParticleHats is loaded and ready to go.
-[23:46:51] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.8.12
-[23:46:51] [Server thread/ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
-[23:46:51] [Server thread/INFO]: creating table 'items'
-[23:46:51] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `items` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `code` VARCHAR NOT NULL ,  UNIQUE (`code`)) 
-[23:46:51] [Server thread/ERROR]: WARNING: you seem to not be using the Xerial SQLite driver.  See ORMLite docs on SQLite: http://ormlite.com/docs/sqlite
-[23:46:51] [Server thread/INFO]: creating table 'accounts'
-[23:46:51] [Server thread/INFO]: creating index 'accounts_shortName_idx' for table 'accounts
-[23:46:51] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `accounts` (`lastSeenName` VARCHAR NOT NULL , `name` VARCHAR NOT NULL , `shortName` VARCHAR NOT NULL , `uuid` VARCHAR NOT NULL , PRIMARY KEY (`name`) ) 
-[23:46:51] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE INDEX IF NOT EXISTS `accounts_shortName_idx` ON `accounts` ( `shortName` )
-[23:46:51] [Server thread/INFO]: [ChestShop] Lockette version 1.8.21 loaded.
-[23:46:51] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
-[23:46:51] [Server thread/INFO]: [SWatchdog] Enabling SWatchdog v1.19
-[23:46:51] [Server thread/INFO]: SWatchdog version 1.19 is enabled
-[23:46:51] [Server thread/INFO]: [!] SWatchdog finished checks, everything seems good to go.
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: verboseStart, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: welcome, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: splitsMode, time
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: splits, 100
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: splitsTime, 10
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: autoCleanDays, -1
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: maximumRadius, 50
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: debug, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: integrityOnStart, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: autoRepair, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchAnimals, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchUser, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchExplosion, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchBurn, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchDecay, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchBucket, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchGrow, true
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchWaterLava, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchLava, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchFormSpread, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchNPC, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchPhysics, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: WatchChestAccess, false
-[23:46:51] [Server thread/INFO]: [!] SWatchdog Added to conf-map: UseTools, false
-[23:46:52] [Server thread/INFO]: [!] SWatchdog detected 1 problems with file integrity, repair needed. (Remove empty lines)
-[23:46:52] [Server thread/INFO]: [!] OR set autoRepair to true and reload plugins. This requires some resources when plugins load
-[23:46:52] [Server thread/INFO]: [!] Culprit is file: plugins/SWatchdog/broke.Gillamoor.txt
-[23:46:52] [Server thread/INFO]: [!] SWatchdog detected 1 problems with file integrity, repair needed. (Remove empty lines)
-[23:46:52] [Server thread/INFO]: [!] OR set autoRepair to true and reload plugins. This requires some resources when plugins load
-[23:46:52] [Server thread/INFO]: [!] Culprit is file: plugins/SWatchdog/placed.Gillamoor.txt
-[23:46:52] [Server thread/INFO]: [!] SWatchdog finished integrity checks.
-[23:46:52] [Server thread/INFO]: [!] SWatchdog adjusted the splitter time.
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#0, Caoms
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#1, Caoms_nether
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#2, Caoms_the_end
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#3, Legora
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#4, Odawth
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#5, SCBB
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#6, Gillamoor
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#7, Voxity
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#8, Lachrysa
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#9, Ehiria
-[23:46:52] [Server thread/INFO]: [!] SWatchdog added to confmap: worlds#10, Akama
-[23:46:52] [Server thread/INFO]: [mcjobs] Enabling mcjobs v3.2.0
-[23:46:52] [Server thread/ERROR]: [mcjobs] Plugin mcjobs v3.2.0 has failed to register events for class com.dmgkz.mcjobs.listeners.McmmoRepairListener because com/gmail/nossr50/events/skills/repair/McMMOPlayerRepairCheckEvent does not exist.
-[23:46:52] [Server thread/INFO]: [mcjobs] mcMMO has been found.
-[23:46:52] [Server thread/INFO]: [mcjobs] Using builtin logging methods.
-[23:46:52] [Server thread/INFO]: [mcjobs] WorldGuard found.  Enabling WorldGuard protections.
-[23:46:52] [Server thread/INFO]: [mcjobs] Found Vault 1.5.3-b37
-[23:46:52] [Server thread/ERROR]: Error occurred while enabling mcjobs v3.2.0 (Is it up to date?)
-java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
-	at com.dmgkz.mcjobs.localization.GetLanguage.loadLanguage(GetLanguage.java:333) ~[?:?]
-	at com.dmgkz.mcjobs.McJobs.mcloadconf(McJobs.java:200) ~[?:?]
-	at com.dmgkz.mcjobs.McJobs.onEnable(McJobs.java:135) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:52] [Server thread/INFO]: [PVP Arena] Enabling pvparena v1.3.1.50
-[23:46:52] [Server thread/INFO]: [PVP Arena] debugging: off
-[23:46:52] [Server thread/INFO]: [PVP Arena] Downloading module update file...
-[23:46:53] [Server thread/INFO]: [PVP Arena] Downloaded module update file
-[23:46:53] [Server thread/INFO]: [PVP Arena] enabled (version pvparena v1.3.1.50)
-[23:46:53] [Thread-10/INFO]: Checking for updates...
-[23:46:53] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.3.2-b1726
-[23:46:53] [Server thread/WARN]: [AuthMe] Aborting initialization of AuthMe: [NoClassDefFoundError]: javax/annotation/PostConstruct
-[23:46:53] [Server thread/WARN]: [AuthMe] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
-[23:46:53] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[23:46:53] [Server thread/INFO]: [AuthMe] AuthMe 5.3.2-b1726 disabled!
-[23:46:53] [Server thread/INFO]: [Autorank] Enabling Autorank v3.7
-[23:46:53] [Server thread/INFO]: [Autorank] Simple config file loaded
-[23:46:53] [Server thread/INFO]: [Autorank] Advanced config file loaded
-[23:46:53] [Thread-10/INFO]: You are using v1.3.1.50, an outdated version! Latest: v1.3.2.140
-[23:46:53] [Thread-10/INFO]: https://www.spigotmc.org/resources/pvp-arena.16584/
-[23:46:53] [Server thread/INFO]: [Autorank] Settings config file loaded
-[23:46:53] [Server thread/INFO]: [Autorank] Internal properties file loaded
-[23:46:53] [Server thread/INFO]: [Autorank] Backup data file loaded (backup-data.yml)
-[23:46:53] [Server thread/INFO]: [Autorank] Loaded stored uuids.
-[23:46:53] [Server thread/INFO]: [Autorank] Loaded playerdata.
-[23:46:53] [Server thread/ERROR]: [Autorank] Could not hook into a dependency: 
-Cause: java.lang.ClassNotFoundException: com.gmail.nossr50.mcMMO
-[23:46:53] [Server thread/INFO]: [Autorank] Interval check every 1 minutes.
-[23:46:53] [Server thread/INFO]: [Autorank] Data file loaded
-[23:46:53] [Server thread/INFO]: [Autorank] Language file loaded (lang.yml)
-[23:46:53] [Server thread/INFO]: [Autorank] Using timings of: autorank
-[23:46:53] [Server thread/INFO]: [Autorank] Autorank 3.7 has been enabled!
-[23:46:53] [Server thread/INFO]: [Towny] Enabling Towny v0.89.2.0
-[23:46:53] [Server thread/INFO]: ====================      Towny      ========================
-[23:46:54] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
-[23:46:54] [Server thread/INFO]: [Towny] Deleting 2 Old Backups (183-183 days old).
-[23:46:54] [Server thread/WARN]: [Towny Warning] Unable to read CraftBukkit Version.
-[23:46:54] [Server thread/WARN]: [Towny Warning] Towny requires version 2918 or higher.
-[23:46:54] [Server thread/WARN]: [Towny Warning] Check your CraftBukkit version as we do not test on custom/old builds.
-[23:46:54] [Server thread/INFO]: [Towny] Using: PermissionsEX v1.23.4, Vault v1.5.3-b37, Questioner v0.6
-[23:46:54] [Server thread/INFO]: [Towny] Time until a New Day: 12 hours, 13 minutes, 6 seconds
-[23:46:54] [Server thread/INFO]: =============================================================
-[23:46:54] [Server thread/INFO]: [Towny] Version: 0.89.2.0 - Mod Enabled
-[23:46:54] [Server thread/INFO]: =============================================================
-[23:46:54] [Server thread/INFO]: [MobArena] Enabling MobArena v0.96.9
-[23:46:54] [Server thread/INFO]: [MobArena] Vault found; economy rewards enabled.
-[23:46:54] [Server thread/ERROR]: Error occurred while enabling MobArena v0.96.9 (Is it up to date?)
-java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.load(Ljava/io/InputStream;)V
-	at com.garbagemule.MobArena.util.config.ConfigUtils.process(ConfigUtils.java:39) ~[?:?]
-	at com.garbagemule.MobArena.util.config.ConfigUtils.addMissingRemoveObsolete(ConfigUtils.java:24) ~[?:?]
-	at com.garbagemule.MobArena.ArenaMasterImpl.loadSettings(ArenaMasterImpl.java:244) ~[?:?]
-	at com.garbagemule.MobArena.ArenaMasterImpl.initialize(ArenaMasterImpl.java:234) ~[?:?]
-	at com.garbagemule.MobArena.MobArena.onEnable(MobArena.java:80) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:54] [Server thread/INFO]: [MonsterBox] Enabling MonsterBox v1.2
-[23:46:54] [Server thread/INFO]: [MonsterBox] Spout not detected. Disabling spout support.
-[23:46:54] [Server thread/INFO]: MonsterBox version 1.2 is enabled!
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.7.8
-[23:46:55] [Server thread/WARN]: [PerWorldInventory] Could not save default.json to plugins\PerWorldInventory\default.json because default.json already exists.
-[23:46:55] [Server thread/WARN]: [PerWorldInventory] Your PerWorldInventory config is out of date! Some options may be missing.
-[23:46:55] [Server thread/WARN]: [PerWorldInventory] Copy the new options from here: https://www.spigotmc.org/resources/per-world-inventory.4482/
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Registering commands...
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Commands registered! Registering listeners...
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Registered PlayerGameModeChangeListener.
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Listeners enabled!
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
-[23:46:55] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
-[23:46:55] [Server thread/INFO]: [Auctions] Enabling Auctions v2.1.2-SNAPSHOT
-[23:46:55] [Server thread/ERROR]: Error occurred while enabling Auctions v2.1.2-SNAPSHOT (Is it up to date?)
-java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
-	at com.sainttx.auctions.AuctionPlugin.checkOutdatedConfig(AuctionPlugin.java:179) ~[?:?]
-	at com.sainttx.auctions.AuctionPlugin.onEnable(AuctionPlugin.java:84) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:55] [Server thread/INFO]: [Banknotes] Enabling Banknotes v0.1.5
-[23:46:55] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.42
-[23:46:55] [Server thread/INFO]: [IslandWorld] Enabling IslandWorld v6.5
-[23:46:55] [Server thread/INFO]: [IslandWorld] Dynmap support disabled
-[23:46:55] [Server thread/ERROR]: Error occurred while enabling IslandWorld v6.5 (Is it up to date?)
-java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
-	at pl.islandworld.IslandWorld.loadMessages(IslandWorld.java:1995) ~[?:?]
-	at pl.islandworld.IslandWorld.onEnable(IslandWorld.java:259) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:55] [Server thread/INFO]: [HeavySpleef] Enabling HeavySpleef v2.1.1
-[23:46:55] [Server thread/ERROR]: Error occurred while enabling HeavySpleef v2.1.1 (Is it up to date?)
-java.lang.NoClassDefFoundError: com/sk89q/worldedit/world/World
-	at de.matzefratze123.heavyspleef.migration.MigrationModule.<init>(MigrationModule.java:67) ~[?:?]
-	at de.matzefratze123.heavyspleef.HeavySpleefPlugin.onEnable(HeavySpleefPlugin.java:47) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.ClassNotFoundException: com.sk89q.worldedit.world.World
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	... 13 more
-[23:46:55] [Server thread/INFO]: [Hotels] Enabling Hotels v0.6.1
-[23:46:55] [Server thread/WARN]: java.lang.NullPointerException
-[23:46:55] [Server thread/WARN]: 	at gvlfm78.plugin.Hotels.HotelsUpdateChecker.updateNeeded(HotelsUpdateChecker.java:49)
-[23:46:55] [Server thread/WARN]: 	at gvlfm78.plugin.Hotels.HotelsMain.onEnable(HotelsMain.java:37)
-[23:46:55] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[23:46:55] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
-[23:46:55] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402)
-[23:46:55] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:384)
-[23:46:55] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:333)
-[23:46:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
-[23:46:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
-[23:46:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
-[23:46:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
-[23:46:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
-[23:46:55] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[23:46:55] [Server thread/INFO]: [Hotels] Hotels v0.6.1 has been enabled correctly
-[23:46:55] [Server thread/INFO]: [PlayerInfo] Enabling PlayerInfo v2.0
-[23:46:55] [Server thread/INFO]: [PlayerInfo] PlayerInfo has been enabled.
-[23:46:55] [Server thread/INFO]: [CasinoSlots] Enabling CasinoSlots v2.5.7-b11
-[23:46:55] [Server thread/INFO]: [CasinoSlots] Loaded 2 types.
-[23:46:55] [Server thread/INFO]: [CasinoSlots] Loaded 0 slot machines.
-[23:46:55] [Server thread/INFO]: [CasinoSlots] Loaded statistics for 0 types.
-[23:46:56] [Server thread/WARN]: Could not register alias sg because it contains commands that do not exist: server bukkitgames
-[23:46:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:46:57] [Server thread/INFO]: Done (28.496s)! For help, type "help" or "?"
-[23:46:57] [Server thread/INFO]: Stopping server
-[23:46:57] [Server thread/INFO]: [CasinoSlots] Disabling CasinoSlots v2.5.7-b11
-[23:46:57] [Server thread/INFO]: [PlayerInfo] Disabling PlayerInfo v2.0
-[23:46:57] [Server thread/INFO]: [PlayerInfo] PlayerInfo has been disabled.
-[23:46:57] [Server thread/INFO]: [Hotels] Disabling Hotels v0.6.1
-[23:46:57] [Server thread/INFO]: [Hotels] Hotels v0.6.1 has been disabled
-[23:46:57] [Server thread/INFO]: [HeavySpleef] Disabling HeavySpleef v2.1.1
-[23:46:57] [Server thread/ERROR]: Error occurred while disabling HeavySpleef v2.1.1 (Is it up to date?)
-java.lang.NullPointerException: null
-	at de.matzefratze123.heavyspleef.core.HeavySpleef.disable(HeavySpleef.java:270) ~[?:?]
-	at de.matzefratze123.heavyspleef.HeavySpleefPlugin.onDisable(HeavySpleefPlugin.java:74) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:421) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:414) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.disablePlugins(CraftServer.java:352) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:465) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:613) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:57] [Server thread/INFO]: [IslandWorld] Disabling IslandWorld v6.5
-[23:46:57] [Server thread/INFO]: [IslandWorld] Plugin disabled.
-[23:46:57] [Server thread/INFO]: [TownyChat] Disabling TownyChat v0.42
-[23:46:57] [Server thread/INFO]: [Banknotes] Disabling Banknotes v0.1.5
-[23:46:57] [Server thread/INFO]: [Auctions] Disabling Auctions v2.1.2-SNAPSHOT
-[23:46:57] [Server thread/INFO]: [Auctions] Material "BEDROCK" added as a blocked material.
-[23:46:57] [Server thread/ERROR]: Error occurred while disabling Auctions v2.1.2-SNAPSHOT (Is it up to date?)
-java.lang.NullPointerException: null
-	at com.sainttx.auctions.AuctionPlugin.onDisable(AuctionPlugin.java:214) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:421) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:414) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.disablePlugins(CraftServer.java:352) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:465) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:613) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[23:46:57] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.7.8
-[23:46:57] [Server thread/INFO]: [MonsterBox] Disabling MonsterBox v1.2
-[23:46:57] [Server thread/INFO]: MonsterBox disabled!
-[23:46:57] [Server thread/INFO]: [MobArena] Disabling MobArena v0.96.9
-[23:46:57] [Server thread/INFO]: [MobArena] disabled.
-[23:46:57] [Server thread/INFO]: [Towny] Disabling Towny v0.89.2.0
-[23:46:57] [Server thread/INFO]: ==============================================================
-[23:46:57] [Server thread/INFO]: [Towny] Version: 0.89.2.0 - Mod Disabled
-[23:46:57] [Server thread/INFO]: =============================================================
-[23:46:57] [Server thread/INFO]: [Autorank] Disabling Autorank v3.7
-[23:46:57] [Server thread/INFO]: [Autorank] Autorank 3.7 has been disabled!
-[23:46:57] [Server thread/INFO]: [PVP Arena] Disabling pvparena v1.3.1.50
-[23:46:57] [Server thread/INFO]: [PVP Arena] Plugin tracking disabled. See you soon?
-[23:46:57] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v1.3.1.50)
-[23:46:57] [Server thread/INFO]: [mcjobs] Disabling mcjobs v3.2.0
-[23:46:57] [Server thread/INFO]: [mcjobs] Canceling Tasks...
-[23:46:57] [Server thread/INFO]: [mcjobs] MC Jobs has been disabled!
-[23:46:57] [Server thread/INFO]: [SWatchdog] Disabling SWatchdog v1.19
-[23:46:57] [Server thread/INFO]: SWatchdog is now disabled.
-[23:46:57] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.8.12
-[23:46:57] [Server thread/INFO]: [ParticleHats] Disabling ParticleHats v3.0.1
-[23:46:57] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vTeamCity
-[23:46:57] [Server thread/INFO]: [Vault] Disabling Vault v1.5.3-b37
-[23:46:57] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.0-b751
-[23:46:57] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[23:46:57] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[23:46:57] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.13.1
-[23:46:57] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
-[23:46:57] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[23:46:57] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vTeamCity
-[23:46:57] [Server thread/INFO]: [Pegasus] Disabling Pegasus v1.0.1
-[23:46:57] [Server thread/ERROR]: Error occurred while disabling Pegasus v1.0.1 (Is it up to date?)
-java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/com/google/gson/reflect/TypeToken
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:1016) ~[?:?]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:550) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:458) ~[?:?]
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:452) ~[?:?]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:451) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.getClassByName(JavaPluginLoader.java:191) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:97) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	at io.github.hartorn.Pegasus.PegasusDataHelper.savePegasusData(PegasusDataHelper.java:78) ~[?:?]
-	at io.github.hartorn.Pegasus.Pegasus.onDisable(Pegasus.java:51) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:421) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:414) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.disablePlugins(CraftServer.java:352) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.stop(MinecraftServer.java:465) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:613) [jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.com.google.gson.reflect.TypeToken
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:91) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[jar.jar:git-Spigot-93e20b3-31d3159]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
-	... 24 more
-[23:46:57] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
-[23:46:57] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[23:46:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
-[23:46:57] [Server thread/INFO]: [Lockette] Disabling Lockette v1.8.21
-[23:46:57] [Server thread/INFO]: [RandomTP] Disabling RandomTP v1.0.5
-[23:46:57] [Server thread/INFO]: [RandomTP] has been disabled correctly!
-[23:46:57] [Server thread/INFO]: [XPConomy] Disabling XPConomy v1.1
-[23:46:57] [Server thread/INFO]: [XPConomy] Has been disabled
-[23:46:57] [Server thread/INFO]: [Lift] Disabling Lift v52
-[23:46:57] [Server thread/INFO]: Lift v52 is now disabled!
-[23:46:57] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
-[23:46:57] [Server thread/INFO]: [TerrainControl] Disabling TerrainControl v2.7.1
-[23:46:57] [Server thread/INFO]: [CityWorld] Disabling CityWorld v3.01
-[23:46:57] [Server thread/INFO]: [Questioner] Disabling Questioner v0.6
-[23:46:57] [Server thread/INFO]: [Questioner] v0.6 - Disabled
-[23:46:57] [Server thread/INFO]: [ColoredSigns] Disabling ColoredSigns v2.0
-[23:46:57] [Server thread/WARN]: [ColoredSigns] ColoredSigns version 2.0 disabling...
-[23:46:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.3
-[23:46:57] [Server thread/INFO]: [CleanroomGenerator] Disabling CleanroomGenerator v1.0.0
-[23:46:57] [Server thread/INFO]: Saving players
-[23:46:58] [Server thread/INFO]: Saving worlds
-[23:46:58] [Server thread/INFO]: Saving chunks for level 'Caoms'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Caoms_nether'/the_nether
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Caoms_the_end'/the_end
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Legora'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Odawth'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'SCBB'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Gillamoor'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Voxity'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Lachrysa'/the_nether
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Ehiria'/overworld
-[23:47:02] [Server thread/INFO]: Saving chunks for level 'Akama'/overworld
+[00:02:54] [Server thread/INFO]: Markd315 has made the advancement [Into Fire]
+[00:17:56] [Server thread/INFO]: Markd315 issued server command: /time set night
+[00:25:16] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[00:46:38] [Server thread/INFO]: Markd315 issued server command: /weather set rain
+[00:46:43] [Server thread/INFO]: Markd315 issued server command: /weather storm
+[00:47:11] [Server thread/INFO]: Markd315 has made the advancement [Fishy Business]
+[00:55:38] [Server thread/INFO]: Markd315 issued server command: /mv tp akama
+[01:03:28] [Server thread/INFO]: Markd315 issued server command: /setwarp cave
+[01:03:28] [pool-95-thread-1/INFO]: [Essentials] Creating empty config: /home/markd315/mycraft/plugins/Essentials/warps/cave.yml
+[01:05:44] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[01:13:57] [Server thread/INFO]: Markd315 issued server command: /kit tools
+[01:20:56] [Server thread/INFO]: Markd315 issued server command: /difficulty
+[01:21:04] [Server thread/INFO]: Markd315 issued server command: /difficulty set hard
+[01:21:08] [Server thread/INFO]: Markd315 issued server command: /difficulty
+[01:21:12] [Server thread/INFO]: Markd315 issued server command: /difficulty
+[01:21:15] [Server thread/INFO]: Markd315 issued server command: /difficulty normal
+[01:21:15] [Server thread/INFO]: [Markd315: The difficulty has been set to Normal]
+[01:22:11] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[01:25:12] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[01:26:56] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[01:43:12] [Server thread/INFO]: Markd315 issued server command: /t claim
+[01:43:12] [Server thread/INFO]: [com.palmergames.bukkit.towny.Towny] Plot snapshots completed.
+[01:45:37] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[02:12:12] [Server thread/INFO]: Markd315 issued server command: /towny map
+[02:12:32] [Server thread/INFO]: Markd315 issued server command: /t delete
+[02:12:44] [Server thread/INFO]: Markd315 issued server command: /t bal
+[02:12:48] [Server thread/INFO]: Markd315 issued server command: /t balance
+[02:12:51] [Server thread/INFO]: Markd315 issued server command: /town balance
+[02:13:01] [Server thread/INFO]: Markd315 issued server command: /town bank
+[02:13:03] [Server thread/INFO]: Markd315 issued server command: /town
+[02:13:33] [Server thread/INFO]: Markd315 issued server command: /jobs browse
+[02:15:04] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194218
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:09] [Craft Scheduler Thread - 856/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194244
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:14] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194264
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:39] [Craft Scheduler Thread - 856/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194338
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:44] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194360
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:49] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194384
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:15:54] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194470
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:16:14] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194539
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:16:19] [Craft Scheduler Thread - 852/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194557
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:16:23] [Server thread/INFO]: Markd315 issued server command: /t spawn
+[02:17:59] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 194975
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:04] [Craft Scheduler Thread - 870/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195000
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:09] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195021
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:14] [Craft Scheduler Thread - 856/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195043
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:19] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195065
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:24] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195095
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:29] [Craft Scheduler Thread - 870/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195114
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:44] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195162
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:49] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195186
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:18:54] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195342
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:19:29] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195469
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:19:34] [Craft Scheduler Thread - 856/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195494
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:19:39] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195517
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:19:44] [Server thread/INFO]: Markd315 issued server command: /bal
+[02:19:44] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195539
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:19:59] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195597
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:20:04] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195621
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:20:09] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195650
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:20:14] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195675
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:20:15] [Server thread/INFO]: Markd315 issued server command: /bal
+[02:20:24] [Server thread/INFO]: Markd315 issued server command: /baltop
+[02:20:31] [Server thread/INFO]: Markd315 issued server command: /jobs
+[02:20:52] [Server thread/INFO]: Markd315 issued server command: /jobs browse
+[02:21:04] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195832
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:09] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195859
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.substract(Economy.java:180) ~[?:?]
+	at com.earth2me.essentials.api.Economy.subtract(Economy.java:172) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.withdrawPlayer(Economy_Essentials.java:106) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.withdrawPlayer(AbstractEconomy.java:40) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.withdrawPlayer(VaultEconomy.java:43) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:43) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:24] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195912
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:29] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 195962
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:34] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196001
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:39] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196033
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:44] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196067
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:49] [Craft Scheduler Thread - 869/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196099
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:54] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196140
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:21:59] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196180
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:22:04] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196216
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:22:09] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196253
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:22:14] [Craft Scheduler Thread - 868/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196290
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:22:19] [Craft Scheduler Thread - 862/WARN]: [Jobs] Plugin Jobs v4.15.5 generated an exception while executing task 196325
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:22:24] [Server thread/INFO]: Markd315 issued server command: /bal
+[02:22:28] [Server thread/INFO]: Markd315 issued server command: /town
+[02:22:43] [Server thread/INFO]: Markd315 issued server command: /plugins
+[02:23:03] [Server thread/INFO]: Markd315 issued server command: /balance
+[02:23:17] [Server thread/INFO]: Markd315 issued server command: /xpconomy:xp
+[02:23:25] [Server thread/INFO]: Markd315 issued server command: /help xpconomy
+[02:25:29] [Server thread/INFO]: Markd315 issued server command: /stop
+[02:25:29] [Server thread/INFO]: [Markd315: Stopping the server]
+[02:25:29] [Server thread/INFO]: Stopping server
+[02:25:29] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.0.3
+[02:25:29] [Server thread/INFO]: [Dynmap-Towny] Disabling Dynmap-Towny v0.75
+[02:25:29] [Server thread/INFO]: [PlayerInfo] Disabling PlayerInfo v2.0
+[02:25:29] [Server thread/INFO]: [PlayerInfo] PlayerInfo has been disabled.
+[02:25:29] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.16.0.3
+[02:25:29] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.0.3
+[02:25:29] [Server thread/INFO]: [TownyChat] Disabling TownyChat v0.68
+[02:25:29] [Server thread/INFO]: [Banknotes] Disabling Banknotes v0.1.5
+[02:25:29] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.7.8
+[02:25:29] [Server thread/INFO]: [MonsterBox] Disabling MonsterBox v1.2
+[02:25:29] [Server thread/INFO]: MonsterBox disabled!
+[02:25:29] [Server thread/INFO]: [MobArena] Disabling MobArena v0.104.2
+[02:25:29] [Server thread/INFO]: [Jobs] Disabling Jobs v4.15.5
+[02:25:29] [Server thread/INFO]: [Jobs] Saved 209 new explorer entries.
+[02:25:29] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Database save task shutdown!
+[02:25:29] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Buffered payment thread shutdown.
+[02:25:29] [Server thread/INFO]: [Jobs] Plugin has been disabled successfully.
+[02:25:29] [Server thread/INFO]: [Towny] Disabling Towny v0.96.0.2
+[02:25:29] [Server thread/INFO]: ==============================================================
+[02:25:29] [Server thread/INFO]: [Towny] Version: 0.96.0.2 - Mod Disabled
+[02:25:29] [Server thread/INFO]: =============================================================
+[02:25:29] [Server thread/INFO]: [Autorank] Disabling Autorank v3.7
+[02:25:29] [Server thread/INFO]: [Autorank] Autorank 3.7 has been disabled!
+[02:25:29] [Server thread/INFO]: [PVP Arena] Disabling pvparena v1.3.1.50
+[02:25:29] [Server thread/INFO]: [PVP Arena] Plugin tracking disabled. See you soon?
+[02:25:29] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v1.3.1.50)
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v2.3.6
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] 
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] 
+[02:25:29] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[02:25:29] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.0.3
+[02:25:29] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[02:25:29] [Server thread/INFO]: [SlotMachine] Disabling SlotMachine v6.1.0
+[02:25:29] [Server thread/INFO]: [SlotMachine] Removing old backup
+[02:25:29] [Server thread/INFO]: [SlotMachine] Creating a backup of /machines to /machinesLastBakup
+[02:25:29] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10.1 (build 174)
+[02:25:29] [Server thread/INFO]: [Vault] Disabling Vault v1.5.3-b37
+[02:25:29] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[02:25:29] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.1.0-b805
+[02:25:29] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[02:25:29] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[02:25:29] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.3.5-Release
+[02:25:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[02:25:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[02:25:31] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[02:25:31] [Server thread/INFO]: [CustomPolls] Disabling CustomPolls v1.1.1
+[02:25:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[02:25:31] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[02:25:31] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[02:25:31] [Server thread/INFO]: [Votifier] Disabling Votifier v2.5.0
+[02:25:31] [Server thread/INFO]: [Votifier] Votifier disabled.
+[02:25:31] [Server thread/INFO]: [Lockette] Disabling Lockette v1.8.21
+[02:25:31] [Server thread/INFO]: [XPConomy] Disabling XPConomy v1.1
+[02:25:31] [Server thread/INFO]: [XPConomy] Has been disabled
+[02:25:31] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.0.1
+[02:25:31] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[02:25:31] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[02:25:31] [Server thread/INFO]: [CityWorld] Disabling CityWorld v4.04
+[02:25:31] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Disabled
+[02:25:31] [Server thread/INFO]: [Questioner] Disabling Questioner v0.6
+[02:25:31] [Server thread/INFO]: [Questioner] v0.6 - Disabled
+[02:25:31] [Server thread/INFO]: [ColoredSigns] Disabling ColoredSigns v2.0
+[02:25:31] [Server thread/WARN]: [ColoredSigns] ColoredSigns version 2.0 disabling...
+[02:25:31] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[02:25:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:25:31] [Server thread/INFO]: [dynmap] Disabling dynmap v3.0-beta-10-257
+[02:25:31] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[02:25:31] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[02:25:32] [Server thread/INFO]: [dynmap] Saved 13 pending tile renders in world 'Sonora'
+[02:25:32] [Server thread/INFO]: [dynmap] Disabled
+[02:25:32] [Server thread/INFO]: [CleanroomGenerator] Disabling CleanroomGenerator v1.0.0
+[02:25:32] [Server thread/INFO]: Saving players
+[02:25:32] [Server thread/INFO]: Markd315 lost connection: Server closed
+[02:25:32] [Server thread/INFO]: Markd315 left the game
+[02:25:32] [Server thread/INFO]: Saving worlds
+[02:25:32] [Server thread/INFO]: Saving chunks for level 'Sonora'/minecraft:overworld
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Sonora): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Sonora_nether'/minecraft:the_nether
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Sonora_the_end'/minecraft:the_end
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Legora'/minecraft:legora
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Legora): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'IridiumSkyblock_nether'/minecraft:iridiumskyblock_nether
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'EpicSkyblock'/minecraft:epicskyblock
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Gillamoor'/minecraft:gillamoor
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gillamoor): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Voxity'/minecraft:voxity
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Voxity): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Lachrysa'/minecraft:lachrysa
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Akama'/minecraft:akama
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Akama): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'Ehiria'/minecraft:ehiria
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ehiria): All chunks are saved
+[02:25:33] [Server thread/INFO]: Saving chunks for level 'IridiumSkyblock'/minecraft:iridiumskyblock
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Sonora): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Legora): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gillamoor): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (Voxity): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (Akama): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ehiria): All chunks are saved
+[02:25:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
+[02:25:34] [Server thread/INFO]: Flushing Chunk IO
+[02:25:34] [Server thread/INFO]: Closing Thread Pool
+[02:25:34] [Server thread/INFO]: Closing Server

@@ -1,148 +1,193 @@
-  # The formats below will specify the changes made to the player chat when talking.
-  # These keys can be used in other plugins that modify the chat format like iChat.
  
-  # {worldname} - Displays the world the player is currently in.
-  # {town} - Displays town name if a member of a town.
-  # {townformatted} - Displays town name (if a member of a town) using tag_format.town.
-  # {towntag} - Displays the formated town tag (if a member of a town) using modify_chat.tag_format.town.
-  # {towntagoverride} - Displays the formated town tag (if a member of a town and present) or falls back to the full name (using modify_chat.tag_format.town).
+version:
+  # This is the current version of Towny.  Please do not edit.
+  version: '0.68'
+  # This is for showing the changelog on updates.  Please do not edit.
+  last_run_version: '0.68'
  
-  # {nation} - Displays nation name if a member of a nation.
-  # {nationformatted} - Displays nation name (if a member of a nation) using tag_format.town.
-  # {nationtag} - Displays the formated nation tag (if a member of a nation) using modify_chat.tag_format.nation.
-  # {nationtagoverride} - Displays the formated nation tag (if a member of a nation and present) or falls back to the full name (using modify_chat.tag_format.nation).
+############################################################
+# +------------------------------------------------------+ #
+# |                    ChatConfig.yml                    | #
+# +------------------------------------------------------+ #
+############################################################
+#
+# The formats below will specify the changes made to the player chat when talking.
+#
+# {worldname} - Displays the world the player is currently in.
+# {town} - Displays town name if a member of a town.
+# {townformatted} - Displays town name (if a member of a town) using tag_format.town.
+# {towntag} - Displays the formated town tag (if a member of a town) using modify_chat.tag_format.town.
+# {towntagoverride} - Displays the formated town tag (if a member of a town and present) or falls back to the full name (using modify_chat.tag_format.town).
+#
+# {nation} - Displays nation name if a member of a nation.
+# {nationformatted} - Displays nation name (if a member of a nation) using tag_format.town.
+# {nationtag} - Displays the formated nation tag (if a member of a nation) using modify_chat.tag_format.nation.
+# {nationtagoverride} - Displays the formated nation tag (if a member of a nation and present) or falls back to the full name (using modify_chat.tag_format.nation).
+#
+# {townytag} - Displays the formated town/nation tag as specified in modify_chat.tag_format.both.
+# {townyformatted} - Displays the formated full town/nation names as specified in modify_chat.tag_format.both.
+# {townytagoverride} - Displays the formated town/nation tag (if present) or falls back to the full names (using modify_chat.tag_format.both).
+#
+# {title} - Towny resident Title.
+# {surname} - Towny resident Surname.
+# {townynameprefix} - Towny name prefix taken from the townLevel/nationLevels.
+# {townynamepostfix} - Towny name postfix taken from the townLevel/nationLevels.
+# {townyprefix} - Towny resident title, or townynameprefix if no title exists.
+# {townypostfix} - Towny resident surname, or townynamepostfix if no surname exists
+#
+# {townycolor} - Towny name colour for king/mayor/resident.
+# {group} - Players group name pulled from your permissions plugin.
+# {permuserprefix} - Permission user prefix.
+# {permusersuffix} - Permission user suffix.
+# {permgroupprefix} - Permission group prefix.
+# {permgroupsuffix} - Permission group suffix.
+# {permprefix} - Permission group and user prefix.
+# {permsuffix} - Permission group and user suffix.
+#
+# {playername} - Default player name.
+# {modplayername} - Modified player name (use if Towny is over writing some other plugins changes).
+# {msg} - The message sent.
+#
+# {channelTag} - Defined in the channels entry in Channels.yml.
+# {msgcolour} - Defined in the channels entry in Channels.yml.
+#
+# Text colouring
+# --------------
+# Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+# Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+# DarkPurple = &9, LightGreen = &a, LightBlue = &b
+# Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#
+# Text altering
+# -------------
+# Bold = &l, Italics = &o, Underlined = &n,
+# Magic = &k, Strike = &m, Reset = &r
+chatconfigcomments: ''
+spam_time: '0.5'
+heroicdeathtoirc:
+  enabled: 'true'
+  craftirctags: admin
  
-  # {townytag} - Displays the formated town/nation tag as specified in modify_chat.tag_format.both.
-  # {townyformatted} - Displays the formated full town/nation names as specified in modify_chat.tag_format.both.
-  # {townytagoverride} - Displays the formated town/nation tag (if present) or falls back to the full names (using modify_chat.tag_format.both).
+channel_formats:
+  # This is the format which will be used for GLOBAL chat/channels.
+  # This is also the format used when you have modify_chat.enable: true, but use other plugins to handle chat.
+  global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}&f:{msgcolour} {msg}'
+  # TOWN channel types.
+  town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+  # NATION channel types.
+  nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+  # ALLIANCE channel types.
+  alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+  # DEFAULT channel types.
+  default: '{channelTag} {permprefix}{playername}&f:{msgcolour} {msg}'
  
-  # {title} - Towny resident Title
-  # {surname} - Towny resident surname
-  # {townynameprefix} - Towny name prefix taken from the townLevel/nationLevels
-  # {townynamepostfix} - Towny name postfix taken from the townLevel/nationLevels.
-  # {townyprefix} - Towny resident title, or townynameprefix if no title exists
-  # {townypostfix} - Towny resident surname, or townynamepostfix if no surname exists
+tag_formats:
+  world: '&f[&f%s&f] '
+  town: '&f[&3%s&f] '
+  nation: '&f[&e%s&f] '
+  # First %s is the nation tag, second is the town tag.
+  # You may also use %t for the town tag and %n for the nation tag!
+  both: '&f[&6%s&f|&3%s&f] '
  
-  # {townycolor} - Towny name colour for king/mayor/resident
-  # {group} - Players group name pulled from your permissions plugin
-  # {permprefix} - Permission group prefix
-  # {permsuffix} - Permission group suffix.
+colour:
+  king: '&6'
+  mayor: '&b'
+  resident: '&f'
+  nomad: '&f'
  
-  # {playername} - Default player name.
-  # {modplayername} - Modified player name (use if Towny is over writing some other plugins changes).
-  # {msg} - The message sent.
-  
-  # {channelTag} - Defined in the channels entry in Channels.yml
-  # {msgcolour} - Defined in the channels entry in Channels.yml
-  
-  # Text colouring
-  # --------------
-  # Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
-  # Purple = &5, Gold = &6, LightGray = &7, Gray = &8
-  # DarkPurple = &9, LightGreen = &a, LightBlue = &b
-  # Rose = &c, LightPurple = &d, Yellow = &e, White = &f
- 
-  # Spam_time set the minimum time between messages to be flagged as spam
-  spam_time: 0.5
-  
-  # If using our updated HeroicDeath.jar and craftIRC 3.1 (dev), you can
-  #configure what IRC channels you want death messages relayed to.
-  HeroicDeathToIRC:
-    enabled: true
-    # comma delimited list of craftIRC channel tags 'admin,blah,blah'.
-    craftIRCTags: 'admin'
-
-  channel_formats:
-    # This is the format which will be used for GLOBAL chat/channels.
-    # This is also the format used when you have modify_chat.enable: true, but use other plugins to handle chat.
-    global: '{channelTag}{worldname}{townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    # TOWN channel types.
+worlds:
+  Ehiria:
+    global: '&b[&2Ehiria&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&b[&2Ehiria&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Akama:
+    global: '&a[&3Akama&a]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&a[&3Akama&a]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  SCBB:
+    global: '{worldname}{townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    default: '{channelTag} {permprefix}{playername}&f:{msgcolour} {msg}'
+  Sonora_nether:
+    global: '&8[&4Nether&8]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&8[&4Nether&8]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Lachrysa:
+    global: '&c[&4Lachrysa&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&c[&4Lachrysa&c]&f{permprefix}{playername}&f:{msgcolour} {msg}'
+  Sonora:
+    global: '&1[&6Sonora&1]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&1[&6Sonora&1]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Sonora_the_end:
+    global: '&7[&8The End&7]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&7[&8The End&7]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Legora:
+    global: '&6[&cLegora&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&6[&cLegora&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Gillamoor:
+    global: '&6[&2Gillamoor&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&6[&2Gillamoor&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  Voxity:
+    global: '&b[&0Voxity&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&b[&0Voxity&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  EpicSkyblock:
+    global: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  IridiumSkyblock:
+    global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    # NATION channel types.
-    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    # DEFAULT channel types.
+    nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
-    
-  tag_formats:
-      world: '&f[&f%s&f] '
-      town: '&f[&3%s&f] '
-      nation: '&f[&e%s&f] '
-      # First %s is the nation tag, second is the town tag.
-      both: '&f[&6%s&f|&3%s&f] '
-      
-    # Chat colours
-  colour:
-    king: '&6'
-    mayor: '&b'
-    resident: '&f'
-    
-  modify_chat:
-    # This is used for when you don't have another plugin to format chat.
-    # or you want some other plugin to handle open chat, but want Towny formatting.
-    # It will cause Towny to overwrite any other plugins alterations to the format.
-    enable: 'true'
-    # If true the chat formats will be read from below to allow per world formatting.
-    # These can then be altered individually.
-    per_world: 'true'
-    
-  worlds:
-    'ehiria':
-      global: '{channelTag}&b[&2Ehiria&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&b[&2Ehiria&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'akama':
-      global: '{channelTag}&a[&3Akama&a]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&a[&3Akama&a]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'scbb':
-      global: '{channelTag}{worldname}{townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
-    'odawth':
-      global: '{channelTag}&c[&9Odawth&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&c[&9Odawth&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'caoms_nether':
-      global: '{channelTag}&8[&4Nether&8]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&8[&4Nether&8]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'islandworld':
-      global: '{channelTag}{worldname}{townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
-    'lachrysa':
-      global: '{channelTag}&c[&4Lachrysa&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
-    'caoms':
-      global: '{channelTag}&1[&6Caoms&1]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&1[&6Caoms&1]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'caoms_the_end':
-      global: '{channelTag}&7[&8The End&7]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&7[&8The End&7]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'legora':
-      global: '{channelTag}&6[&cLegora&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&6[&cLegora&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'gillamoor':
-      global: '{channelTag}&6[&2Gillamoor&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag}&6[&2Gillamoor&6]&f {townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    'voxity':
-      global: '{channelTag}{worldname}{townytagoverride}{townycolor}{permprefix} {modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-      default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
+  IridiumSkyblock_nether:
+    global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
+ 
+modify_chat:
+  # When true Towny will format all ChannelTypes,
+  # When false Towny will only format TOWN, NATION, ALLIANCE, DEFAULT types.
+  # When false Towny will not format GLOBAL types, leaving other chat plugins to do the work.
+  enable: 'true'
+  # If true the chat formats will be read from below to allow per world formatting.
+  # These can then be altered individually.
+  per_world: 'true'
+  # If true any player who speaks in a channel in which he cannot be heard,
+  # either by being along in the channel or out-of-range of another player in his chat channel,
+  # that player will see a message saying they cannot be heard.
+  alone_message: 'false'
+  # This allows you to set your alone message.
+  alone_message_string: No one in range can hear you or you are alone in this channel.
+ 
+# If true players will see [Towny] Modes set: general when they log in.
+display_modes_set_on_join: 'true'

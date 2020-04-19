@@ -38,7 +38,6 @@ plotManagementMayorDelete=WALL_SIGN,SIGN_POST
 # If enabled when a town claims a townblock a snapshot will be taken at the time it is claimed.
 # When the townblock is unclaimded its blocks will begin to revert to the original snapshot.
 usingPlotManagementRevert=true
-usingPlotManagementRevertSpeed=1
 # Any block Id's listed here will not be respawned. Instead it will revert to air.
 plotManagementIgnoreIds=GOLD_ORE,LAPIS_ORE,LAPIS_BLOCK,GOLD_BLOCK,IRON_BLOCK,MOSSY_COBBLESTONE,TORCH,MOB_SPAWNER,DIAMOND_ORE,DIAMOND_BLOCK,SIGN_POST,WALL_SIGN,GLOWSTONE
 
@@ -49,3 +48,7 @@ usingPlotManagementWildRegenDelay=20
 
 # This setting is used to enable or disable Towny in this world.
 usingTowny=true
+
+# This setting is used to enable or disable Event war in this world.
+warAllowed=true
+metadata=

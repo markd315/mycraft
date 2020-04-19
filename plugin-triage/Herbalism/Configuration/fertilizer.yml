@@ -1,0 +1,118 @@
+Bone_Meal:
+  Material: "Ink_Sack"
+  Data: 15
+  Buyable: false
+  Exp: 0.01
+  Effect:
+    Growth_Additional: 180.0
+
+Rock_Phosphate:
+  Display_Name: "&8[ &cRock Phosphate &8]"
+  Material: "Ink_Sack"
+  Data: 7
+  Buyable: true
+  Price: 100
+  Exp: 0.05
+  Requirement:
+    Level: 12
+  Effect:
+    Growth_Additional: 300.0
+  Lores:
+  - "&9Fertilizer"
+  - "&2Description:"
+  - "&a► This fertilizer can enhance crops when rainfall in a long period"
+  - "&a► Contains 25 to 35% phosphoric acid that insoluble in water"
+  - "&eEffect:"
+  - "&7► Time Growth: &f+{effect_growth_additional} seconds"
+  - "&6Requirement:"
+  - "&7► Level: &f{requirement_level}"
+    
+Slag:
+  Display_Name: "&8[ &cSlag &8]"
+  Material: "Ink_Sack"
+  Data: 7
+  Buyable: true
+  Price: 7
+  Exp: 0.08
+  Requirement:
+    Level: 24
+  Effect:
+    Growth_Additional: 450.0
+  Lores:
+  - "&9Fertilizer"
+  - "&2Description:"
+  - "&a► Used as a fertilizer to a lesser extent than Superphosphate"
+  - "&a► Slag is an excellent fertilizer that can be used to amend soils"
+  - "&a► Soil change by slag is due to the acid from the alkaline reaction"
+  - "&eEffect:"
+  - "&7► Time Growth: &f+{effect_growth_additional} seconds"
+  - "&6Requirement:"
+  - "&7► Level: &f{requirement_level}"
+  
+Superphosphate:
+  Display_Name: "&8[ &cSuperphosphate &8]"
+  Material: "Ink_Sack"
+  Data: 8
+  Buyable: true
+  Price: 120
+  Exp: 0.12
+  Requirement:
+    Level: 42
+  Effect:
+    Growth_Additional: 600.0
+  Lores:
+  - "&9Fertilizer"
+  - "&2Description:"
+  - "&a► A fertilizer type that most gardeners are familiar with"
+  - "&a► The advantage is the phosphoric acid is fully water soluble"
+  - "&a► Superphosphate should be applied at sowing or transplant time"
+  - "&eEffect:"
+  - "&7► Time Growth: &f+{effect_growth_additional} seconds"
+  - "&6Requirement:"
+  - "&7► Level: &f{requirement_level}"
+  
+Urea:
+  Display_Name: "&8[ &cUrea &8]"
+  Material: "Ghast_Tear"
+  Buyable: true
+  Price: 100
+  Exp: 0.1
+  Requirement:
+    Level: 32
+    Permission: "herbalism.fertilizer.urea"
+  Effect:
+    Growth_Percent: 5.0
+  Lores:
+  - "&9Fertilizer"
+  - "&2Description:"
+  - "&a► This fertilizer usually is available to the public"
+  - "&a► It is a highly concentrated nitrogenous fertilizer"
+  - "&a► When applied, its nitrogen is rapidly changed into ammonia"
+  - "&eEffect:"
+  - "&7► Time Harvest: &f-{effect_growth_percent}%"
+  - "&6Requirement:"
+  - "&7► Permission: &f{requirement_permission}"
+  - "&7► Level: &f{requirement_level}"
+  
+Chilates:
+  Display_Name: "&8[ &cChilates &8]"
+  Material: "Ghast_Tear"
+  Buyable: true
+  Price: 150
+  Exp: 0.15
+  Requirement:
+    Level: 54
+    Permission: "herbalism.fertilizer.chilates"
+  Effect:
+    Growth_Percent: 7.2
+  Lores:
+  - "&9Fertilizer"
+  - "&2Description:"
+  - "&a► Sodium Nitrates are also known as Chilates or Chilean nitrate"
+  - "&a► Nitrogen contained in Chilates is refined and amounts to 16%"
+  - "&a► The excess use of Sodium Nitrate may cause deflocculation"
+  - "&eEffect:"
+  - "&7► Time Harvest: &f-{effect_growth_percent}%"
+  - "&6Requirement:"
+  - "&7► Permission: &f{requirement_permission}"
+  - "&7► Level: &f{requirement_level}"

@@ -1,8 +1,13 @@
 # This is the internal properties file of Autorank. 
 # You should not touch any values here, unless instructed by a developer.
 # Autorank uses these to keep track of certain aspects of the plugin.
-cached leaderboard: []
-leaderboard last updated: 1509067650216
+cached leaderboard:
+- '&a-------- Autorank Leaderboard --------'
+- §61 | §bMarkd315 - §70 days, 12 hours and 58 minutes.
+- §62 | §bdalekcaan64 - §70 days, 3 hours and 31 minutes.
+- §63 | §bCocaCola0610 - §70 days, 0 hours and 15 minutes.
+- '&a------------------------------------'
+leaderboard last updated: 1587270237837
 has converted uuids: true
 tracked month: 9
 tracked week: 44

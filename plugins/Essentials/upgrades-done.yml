@@ -1,10 +1,9 @@
 updateSpawnsToNewSpawnsConfig: true
 updateJailsToNewJailsConfig: true
 warnMetrics: true
-movemotdToFile: true
 moverulesToFile: true
-deleteOldItemsCsv: true
 sanitizeAllUserFilenames: true
 updateUsersPowerToolsFormat: true
 updateUsersHomesFormat: true
 banFormatChange: true
+userMapRepaired: true

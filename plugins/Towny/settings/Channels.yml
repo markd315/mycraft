@@ -16,7 +16,7 @@
 
 # messagecolour sets the colour of the message when sent.
 
-# range is a setting which allows greater c ontrol over each channel.
+# range is a setting which allows greater control over each channel.
 # this will set the maximum distance between players who can hear the message.
 # range is in blocks (if set to a limit).
 #
@@ -35,7 +35,7 @@ Channels:
     general:
         commands: [g]
         type: GLOBAL
-        channeltag: ''
+        channeltag: '&f[g]'
         messagecolour: '&f'
         permission: 'towny.chat.general'
         craftIRCTag: 'admin'
@@ -44,7 +44,7 @@ Channels:
     town:
         commands: [tc]
         type: TOWN
-        channeltag: '&f[&3Town&f]'
+        channeltag: '&f[&3TC&f]'
         messagecolour: '&b'
         permission: 'towny.chat.town'
         craftIRCTag: 'admin'
@@ -53,8 +53,35 @@ Channels:
     nation:
         commands: [nc]
         type: NATION
-        channeltag: '&f[&6Nation&f]'
+        channeltag: '&f[&6NC&f]'
         messagecolour: '&e'
         permission: 'towny.chat.nation'
         craftIRCTag: 'admin'
         range: '-1'
+        
+    admin:
+        commands: [a,admin]
+        type: DEFAULT
+        channeltag: '&f[&4ADMIN&f]'
+        messagecolour: '&c'
+        permission: 'towny.chat.admin'
+        craftIRCTag: 'admin'
+        range: '-1'
+        
+    mod:
+        commands: [m,mod]
+        type: DEFAULT
+        channeltag: '&f[&9MOD&f]'
+        messagecolour: '&5'
+        permission: 'towny.chat.mod'
+        craftIRCTag: 'admin'
+        range: '-1'
+        
+    local:
+        commands: [l,lc]
+        type: GLOBAL
+        channeltag: '&f[local]'
+        messagecolour: '&f'
+        permission: 'towny.chat.local'
+        craftIRCTag: 'admin'
+        range: '100'

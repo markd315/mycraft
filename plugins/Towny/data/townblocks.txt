@@ -1,0 +1,7 @@
+Sonora,21,3
+Sonora,20,3
+Sonora,23,3
+Sonora,23,4
+Sonora,22,2
+Sonora,22,3
+Sonora,22,4

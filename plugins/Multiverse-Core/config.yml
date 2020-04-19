@@ -28,7 +28,8 @@ multiverse-configuration:
   silentstart: 'false'
   messagecooldown: '5000'
   version: '2.9'
-  firstspawnworld: Caoms
+  firstspawnworld: Sonora
   teleportcooldown: '1000'
   defaultportalsearch: 'false'
   portalsearchradius: '128'
+  autopurge: 'true'

@@ -1,0 +1,400 @@
+Seeds_Default:
+  Category: "Seeds"
+  Material: "Seeds"
+  Crops:
+    Grain_Default:
+      Possibility: 100
+      
+Seeds_Barley:
+  Category: "Seeds"
+  Display_Name: "&8[ &aBarley Seeds &8]"
+  Material: "Seeds"
+  Buyable: true
+  Price: 26
+  Crops:
+    Grain_Barley:
+      Possibility: 100
+      
+Seeds_Oat:
+  Category: "Seeds"
+  Display_Name: "&8[ &aOat Seeds &8]"
+  Material: "Seeds"
+  Buyable: true
+  Price: 60.5
+  Crops:
+    Grain_Oat:
+      Possibility: 100
+      
+Seeds_Beetroot_Default:
+  Category: "Seeds"
+  Material: "Beetroot_Seeds"
+  Crops:
+    Beetroot_Default:
+      Possibility: 100
+      
+Seeds_Beetroot_Alto:
+  Category: "Seeds"
+  Display_Name: "&8[ &aAlto Beetroot Seeds &8]"
+  Material: "Beetroot_Seeds"
+  Buyable: true
+  Price: 2.0
+  Crops:
+    Beetroot_Alto:
+      Possibility: 100
+      
+Seeds_Beetroot_Boltardy:
+  Category: "Seeds"
+  Display_Name: "&8[ &aBoltardy Beetroot Seeds &8]"
+  Material: "Beetroot_Seeds"
+  Buyable: true
+  Price: 3.0
+  Crops:
+    Beetroot_Boltardy:
+      Possibility: 100
+      
+Seeds_Melon_Default:
+  Category: "Seeds"
+  Material: "Melon_Seeds"
+  Crops:
+    Melon_Default:
+      Possibility: 100
+      
+Seeds_Melon_Honeydew:
+  Category: "Seeds"
+  Display_Name: "&8[ &aHoneydew Melon Seeds &8]"
+  Material: "Melon_Seeds"
+  Buyable: true
+  Price: 1.4
+  Crops:
+    Melon_Honeydew:
+      Possibility: 100
+      
+Seeds_Melon_Cantalope:
+  Category: "Seeds"
+  Display_Name: "&8[ &aCantalope Melon Seeds &8]"
+  Material: "Melon_Seeds"
+  Buyable: true
+  Price: 1.8
+  Crops:
+    Melon_Cantalope:
+      Possibility: 100
+      
+Seeds_Melon_Golden_Prize:
+  Category: "Seeds"
+  Display_Name: "&8[ &aGolden Prize Melon Seeds &8]"
+  Material: "Melon_Seeds"
+  Buyable: true
+  Price: 3.2
+  Crops:
+    Melon_Golden_Prize:
+      Possibility: 100
+      
+Seeds_Pumpkin_Default:
+  Category: "Seeds"
+  Material: "Pumpkin_Seeds"
+  Crops:
+    Pumpkin_Default:
+      Possibility: 100
+      
+Seeds_Pumpkin_Bellatrix:
+  Category: "Seeds"
+  Display_Name: "&8[ &aBellatrix Pumpkin Seeds &8]"
+  Material: "Pumpkin_Seeds"
+  Buyable: true
+  Price: 6.0
+  Crops:
+    Pumpkin_Bellatrix:
+      Possibility: 100
+      
+Seeds_Pumpkin_Hulk:
+  Category: "Seeds"
+  Display_Name: "&8[ &aHulk Pumpkin Seeds &8]"
+  Material: "Pumpkin_Seeds"
+  Buyable: true
+  Price: 11.0
+  Crops:
+    Pumpkin_Hulk:
+      Possibility: 100
+      
+Grain_Default:
+  Category: "Grain"
+  Material: "Wheat"
+  
+Grain_Barley:
+  Category: "Grain"
+  Name: "&8[ &7Barley &8]"
+  Material: "Wheat"
+  Sellable: true
+  Price: 100.4
+  Lores:
+  - "&9Grain"
+  - "&2Description:"
+  - "&a► A major cereal grain grown in temperate climates"
+  - "&a► It was one of the first cultivated grains in Eurasia"
+  - "&a► Source of fermentable material for beer and certain beverages"
+  
+Grain_Oat:
+  Category: "Grain"
+  Name: "&8[ &7Oat &8]"
+  Material: "Wheat"
+  Sellable: true
+  Price: 242.0
+  Lores:
+  - "&9Grain"
+  - "&2Description:"
+  - "&a► One of the most common uses is as livestock feed"
+  - "&a► Oats are a nutrient-rich food associated with"
+  - "&a► Lower blood cholesterol when consumed regularly"
+      
+Carrot_Default:
+  Category: "Carrot"
+  Material: "Carrot_Item"
+  Crops:
+    Carrot_Default:
+      Possibility: 100
+      
+Carrot_Nantes:
+  Category: "Carrot"
+  Display_Name: "&8[ &7Nantes Carrot &8]"
+  Material: "Carrot_Item"
+  Buyable: true
+  Sellable: true
+  Price: 4.4
+  Crops:
+    Carrot_Nantes:
+      Possibility: 100
+  Lores:
+  - "&9Carrot"
+  - "&2Description:"
+  - "&a► Nantes are the easiest carrots for home gardeners to grow"
+  - "&a► They produce sweet, crisp, cylindrical carrots, with blunt tips"
+  - "&a► Nantes carrots perform better in heavier, rockier soils"
+  
+Carrot_Chantenay:
+  Category: "Carrot"
+  Display_Name: "&8[ &7Chantenay Carrot &8]"
+  Material: "Carrot_Item"
+  Buyable: true
+  Sellable: true
+  Price: 7.0
+  Crops:
+    Carrot_Chantenay:
+      Possibility: 100
+  Lores:
+  - "&9Carrot"
+  - "&2Description:"
+  - "&a► Chantenay carrots are short and stout, with broad crowns"
+  - "&a► This carrot variety growth at heavy or rocky soils"
+  - "&a► And they are still a favorite among home gardeners"
+  
+Carrot_Imperator:
+  Category: "Carrot"
+  Display_Name: "&8[ &7Imperator Carrot &8]"
+  Material: "Carrot_Item"
+  Buyable: true
+  Sellable: true
+  Price: 8.2
+  Crops:
+    Carrot_Imperator:
+      Possibility: 100
+  Lores:
+  - "&9Carrot"
+  - "&2Description:"
+  - "&a► Imperator carrots are the classic long, tapered roots"
+  - "&a► A light, sandy loam soil is ideal for growing Imperator carrots"
+
+Potato_Default:
+  Category: "Potato"
+  Material: "Potato_Item"
+  Crops:
+    Potato_Default:
+      Possibility: 100
+  
+Potato_Russet:
+  Category: "Potato"
+  Display_Name: "&8[ &7Russet Potato &8]"
+  Material: "Potato_Item"
+  Buyable: true
+  Sellable: true
+  Price: 7.7
+  Crops:
+    Potato_Russet:
+      Possibility: 100
+  Lores:
+  - "&9Potato"
+  - "&2Description:"
+  - "&a► Have a neutral potato flavor, creamy and soft texture"
+  - "&a► This potato best for baking and making French fries"
+  - "&a► They're also great paired with butter and cream"
+  
+Potato_Katahdin:
+  Category: "Potato"
+  Display_Name: "&8[ &7Katahdin Potato &8]"
+  Material: "Potato_Item"
+  Buyable: true
+  Sellable: true
+  Price: 14.0
+  Crops:
+    Potato_Katahdin:
+      Possibility: 100
+  Lores:
+  - "&9Potato"
+  - "&2Description:"
+  - "&a► This potato variety is fluffy, creamy and has soft texture"
+  - "&a► Have smooth skin yellowish flesh, and a classic flavor"
+  - "&a► Best for boiling, baking and making French fries"
+
+Potato_Poisonous:
+  Category: "Potato"
+  Material: "Poisonous_Potato"
+  
+Beetroot_Default:
+  Category: "Beetroot"
+  Material: "Beetroot"
+  
+Beetroot_Alto:
+  Category: "Beetroot"
+  Display_Name: "&8[ &7Alto Beetroot &8]"
+  Material: "Beetroot"
+  Sellable: true
+  Price: 8.0
+  Lores:
+  - "&9Beetroot"
+  - "&2Description:"
+  - "&a► Alto is different from traditional globe beetroot"
+  - "&a► This beetroot variation has a long cylindrical shape"
+  - "&a► This beetroot has a sweet taste and smooth texture"
+  
+Beetroot_Boltardy:
+  Category: "Beetroot"
+  Display_Name: "&8[ &7Boltardy Beetroot &8]"
+  Material: "Beetroot"
+  Sellable: true
+  Price: 11.7
+  Lores:
+  - "&9Beetroot"
+  - "&2Description:"
+  - "&a► Boltardy was awarded an Award of Garden Merit in 1993"
+  - "&a► Is the most popular variety of beetroot grown in the UK"
+  - "&a► These seeds are widely available from garden centers"
+      
+Melon_Default:
+  Category: "Melon"
+  Material: "Melon_Slice"
+  
+Melon_Honeydew:
+  Category: "Melon"
+  Name: "&8[ &7Honeydew Melon &8]"
+  Material: "Melon_Slice"
+  Sellable: true
+  Price: 5.5
+  Lores:
+  - "&9Melon"
+  - "&2Description:"
+  - "&a► Honeydew Melon has sweet and juicy taste"
+  - "&a► Popular well known fruit as a dessert ingredient"
+  - "&a► Its color is pale green and has a very smooth skin"
+  
+Melon_Cantalope:
+  Category: "Melon"
+  Name: "&8[ &7Cantalope Melon &8]"
+  Material: "Melon_Slice"
+  Sellable: true
+  Price: 7.5
+  Lores:
+  - "&9Melon"
+  - "&2Description:"
+  - "&a► Cantaloupe is the most famous melon in the US"
+  - "&a► Cantaloupe usually served as a fruit salad"
+  - "&a► Its size ranges from 500 g to 5 kg"
+  
+Melon_Golden_Prize:
+  Category: "Melon"
+  Name: "&8[ &7Golden Prize Melon &8]"
+  Material: "Speckled_Melon"
+  Sellable: true
+  Price: 12.7
+  Lores:
+  - "&9Melon"
+  - "&2Description:"
+  - "&a► Golden Prize Melon shape is slightly elliptical"
+  - "&a► The flesh is fresh orange and the taste is sweet"
+  - "&a► Favorite fruit especially for the exporter"
+  
+Pumpkin_Default:
+  Category: "Pumpkin"
+  Material: "Pumpkin"
+  
+Pumpkin_Bellatrix:
+  Category: "Pumpkin"
+  Name: "&8[ &7Bellatrix Pumpkin &8]"
+  Material: "Pumpkin"
+  Sellable: true
+  Price: 23.9
+  Lores:
+  - "&9Pumpkin"
+  - "&2Description:"
+  - "&a► Bellatrix produces a high yield of beautiful round pumpkins"
+  - "&a► With bright-orange color that are ideal for carving"
+  - "&a► The fruit have a very strong handle for ease of transportation"
+  
+Pumpkin_Hulk:
+  Category: "Pumpkin"
+  Name: "&8[ &7Hulk Pumpkin &8]"
+  Material: "Pumpkin"
+  Sellable: true
+  Price: 43.9
+  Lores:
+  - "&9Pumpkin"
+  - "&2Description:"
+  - "&a► Hulk is large, barrel-shaped, is dark-orange"
+  - "&a► This pumpkin has a large, embedded handle"
+  - "&a► It has uniform fruit and sets several fruits per plant"
+  
+Cocoa_Default:
+  Category: "Cocoa"
+  Material: "Cocoa_Beans"
+  Crops:
+    Cocoa_Default:
+      Possibility: 100
+      
+Cocoa_Forastero:
+  Category: "Cocoa"
+  Name: "&8[ &7Forastero Cocoa &8]"
+  Material: "Cocoa_Beans"
+  Buyable: true
+  Sellable: true
+  Price: 10.4
+  Crops:
+    Cocoa_Forastero:
+      Possibility: 100
+  Lores:
+  - "&9Cocoa"
+  - "&2Description:"
+  - "&a► This cocoa is considered the forefather of all cocoa"
+  - "&a► It accounts for some 80% of global cocoa cultivation"
+  - "&a► The flavors that can in some cases become bitter or sour"
+  
+Cocoa_Criocollo:
+  Category: "Cocoa"
+  Name: "&8[ &7Criocollo Cocoa &8]"
+  Material: "Cocoa_Beans"
+  Buyable: true
+  Sellable: true
+  Price: 21.5
+  Crops:
+    Cocoa_Criocollo:
+      Possibility: 100
+  Lores:
+  - "&9Cocoa"
+  - "&2Description:"
+  - "&a► Criollo is considered the finest of the luxury cocoas"
+  - "&a► It has a mild cocoa flavor with a distinctive aroma"
+  - "&a► It produces smaller yields and the fruit is more expensive"
+  
+Nether_Wart_Default:
+  Category: "Nether_Wart"
+  Material: "Nether_Stalk"
+  Crops:
+    Nether_Wart_Default:
+      Possibility: 100

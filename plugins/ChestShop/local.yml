@@ -48,3 +48,18 @@ CANNOT_CREATE_SHOP_HERE: "You can't create shop here!"
 TOGGLE_MESSAGES_OFF: "You will no longer receive messages from your shop(s)."
 TOGGLE_MESSAGES_ON: "You will now receive messages from your shop(s)."
 
+NO_ECONOMY_ACCOUNT: "Economy account from shop owner doesn't exist!"
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "%price %item&7 shop at &r%world/%x/%y/%z&7 is full! (%seller tried to sell)"
+
+SELL_PRICE_ABOVE_MAX: "Sell price is above maximum!"
+SELL_PRICE_BELOW_MIN: "Sell price is below minimum!"
+BUY_PRICE_ABOVE_MAX: "Buy price is above maximum!"
+BUY_PRICE_BELOW_MIN: "Buy price is below minimum!"
+
+CLICK_TO_AUTOFILL_ITEM: "Click the sign with the item that this shop is for!"
+NO_ITEM_IN_HAND: "You don't have an item in your hand to autofill!"
+PROTECTED_SHOP_SIGN: "Successfully protected the shop sign with LWC!"
+
+TOGGLE_ACCESS_ON: "You can no longer trade at shops that you have access to"
+TOGGLE_ACCESS_OFF: "You can now trade at shops that you have access to"
+

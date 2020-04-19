@@ -1,0 +1,10 @@
+name=
+price=-1.0
+town=Zanzaland
+type=0
+outpost=false
+permissions=residentBuild,residentDestroy,residentSwitch,residentItemUse,pvp,fire
+changed=true
+locked=false
+metadata=
+groupID=

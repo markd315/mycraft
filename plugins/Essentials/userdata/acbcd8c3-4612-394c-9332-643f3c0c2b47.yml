@@ -1,34 +1,24 @@
 lastAccountName: Markd315
 timestamps:
-  login: 1509068517446
-  logout: 1509066025786
+  login: 1587340207429
+  lastteleport: 1587340496073
+  logout: 1587266539394
   kits:
-    tools: 1470172159770
-  lastteleport: 1509067618190
-  lastheal: 1470170906592
-ipAddress: 192.168.0.105
+    tools: 1587345237927
+ipAddress: 73.171.227.64
 lastlocation:
-  world: Ehiria
-  x: 744.6841435113831
-  y: 60.72942587853451
-  z: 1690.8847446364728
-  yaw: 35.6271
-  pitch: 34.37919
+  world: Sonora
+  x: 376.01356615758476
+  y: 69.875
+  z: 61.321658626566716
+  yaw: 67.71622
+  pitch: 42.75611
 logoutlocation:
-  world: Caoms
-  x: 7.569382227818434
-  y: 145.0
-  z: -23.926036781835673
-  yaw: -223.88239
-  pitch: 14.129563
-money: '1703.92680000000011233'
-homes:
-  home:
-    world: Caoms
-    x: 25.5
-    y: 148.0
-    z: -17.5
-    yaw: 0.0
-    pitch: 0.0
+  world: Akama
+  x: 340.2744424621601
+  y: 61.335694816013245
+  z: 2.70975034022638
+  yaw: -90.21733
+  pitch: 20.952915
 afk: false
-socialspy: false
+money: '63.9962000000000031'
