@@ -2201,3 +2201,14 @@ java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered sy
 [03:52:19 INFO]: Markd315 issued server command: /t
 [03:53:10 INFO]: Markd315 lost connection: Disconnected
 [03:53:10 INFO]: Markd315 left the game
+[05:11:56 INFO]: UUID of player Markd315 is acbcd8c3-4612-394c-9332-643f3c0c2b47
+[05:11:57 INFO]: Markd315[/73.171.227.64:51919] logged in with entity id 12517 at ([Sonora]359.5814201690152, 69.0, 73.15469733101182)
+[05:12:02 INFO]: Markd315 issued server command: /login mwd315
+[05:23:19 INFO]: Markd315 issued server command: /home
+[05:32:31 INFO]: Markd315 issued server command: /bal
+[05:32:40 INFO]: Markd315 issued server command: /t deposit 400
+[05:32:40 INFO]: [com.palmergames.bukkit.towny.Towny] [Town Msg] Zanzaland: Markd315 deposited 400 into the Town bank.
+[05:32:42 INFO]: Markd315 issued server command: /t
+[05:35:28 INFO]: Markd315 issued server command: /bal
+[05:37:42 INFO]: Markd315 lost connection: Disconnected
+[05:37:43 INFO]: Markd315 left the game
