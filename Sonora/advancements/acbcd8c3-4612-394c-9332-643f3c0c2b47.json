@@ -1016,12 +1016,15 @@
       "minecraft:forest": "2019-01-27 05:21:13 +0000",
       "minecraft:taiga": "2017-10-27 00:44:46 +0000",
       "minecraft:desert_hills": "2019-01-27 17:59:49 +0000",
+      "minecraft:taiga_hills": "2020-04-20 03:37:33 +0000",
       "minecraft:desert": "2019-01-27 17:59:38 +0000",
       "minecraft:jungle": "2019-01-27 22:44:21 +0000",
+      "minecraft:birch_forest": "2020-04-20 03:44:27 +0000",
       "minecraft:jungle_hills": "2019-01-27 22:46:01 +0000",
       "minecraft:beach": "2017-10-27 00:44:32 +0000",
       "minecraft:dark_forest": "2019-01-27 06:04:09 +0000",
       "minecraft:river": "2019-01-27 05:39:04 +0000",
+      "minecraft:birch_forest_hills": "2020-04-20 03:45:22 +0000",
       "minecraft:wooded_mountains": "2020-04-20 00:59:54 +0000",
       "minecraft:wooded_hills": "2017-10-27 00:36:15 +0000",
       "minecraft:swamp": "2019-01-27 18:15:36 +0000",
@@ -2247,6 +2250,12 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2020-04-20 00:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2020-04-20 03:40:10 +0000"
     },
     "done": true
   },

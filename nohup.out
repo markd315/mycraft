@@ -1,0 +1,2203 @@
+System Info: Java 1.8 (OpenJDK 64-Bit Server VM 25.242-b08) Host: Linux 4.9.0-11-amd64 (amd64)
+Loading libraries, please wait...
+2020-04-20 02:53:34,923 main WARN Advanced terminal features are not available in this environment
+[02:53:45 INFO]: Starting minecraft server version 1.15.2
+[02:53:45 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_242]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_242]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_242]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_242]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_242]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.15.2.jar:git-Paper-193]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.15.2.jar:git-Paper-193]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:90) ~[patched_1.15.2.jar:git-Paper-193]
+[02:53:45 INFO]: Loading properties
+[02:53:46 INFO]: This server is running Paper version git-Paper-193 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[02:53:47 INFO]: Server Ping Player Sample Count: 12
+[02:53:47 INFO]: Using 4 threads for Netty based IO
+[02:53:47 INFO]: Debug logging is disabled
+[02:53:47 INFO]: Default game type: SURVIVAL
+[02:53:47 INFO]: Generating keypair
+[02:53:48 INFO]: Starting Minecraft server on *:25565
+[02:53:48 INFO]: Using epoll channel type
+[02:53:50 WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:54:04 WARN]: Legacy plugin CleanroomGenerator v1.0.0 does not specify an api-version.
+[02:54:04 WARN]: Legacy plugin dynmap v3.0-beta-10-257 does not specify an api-version.
+[02:54:04 WARN]: Legacy plugin ColoredSigns v2.0 does not specify an api-version.
+[02:54:05 WARN]: Legacy plugin Questioner v0.6 does not specify an api-version.
+[02:54:05 WARN]: Legacy plugin LoginSecurity v3.0.1 does not specify an api-version.
+[02:54:05 WARN]: Legacy plugin XPConomy v1.1 does not specify an api-version.
+[02:54:05 WARN]: Legacy plugin Lockette v1.8.21 does not specify an api-version.
+[02:54:06 WARN]: Legacy plugin CustomPolls v1.1.1 does not specify an api-version.
+[02:54:06 WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[02:54:06 WARN]: Legacy plugin Vault v1.5.3-b37 does not specify an api-version.
+[02:54:07 WARN]: Legacy plugin pvparena v1.3.1.50 does not specify an api-version.
+[02:54:07 WARN]: Legacy plugin Autorank v3.7 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin MonsterBox v1.2 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin PerWorldInventory v1.7.8 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin Banknotes v0.1.5 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin EssentialsGeoIP v2.16.0.3 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin PlayerInfo v2.0 does not specify an api-version.
+[02:54:08 WARN]: Legacy plugin EssentialsSpawn v2.16.0.3 does not specify an api-version.
+[02:54:08 INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[02:54:08 INFO]: [dynmap] Loading dynmap v3.0-beta-10-257
+[02:54:08 INFO]: [dynmap] version=git-Paper-193 (MC: 1.15.2)
+[02:54:09 INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[02:54:09 INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[02:54:09 INFO]: [dynmap] Mod Support API available
+[02:54:09 INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[02:54:12 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@20505451]
+[02:54:12 INFO]: [ColoredSigns] Loading ColoredSigns v2.0
+[02:54:12 INFO]: [Questioner] Loading Questioner v0.6
+[02:54:12 INFO]: [CityWorld] Loading CityWorld v4.04
+[02:54:12 INFO]: [LoginSecurity] Loading LoginSecurity v3.0.1
+[02:54:12 INFO]: [XPConomy] Loading XPConomy v1.1
+[02:54:12 INFO]: [XPConomy] Has been loaded
+[02:54:12 INFO]: [Lockette] Loading Lockette v1.8.21
+[02:54:12 INFO]: [Votifier] Loading Votifier v2.5.0
+[02:54:12 INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[02:54:12 INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[02:54:12 INFO]: [CustomPolls] Loading CustomPolls v1.1.1
+[02:54:12 INFO]: [Minepacks] Loading Minepacks v2.3.5-Release
+[02:54:12 INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[02:54:12 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[02:54:12 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[02:54:12 INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.1.0-b805
+[02:54:12 INFO]: [Vault] Loading Vault v1.5.3-b37
+[02:54:12 INFO]: [ChestShop] Loading ChestShop v3.10.1 (build 174)
+[02:54:12 INFO]: [ChestShop] Lockette version 1.8.21 loaded.
+[02:54:12 INFO]: [ChestShop] WorldGuard version 7.0.2-SNAPSHOT;bf2593e loaded.
+[02:54:12 INFO]: [SlotMachine] Loading SlotMachine v6.1.0
+[02:54:12 INFO]: [Essentials] Loading Essentials v2.16.0.3
+[02:54:12 INFO]: [IridiumSkyblock] Loading IridiumSkyblock v2.3.6
+[02:54:12 INFO]: [PVP Arena] Loading pvparena v1.3.1.50
+[02:54:12 INFO]: [Autorank] Loading Autorank v3.7
+[02:54:12 INFO]: [Towny] Loading Towny v0.96.0.2
+[02:54:12 INFO]: [MobArena] Loading MobArena v0.104.2
+[02:54:12 INFO]: [Jobs] Loading Jobs v4.15.7
+[02:54:12 INFO]: [MonsterBox] Loading MonsterBox v1.2
+[02:54:12 INFO]: [PerWorldInventory] Loading PerWorldInventory v1.7.8
+[02:54:12 INFO]: [Banknotes] Loading Banknotes v0.1.5
+[02:54:12 INFO]: [TownyChat] Loading TownyChat v0.68
+[02:54:12 INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.0.3
+[02:54:12 INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.16.0.3
+[02:54:12 INFO]: [PlayerInfo] Loading PlayerInfo v2.0
+[02:54:12 INFO]: [Dynmap-Towny] Loading Dynmap-Towny v0.75
+[02:54:12 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.0.3
+[02:54:12 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:54:12 INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0*
+[02:54:12 INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[02:54:12 INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[02:54:12 WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[02:54:12 INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:54:14 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[02:54:17 INFO]: [CityWorld] Enabling CityWorld v4.04
+[02:54:17 INFO]: [Minecraft.CityWorld] [CityWorld] Loading default settings
+[02:54:17 INFO]: [Minecraft.CityWorld] [CityWorld] Enabled
+[02:54:17 INFO]: [Vault] Enabling Vault v1.5.3-b37*
+[02:54:17 WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.16.0.3 which is not a depend, softdepend or loadbefore of this plugin.
+[02:54:17 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:54:17 WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[02:54:17 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[02:54:17 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:54:17 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[02:54:18 INFO]: [Vault] Enabled Version 1.5.3-b37
+[02:54:18 INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:54:18 INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v2.3.6
+[02:54:18 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:54:18 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:54:18 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:54:18 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:54:18 INFO]: Preparing level "Sonora"
+[02:54:19 INFO]: Reloading ResourceManager: Default, bukkit
+[02:54:22 INFO]: Loaded 6 recipes
+[02:54:24 INFO]: -------- World Settings For [Sonora] --------
+[02:54:24 INFO]: Mob Spawn Range: 4
+[02:54:24 INFO]: Experience Merge Radius: 3.0
+[02:54:24 INFO]: Cactus Growth Modifier: 100%
+[02:54:24 INFO]: Cane Growth Modifier: 100%
+[02:54:24 INFO]: Melon Growth Modifier: 100%
+[02:54:24 INFO]: Mushroom Growth Modifier: 100%
+[02:54:24 INFO]: Pumpkin Growth Modifier: 100%
+[02:54:24 INFO]: Sapling Growth Modifier: 100%
+[02:54:24 INFO]: Beetroot Growth Modifier: 100%
+[02:54:24 INFO]: Carrot Growth Modifier: 100%
+[02:54:24 INFO]: Potato Growth Modifier: 100%
+[02:54:24 INFO]: Wheat Growth Modifier: 100%
+[02:54:24 INFO]: NetherWart Growth Modifier: 100%
+[02:54:24 INFO]: Vine Growth Modifier: 100%
+[02:54:24 INFO]: Cocoa Growth Modifier: 100%
+[02:54:24 INFO]: Bamboo Growth Modifier: 100%
+[02:54:24 INFO]: SweetBerry Growth Modifier: 100%
+[02:54:24 INFO]: Kelp Growth Modifier: 100%
+[02:54:24 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:54:24 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:24 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:24 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:54:24 INFO]: Max TNT Explosions: 100
+[02:54:24 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:24 INFO]: View Distance: 10
+[02:54:24 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:24 INFO]: Item Despawn Rate: 6000
+[02:54:24 INFO]: Item Merge Radius: 2.5
+[02:54:24 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:54:24 INFO]: Zombie Aggressive Towards Villager: true
+[02:54:24 INFO]: Nerfing mobs spawned from spawners: false
+[02:54:25 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:54:26 INFO]: -------- World Settings For [Sonora_nether] --------
+[02:54:26 INFO]: Mob Spawn Range: 4
+[02:54:26 INFO]: Experience Merge Radius: 3.0
+[02:54:26 INFO]: Cactus Growth Modifier: 100%
+[02:54:26 INFO]: Cane Growth Modifier: 100%
+[02:54:26 INFO]: Melon Growth Modifier: 100%
+[02:54:26 INFO]: Mushroom Growth Modifier: 100%
+[02:54:26 INFO]: Pumpkin Growth Modifier: 100%
+[02:54:26 INFO]: Sapling Growth Modifier: 100%
+[02:54:26 INFO]: Beetroot Growth Modifier: 100%
+[02:54:26 INFO]: Carrot Growth Modifier: 100%
+[02:54:26 INFO]: Potato Growth Modifier: 100%
+[02:54:26 INFO]: Wheat Growth Modifier: 100%
+[02:54:26 INFO]: NetherWart Growth Modifier: 100%
+[02:54:26 INFO]: Vine Growth Modifier: 100%
+[02:54:26 INFO]: Cocoa Growth Modifier: 100%
+[02:54:26 INFO]: Bamboo Growth Modifier: 100%
+[02:54:26 INFO]: SweetBerry Growth Modifier: 100%
+[02:54:26 INFO]: Kelp Growth Modifier: 100%
+[02:54:26 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:54:26 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:26 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:26 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:54:26 INFO]: Max TNT Explosions: 100
+[02:54:26 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:26 INFO]: View Distance: 10
+[02:54:26 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:26 INFO]: Item Despawn Rate: 6000
+[02:54:26 INFO]: Item Merge Radius: 2.5
+[02:54:26 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:54:26 INFO]: Zombie Aggressive Towards Villager: true
+[02:54:26 INFO]: Nerfing mobs spawned from spawners: false
+[02:54:48 INFO]: -------- World Settings For [Sonora_the_end] --------
+[02:54:48 INFO]: Mob Spawn Range: 4
+[02:54:48 INFO]: Experience Merge Radius: 3.0
+[02:54:48 INFO]: Cactus Growth Modifier: 100%
+[02:54:48 INFO]: Cane Growth Modifier: 100%
+[02:54:48 INFO]: Melon Growth Modifier: 100%
+[02:54:48 INFO]: Mushroom Growth Modifier: 100%
+[02:54:48 INFO]: Pumpkin Growth Modifier: 100%
+[02:54:48 INFO]: Sapling Growth Modifier: 100%
+[02:54:48 INFO]: Beetroot Growth Modifier: 100%
+[02:54:48 INFO]: Carrot Growth Modifier: 100%
+[02:54:48 INFO]: Potato Growth Modifier: 100%
+[02:54:48 INFO]: Wheat Growth Modifier: 100%
+[02:54:48 INFO]: NetherWart Growth Modifier: 100%
+[02:54:48 INFO]: Vine Growth Modifier: 100%
+[02:54:48 INFO]: Cocoa Growth Modifier: 100%
+[02:54:48 INFO]: Bamboo Growth Modifier: 100%
+[02:54:48 INFO]: SweetBerry Growth Modifier: 100%
+[02:54:48 INFO]: Kelp Growth Modifier: 100%
+[02:54:48 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:54:48 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:48 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:48 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:54:48 INFO]: Max TNT Explosions: 100
+[02:54:48 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:48 INFO]: View Distance: 10
+[02:54:48 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:48 INFO]: Item Despawn Rate: 6000
+[02:54:48 INFO]: Item Merge Radius: 2.5
+[02:54:48 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:54:48 INFO]: Zombie Aggressive Towards Villager: true
+[02:54:48 INFO]: Nerfing mobs spawned from spawners: false
+[02:54:48 INFO]: Preparing start region for dimension 'Sonora'/minecraft:overworld
+[02:54:49 INFO]: Preparing spawn area: 0%
+[02:54:49 INFO]: Preparing spawn area: 0%
+[02:54:49 INFO]: Preparing spawn area: 0%
+[02:54:50 INFO]: Preparing spawn area: 1%
+[02:54:50 INFO]: Preparing spawn area: 3%
+[02:54:51 INFO]: Preparing spawn area: 22%
+[02:54:51 INFO]: Preparing spawn area: 28%
+[02:54:52 INFO]: Preparing spawn area: 28%
+[02:54:52 INFO]: Preparing spawn area: 28%
+[02:54:53 INFO]: Preparing spawn area: 28%
+[02:54:53 INFO]: Preparing spawn area: 28%
+[02:54:54 INFO]: Preparing spawn area: 34%
+[02:54:55 INFO]: Preparing spawn area: 49%
+[02:54:55 INFO]: Preparing spawn area: 49%
+[02:54:55 INFO]: Preparing spawn area: 49%
+[02:54:56 INFO]: Preparing spawn area: 100%
+[02:54:56 INFO]: Preparing spawn area: 100%
+[02:54:57 INFO]: Preparing spawn area: 100%
+[02:54:57 INFO]: Preparing spawn area: 100%
+[02:54:58 INFO]: Preparing spawn area: 100%
+[02:54:58 INFO]: Loaded 441 spawn chunks for world Sonora
+[02:54:58 INFO]: Time elapsed: 9511 ms
+[02:54:58 INFO]: Preparing start region for dimension 'Sonora_nether'/minecraft:the_nether
+[02:54:58 INFO]: Preparing spawn area: 0%
+[02:54:58 INFO]: Preparing spawn area: 9%
+[02:54:59 INFO]: Preparing spawn area: 24%
+[02:54:59 INFO]: Preparing spawn area: 44%
+[02:55:00 INFO]: Preparing spawn area: 65%
+[02:55:00 INFO]: Preparing spawn area: 86%
+[02:55:01 INFO]: Preparing spawn area: 100%
+[02:55:01 INFO]: Loaded 441 spawn chunks for world Sonora_nether
+[02:55:01 INFO]: Time elapsed: 3478 ms
+[02:55:01 INFO]: Preparing start region for dimension 'Sonora_the_end'/minecraft:the_end
+[02:55:01 INFO]: Preparing spawn area: 0%
+[02:55:02 INFO]: Preparing spawn area: 26%
+[02:55:02 INFO]: Preparing spawn area: 51%
+[02:55:03 INFO]: Preparing spawn area: 64%
+[02:55:03 INFO]: Preparing spawn area: 100%
+[02:55:03 INFO]: Loaded 441 spawn chunks for world Sonora_the_end
+[02:55:03 INFO]: Time elapsed: 2300 ms
+[02:55:03 INFO]: [dynmap] Enabling dynmap v3.0-beta-10-257*
+[02:55:04 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
+[02:55:04 INFO]: [PermissionsEx] Initializing file backend
+[02:55:04 INFO]: [PermissionsEx] Permissions file successfully reloaded
+[02:55:04 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[02:55:04 INFO]: [Vault][Permission] PermissionsEx hooked.
+[02:55:04 INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[02:55:04 INFO]: [dynmap] Using PermissionsEx 1.23.4 for access control
+[02:55:04 WARN]: [dynmap] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[02:55:05 INFO]: [dynmap] Mod Support processing completed
+[02:55:07 INFO]: [dynmap] Loaded 25 shaders.
+[02:55:07 INFO]: [dynmap] Loaded 82 perspectives.
+[02:55:07 INFO]: [dynmap] Loaded 14 lightings.
+[02:55:07 WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[02:55:08 INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[02:55:08 INFO]: [dynmap] version 3.0-beta-10-257 is enabled - core version 3.0-beta-10-257
+[02:55:08 INFO]: [dynmap] For support, visit https://forums.dynmap.us
+[02:55:08 INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[02:55:08 INFO]: [dynmap] Loaded 2 maps of world 'Sonora'.
+[02:55:08 INFO]: [dynmap] Loaded 13 pending tile renders for world 'Sonora'
+[02:55:08 INFO]: [dynmap] Loaded 2 maps of world 'Sonora_nether'.
+[02:55:08 INFO]: [dynmap] Loaded 2 maps of world 'Sonora_the_end'.
+[02:55:08 INFO]: [dynmap] Enabled
+[02:55:08 INFO]: [ColoredSigns] Enabling ColoredSigns v2.0*
+[02:55:08 INFO]: [ColoredSigns] ColoredSigns enabling.
+[02:55:08 WARN]: [ColoredSigns] PermissionsEx support is disabled.
+[02:55:08 INFO]: [ColoredSigns] Starting services.. loading file and library's.
+[02:55:08 INFO]: [Questioner] Enabling Questioner v0.6*
+[02:55:08 INFO]: [Questioner] v0.6 - Enabled
+[02:55:08 INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.1*
+[02:55:08 INFO]: [LoginSecurity] Loading base translations from "en_us"
+[02:55:08 INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[02:55:09 INFO]: [LoginSecurity] Registering commands...
+[02:55:09 INFO]: [LoginSecurity] Registering listeners...
+[02:55:09 INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[02:55:09 INFO]: [XPConomy] Enabling XPConomy v1.1*
+[02:55:09 INFO]: [XPConomy] Has been enabled
+[02:55:09 INFO]: [Lockette] Enabling Lockette v1.8.21*
+[02:55:09 INFO]: [Lockette] Version 1.8.21 is being enabled!  Yay!  (Core version 1.3.5)
+[02:55:09 ERROR]: [Lockette] Detected Bukkit build [v1_15_R1], but requires version [1.8] or greater!
+[02:55:09 ERROR]: [Lockette] Aborting enable!
+[02:55:09 INFO]: [Votifier] Enabling Votifier v2.5.0
+[02:55:09 INFO]: [Votifier] Loaded token for website: default
+[02:55:09 INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[02:55:09 INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[02:55:09 INFO]: [Votifier] Votifier enabled on socket /0:0:0:0:0:0:0:0:8192.
+[02:55:10 INFO]: [WorldGuard] (Sonora) TNT ignition is PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora) Lighters are PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora) Lava fire is blocked.
+[02:55:10 INFO]: [WorldGuard] (Sonora) Fire spread is UNRESTRICTED.
+[02:55:10 INFO]: [WorldGuard] Loaded configuration for world 'Sonora'
+[02:55:10 INFO]: [WorldGuard] (Sonora_nether) TNT ignition is PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora_nether) Lighters are PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora_nether) Lava fire is blocked.
+[02:55:10 INFO]: [WorldGuard] (Sonora_nether) Fire spread is UNRESTRICTED.
+[02:55:10 INFO]: [WorldGuard] Loaded configuration for world 'Sonora_nether'
+[02:55:10 INFO]: [WorldGuard] (Sonora_the_end) TNT ignition is PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora_the_end) Lighters are PERMITTED.
+[02:55:10 INFO]: [WorldGuard] (Sonora_the_end) Lava fire is blocked.
+[02:55:10 INFO]: [WorldGuard] (Sonora_the_end) Fire spread is UNRESTRICTED.
+[02:55:10 INFO]: [WorldGuard] Loaded configuration for world 'Sonora_the_end'
+[02:55:10 INFO]: [WorldGuard] Loading region data...
+[02:55:10 INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[02:55:10 WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.5.3-b37 which is not a depend, softdepend or loadbefore of this plugin.
+[02:55:10 WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[02:55:10 INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[02:55:11 INFO]: -------- World Settings For [Legora] --------
+[02:55:11 INFO]: Mob Spawn Range: 4
+[02:55:11 INFO]: Experience Merge Radius: 3.0
+[02:55:11 INFO]: Cactus Growth Modifier: 100%
+[02:55:11 INFO]: Cane Growth Modifier: 100%
+[02:55:11 INFO]: Melon Growth Modifier: 100%
+[02:55:11 INFO]: Mushroom Growth Modifier: 100%
+[02:55:11 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:11 INFO]: Sapling Growth Modifier: 100%
+[02:55:11 INFO]: Beetroot Growth Modifier: 100%
+[02:55:11 INFO]: Carrot Growth Modifier: 100%
+[02:55:11 INFO]: Potato Growth Modifier: 100%
+[02:55:11 INFO]: Wheat Growth Modifier: 100%
+[02:55:11 INFO]: NetherWart Growth Modifier: 100%
+[02:55:11 INFO]: Vine Growth Modifier: 100%
+[02:55:11 INFO]: Cocoa Growth Modifier: 100%
+[02:55:11 INFO]: Bamboo Growth Modifier: 100%
+[02:55:11 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:11 INFO]: Kelp Growth Modifier: 100%
+[02:55:11 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:11 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:11 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:11 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:11 INFO]: Max TNT Explosions: 100
+[02:55:11 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:11 INFO]: View Distance: 10
+[02:55:11 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:11 INFO]: Item Despawn Rate: 6000
+[02:55:11 INFO]: Item Merge Radius: 2.5
+[02:55:11 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:11 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:11 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:11 INFO]: [WorldGuard] (Legora) TNT ignition is PERMITTED.
+[02:55:11 INFO]: [WorldGuard] (Legora) Lighters are PERMITTED.
+[02:55:11 INFO]: [WorldGuard] (Legora) Lava fire is blocked.
+[02:55:11 INFO]: [WorldGuard] (Legora) Fire spread is UNRESTRICTED.
+[02:55:11 INFO]: [WorldGuard] Loaded configuration for world 'Legora'
+[02:55:11 INFO]: [dynmap] World 'Legora' disabled
+[02:55:12 INFO]: -------- World Settings For [EpicSkyblock] --------
+[02:55:12 INFO]: Mob Spawn Range: 4
+[02:55:12 INFO]: Experience Merge Radius: 3.0
+[02:55:12 INFO]: Cactus Growth Modifier: 100%
+[02:55:12 INFO]: Cane Growth Modifier: 100%
+[02:55:12 INFO]: Melon Growth Modifier: 100%
+[02:55:12 INFO]: Mushroom Growth Modifier: 100%
+[02:55:12 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:12 INFO]: Sapling Growth Modifier: 100%
+[02:55:12 INFO]: Beetroot Growth Modifier: 100%
+[02:55:12 INFO]: Carrot Growth Modifier: 100%
+[02:55:12 INFO]: Potato Growth Modifier: 100%
+[02:55:12 INFO]: Wheat Growth Modifier: 100%
+[02:55:12 INFO]: NetherWart Growth Modifier: 100%
+[02:55:12 INFO]: Vine Growth Modifier: 100%
+[02:55:12 INFO]: Cocoa Growth Modifier: 100%
+[02:55:12 INFO]: Bamboo Growth Modifier: 100%
+[02:55:12 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:12 INFO]: Kelp Growth Modifier: 100%
+[02:55:12 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:12 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:12 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:12 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:12 INFO]: Max TNT Explosions: 100
+[02:55:12 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:12 INFO]: View Distance: 10
+[02:55:12 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:12 INFO]: Item Despawn Rate: 6000
+[02:55:12 INFO]: Item Merge Radius: 2.5
+[02:55:12 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:12 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:12 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:12 INFO]: Preparing start region for dimension 'EpicSkyblock'/minecraft:overworld
+[02:55:12 INFO]: Preparing spawn area: 0%
+[02:55:12 INFO]: Preparing spawn area: 0%
+[02:55:13 INFO]: Preparing spawn area: 0%
+[02:55:13 INFO]: Preparing spawn area: 0%
+[02:55:14 INFO]: Preparing spawn area: 0%
+[02:55:14 INFO]: Preparing spawn area: 0%
+[02:55:15 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:18 INFO]: Preparing spawn area: 0%
+[02:55:19 INFO]: Preparing spawn area: 42%
+[02:55:19 INFO]: Preparing spawn area: 42%
+[02:55:20 INFO]: Preparing spawn area: 100%
+[02:55:20 INFO]: Preparing spawn area: 100%
+[02:55:21 INFO]: Preparing spawn area: 100%
+[02:55:21 INFO]: Preparing spawn area: 100%
+[02:55:22 INFO]: Preparing spawn area: 100%
+[02:55:22 INFO]: Preparing spawn area: 100%
+[02:55:23 INFO]: Preparing spawn area: 100%
+[02:55:23 INFO]: Preparing spawn area: 100%
+[02:55:24 INFO]: Preparing spawn area: 100%
+[02:55:24 INFO]: Preparing spawn area: 100%
+[02:55:25 INFO]: Preparing spawn area: 100%
+[02:55:25 INFO]: Preparing spawn area: 100%
+[02:55:26 INFO]: Preparing spawn area: 100%
+[02:55:26 INFO]: Preparing spawn area: 100%
+[02:55:27 INFO]: Preparing spawn area: 100%
+[02:55:27 INFO]: Preparing spawn area: 100%
+[02:55:28 INFO]: Preparing spawn area: 100%
+[02:55:28 INFO]: Preparing spawn area: 100%
+[02:55:29 INFO]: Preparing spawn area: 100%
+[02:55:29 INFO]: Loaded 441 spawn chunks for world EpicSkyblock
+[02:55:31 INFO]: Time elapsed: 19215 ms
+[02:55:31 INFO]: [WorldGuard] (EpicSkyblock) TNT ignition is PERMITTED.
+[02:55:31 INFO]: [WorldGuard] (EpicSkyblock) Lighters are PERMITTED.
+[02:55:31 INFO]: [WorldGuard] (EpicSkyblock) Lava fire is blocked.
+[02:55:31 INFO]: [WorldGuard] (EpicSkyblock) Fire spread is UNRESTRICTED.
+[02:55:31 INFO]: [WorldGuard] Loaded configuration for world 'EpicSkyblock'
+[02:55:31 INFO]: [dynmap] Loaded 3 maps of world 'EpicSkyblock'.
+[02:55:31 INFO]: -------- World Settings For [IridiumSkyblock_nether] --------
+[02:55:31 INFO]: Mob Spawn Range: 4
+[02:55:31 INFO]: Experience Merge Radius: 3.0
+[02:55:31 INFO]: Cactus Growth Modifier: 100%
+[02:55:31 INFO]: Cane Growth Modifier: 100%
+[02:55:31 INFO]: Melon Growth Modifier: 100%
+[02:55:31 INFO]: Mushroom Growth Modifier: 100%
+[02:55:31 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:31 INFO]: Sapling Growth Modifier: 100%
+[02:55:31 INFO]: Beetroot Growth Modifier: 100%
+[02:55:31 INFO]: Carrot Growth Modifier: 100%
+[02:55:31 INFO]: Potato Growth Modifier: 100%
+[02:55:31 INFO]: Wheat Growth Modifier: 100%
+[02:55:31 INFO]: NetherWart Growth Modifier: 100%
+[02:55:31 INFO]: Vine Growth Modifier: 100%
+[02:55:31 INFO]: Cocoa Growth Modifier: 100%
+[02:55:31 INFO]: Bamboo Growth Modifier: 100%
+[02:55:31 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:31 INFO]: Kelp Growth Modifier: 100%
+[02:55:31 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:31 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:31 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:31 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:31 INFO]: Max TNT Explosions: 100
+[02:55:31 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:31 INFO]: View Distance: 10
+[02:55:31 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:31 INFO]: Item Despawn Rate: 6000
+[02:55:31 INFO]: Item Merge Radius: 2.5
+[02:55:31 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:31 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:31 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:31 INFO]: Preparing start region for dimension 'IridiumSkyblock_nether'/minecraft:the_nether
+[02:55:31 INFO]: Preparing spawn area: 0%
+[02:55:32 INFO]: Preparing spawn area: 47%
+[02:55:32 INFO]: Preparing spawn area: 100%
+[02:55:33 INFO]: Preparing spawn area: 100%
+[02:55:33 INFO]: Loaded 441 spawn chunks for world IridiumSkyblock_nether
+[02:55:33 INFO]: Time elapsed: 1985 ms
+[02:55:33 INFO]: [WorldGuard] (IridiumSkyblock_nether) TNT ignition is PERMITTED.
+[02:55:33 INFO]: [WorldGuard] (IridiumSkyblock_nether) Lighters are PERMITTED.
+[02:55:33 INFO]: [WorldGuard] (IridiumSkyblock_nether) Lava fire is blocked.
+[02:55:33 INFO]: [WorldGuard] (IridiumSkyblock_nether) Fire spread is UNRESTRICTED.
+[02:55:33 INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock_nether'
+[02:55:33 INFO]: [dynmap] Loaded 2 maps of world 'IridiumSkyblock_nether'.
+[02:55:33 INFO]: -------- World Settings For [Gillamoor] --------
+[02:55:33 INFO]: Mob Spawn Range: 4
+[02:55:33 INFO]: Experience Merge Radius: 3.0
+[02:55:33 INFO]: Cactus Growth Modifier: 100%
+[02:55:33 INFO]: Cane Growth Modifier: 100%
+[02:55:33 INFO]: Melon Growth Modifier: 100%
+[02:55:33 INFO]: Mushroom Growth Modifier: 100%
+[02:55:33 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:33 INFO]: Sapling Growth Modifier: 100%
+[02:55:33 INFO]: Beetroot Growth Modifier: 100%
+[02:55:33 INFO]: Carrot Growth Modifier: 100%
+[02:55:33 INFO]: Potato Growth Modifier: 100%
+[02:55:33 INFO]: Wheat Growth Modifier: 100%
+[02:55:33 INFO]: NetherWart Growth Modifier: 100%
+[02:55:33 INFO]: Vine Growth Modifier: 100%
+[02:55:33 INFO]: Cocoa Growth Modifier: 100%
+[02:55:33 INFO]: Bamboo Growth Modifier: 100%
+[02:55:33 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:33 INFO]: Kelp Growth Modifier: 100%
+[02:55:33 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:33 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:33 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:33 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:33 INFO]: Max TNT Explosions: 100
+[02:55:33 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:33 INFO]: View Distance: 10
+[02:55:33 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:33 INFO]: Item Despawn Rate: 6000
+[02:55:33 INFO]: Item Merge Radius: 2.5
+[02:55:33 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:33 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:33 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:33 INFO]: Preparing start region for dimension 'Gillamoor'/minecraft:overworld
+[02:55:34 INFO]: Preparing spawn area: 0%
+[02:55:34 INFO]: Preparing spawn area: 5%
+[02:55:34 INFO]: Preparing spawn area: 42%
+[02:55:35 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:38 INFO]: Preparing spawn area: 100%
+[02:55:39 INFO]: Preparing spawn area: 100%
+[02:55:41 INFO]: Preparing spawn area: 100%
+[02:55:41 INFO]: Preparing spawn area: 100%
+[02:55:41 INFO]: Preparing spawn area: 100%
+[02:55:41 INFO]: Preparing spawn area: 100%
+[02:55:41 INFO]: Preparing spawn area: 100%
+[02:55:42 INFO]: Preparing spawn area: 100%
+[02:55:43 INFO]: Preparing spawn area: 100%
+[02:55:43 INFO]: Preparing spawn area: 100%
+[02:55:43 INFO]: Preparing spawn area: 100%
+[02:55:44 INFO]: Preparing spawn area: 100%
+[02:55:44 INFO]: Preparing spawn area: 100%
+[02:55:45 INFO]: Preparing spawn area: 100%
+[02:55:45 INFO]: Preparing spawn area: 100%
+[02:55:46 INFO]: Preparing spawn area: 100%
+[02:55:46 INFO]: Preparing spawn area: 100%
+[02:55:47 INFO]: Preparing spawn area: 100%
+[02:55:47 INFO]: Preparing spawn area: 100%
+[02:55:48 INFO]: Preparing spawn area: 100%
+[02:55:48 INFO]: Preparing spawn area: 100%
+[02:55:49 INFO]: Preparing spawn area: 100%
+[02:55:51 INFO]: Preparing spawn area: 100%
+[02:55:51 INFO]: Preparing spawn area: 100%
+[02:55:51 INFO]: Preparing spawn area: 100%
+[02:55:51 INFO]: Preparing spawn area: 100%
+[02:55:51 INFO]: Preparing spawn area: 100%
+[02:55:52 INFO]: Loaded 441 spawn chunks for world Gillamoor
+[02:55:52 INFO]: Time elapsed: 18355 ms
+[02:55:52 INFO]: [WorldGuard] (Gillamoor) TNT ignition is PERMITTED.
+[02:55:52 INFO]: [WorldGuard] (Gillamoor) Lighters are PERMITTED.
+[02:55:52 INFO]: [WorldGuard] (Gillamoor) Lava fire is blocked.
+[02:55:52 INFO]: [WorldGuard] (Gillamoor) Fire spread is UNRESTRICTED.
+[02:55:52 INFO]: [WorldGuard] Loaded configuration for world 'Gillamoor'
+[02:55:52 INFO]: [dynmap] Loaded 2 maps of world 'Gillamoor'.
+[02:55:52 INFO]: [Minecraft.CityWorld] CityWorld creating world 'Voxity'
+[02:55:52 INFO]: [Minecraft.CityWorld] [CityWorld] Found Minecraft v1.150, CityWorld is compatible - WOOT!
+[02:55:52 INFO]: -------- World Settings For [Voxity] --------
+[02:55:52 INFO]: Mob Spawn Range: 4
+[02:55:52 INFO]: Experience Merge Radius: 3.0
+[02:55:52 INFO]: Cactus Growth Modifier: 100%
+[02:55:52 INFO]: Cane Growth Modifier: 100%
+[02:55:52 INFO]: Melon Growth Modifier: 100%
+[02:55:52 INFO]: Mushroom Growth Modifier: 100%
+[02:55:52 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:52 INFO]: Sapling Growth Modifier: 100%
+[02:55:52 INFO]: Beetroot Growth Modifier: 100%
+[02:55:52 INFO]: Carrot Growth Modifier: 100%
+[02:55:52 INFO]: Potato Growth Modifier: 100%
+[02:55:52 INFO]: Wheat Growth Modifier: 100%
+[02:55:52 INFO]: NetherWart Growth Modifier: 100%
+[02:55:52 INFO]: Vine Growth Modifier: 100%
+[02:55:52 INFO]: Cocoa Growth Modifier: 100%
+[02:55:52 INFO]: Bamboo Growth Modifier: 100%
+[02:55:52 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:52 INFO]: Kelp Growth Modifier: 100%
+[02:55:52 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:52 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:52 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:52 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:52 INFO]: Max TNT Explosions: 100
+[02:55:52 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:52 INFO]: View Distance: 10
+[02:55:52 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:52 INFO]: Item Despawn Rate: 6000
+[02:55:52 INFO]: Item Merge Radius: 2.5
+[02:55:52 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:52 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:52 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:52 INFO]: Preparing start region for dimension 'Voxity'/minecraft:overworld
+[02:55:52 INFO]: Preparing spawn area: 0%
+[02:55:53 INFO]: Preparing spawn area: 6%
+[02:55:53 INFO]: Preparing spawn area: 18%
+[02:55:54 INFO]: Preparing spawn area: 37%
+[02:55:54 INFO]: Preparing spawn area: 51%
+[02:55:55 INFO]: Preparing spawn area: 83%
+[02:55:55 INFO]: Preparing spawn area: 99%
+[02:55:56 INFO]: Preparing spawn area: 100%
+[02:55:56 INFO]: Preparing spawn area: 100%
+[02:55:57 INFO]: Preparing spawn area: 100%
+[02:55:57 INFO]: Preparing spawn area: 100%
+[02:55:58 INFO]: Preparing spawn area: 100%
+[02:55:58 INFO]: Preparing spawn area: 100%
+[02:55:59 INFO]: Preparing spawn area: 100%
+[02:55:59 INFO]: Loaded 441 spawn chunks for world Voxity
+[02:55:59 INFO]: Time elapsed: 6788 ms
+[02:55:59 INFO]: [WorldGuard] (Voxity) TNT ignition is PERMITTED.
+[02:55:59 INFO]: [WorldGuard] (Voxity) Lighters are PERMITTED.
+[02:55:59 INFO]: [WorldGuard] (Voxity) Lava fire is blocked.
+[02:55:59 INFO]: [WorldGuard] (Voxity) Fire spread is UNRESTRICTED.
+[02:55:59 INFO]: [WorldGuard] Loaded configuration for world 'Voxity'
+[02:55:59 INFO]: [Minecraft.CityWorld] CityWorld creating world 'Voxity'
+[02:55:59 INFO]: [Minecraft.CityWorld] [CityWorld] Found Minecraft v1.150, CityWorld is compatible - WOOT!
+[02:55:59 INFO]: [dynmap] Loaded 2 maps of world 'Voxity'.
+[02:55:59 INFO]: -------- World Settings For [Lachrysa] --------
+[02:55:59 INFO]: Mob Spawn Range: 4
+[02:55:59 INFO]: Experience Merge Radius: 3.0
+[02:55:59 INFO]: Cactus Growth Modifier: 100%
+[02:55:59 INFO]: Cane Growth Modifier: 100%
+[02:55:59 INFO]: Melon Growth Modifier: 100%
+[02:55:59 INFO]: Mushroom Growth Modifier: 100%
+[02:55:59 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:59 INFO]: Sapling Growth Modifier: 100%
+[02:55:59 INFO]: Beetroot Growth Modifier: 100%
+[02:55:59 INFO]: Carrot Growth Modifier: 100%
+[02:55:59 INFO]: Potato Growth Modifier: 100%
+[02:55:59 INFO]: Wheat Growth Modifier: 100%
+[02:55:59 INFO]: NetherWart Growth Modifier: 100%
+[02:55:59 INFO]: Vine Growth Modifier: 100%
+[02:55:59 INFO]: Cocoa Growth Modifier: 100%
+[02:55:59 INFO]: Bamboo Growth Modifier: 100%
+[02:55:59 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:59 INFO]: Kelp Growth Modifier: 100%
+[02:55:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:59 INFO]: Max TNT Explosions: 100
+[02:55:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:59 INFO]: View Distance: 10
+[02:55:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:59 INFO]: Item Despawn Rate: 6000
+[02:55:59 INFO]: Item Merge Radius: 2.5
+[02:55:59 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:59 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:59 INFO]: Nerfing mobs spawned from spawners: false
+[02:55:59 INFO]: [WorldGuard] (Lachrysa) TNT ignition is PERMITTED.
+[02:55:59 INFO]: [WorldGuard] (Lachrysa) Lighters are PERMITTED.
+[02:55:59 INFO]: [WorldGuard] (Lachrysa) Lava fire is blocked.
+[02:55:59 INFO]: [WorldGuard] (Lachrysa) Fire spread is UNRESTRICTED.
+[02:55:59 INFO]: [WorldGuard] Loaded configuration for world 'Lachrysa'
+[02:55:59 INFO]: [dynmap] World 'Lachrysa' disabled
+[02:55:59 INFO]: -------- World Settings For [Ehiria] --------
+[02:55:59 INFO]: Mob Spawn Range: 4
+[02:55:59 INFO]: Experience Merge Radius: 3.0
+[02:55:59 INFO]: Cactus Growth Modifier: 100%
+[02:55:59 INFO]: Cane Growth Modifier: 100%
+[02:55:59 INFO]: Melon Growth Modifier: 100%
+[02:55:59 INFO]: Mushroom Growth Modifier: 100%
+[02:55:59 INFO]: Pumpkin Growth Modifier: 100%
+[02:55:59 INFO]: Sapling Growth Modifier: 100%
+[02:55:59 INFO]: Beetroot Growth Modifier: 100%
+[02:55:59 INFO]: Carrot Growth Modifier: 100%
+[02:55:59 INFO]: Potato Growth Modifier: 100%
+[02:55:59 INFO]: Wheat Growth Modifier: 100%
+[02:55:59 INFO]: NetherWart Growth Modifier: 100%
+[02:55:59 INFO]: Vine Growth Modifier: 100%
+[02:55:59 INFO]: Cocoa Growth Modifier: 100%
+[02:55:59 INFO]: Bamboo Growth Modifier: 100%
+[02:55:59 INFO]: SweetBerry Growth Modifier: 100%
+[02:55:59 INFO]: Kelp Growth Modifier: 100%
+[02:55:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:55:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:55:59 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:55:59 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:55:59 INFO]: Max TNT Explosions: 100
+[02:55:59 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:55:59 INFO]: View Distance: 10
+[02:55:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:55:59 INFO]: Item Despawn Rate: 6000
+[02:55:59 INFO]: Item Merge Radius: 2.5
+[02:55:59 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:55:59 INFO]: Zombie Aggressive Towards Villager: true
+[02:55:59 INFO]: Nerfing mobs spawned from spawners: false
+[02:56:00 INFO]: [WorldGuard] (Ehiria) TNT ignition is PERMITTED.
+[02:56:00 INFO]: [WorldGuard] (Ehiria) Lighters are PERMITTED.
+[02:56:00 INFO]: [WorldGuard] (Ehiria) Lava fire is blocked.
+[02:56:00 INFO]: [WorldGuard] (Ehiria) Fire spread is UNRESTRICTED.
+[02:56:00 INFO]: [WorldGuard] Loaded configuration for world 'Ehiria'
+[02:56:00 INFO]: [dynmap] World 'Ehiria' disabled
+[02:56:00 INFO]: -------- World Settings For [Akama] --------
+[02:56:00 INFO]: Mob Spawn Range: 4
+[02:56:00 INFO]: Experience Merge Radius: 3.0
+[02:56:00 INFO]: Cactus Growth Modifier: 100%
+[02:56:00 INFO]: Cane Growth Modifier: 100%
+[02:56:00 INFO]: Melon Growth Modifier: 100%
+[02:56:00 INFO]: Mushroom Growth Modifier: 100%
+[02:56:00 INFO]: Pumpkin Growth Modifier: 100%
+[02:56:00 INFO]: Sapling Growth Modifier: 100%
+[02:56:00 INFO]: Beetroot Growth Modifier: 100%
+[02:56:00 INFO]: Carrot Growth Modifier: 100%
+[02:56:00 INFO]: Potato Growth Modifier: 100%
+[02:56:00 INFO]: Wheat Growth Modifier: 100%
+[02:56:00 INFO]: NetherWart Growth Modifier: 100%
+[02:56:00 INFO]: Vine Growth Modifier: 100%
+[02:56:00 INFO]: Cocoa Growth Modifier: 100%
+[02:56:00 INFO]: Bamboo Growth Modifier: 100%
+[02:56:00 INFO]: SweetBerry Growth Modifier: 100%
+[02:56:00 INFO]: Kelp Growth Modifier: 100%
+[02:56:00 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:56:00 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:56:00 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:56:00 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:56:00 INFO]: Max TNT Explosions: 100
+[02:56:00 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:56:00 INFO]: View Distance: 10
+[02:56:00 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:56:00 INFO]: Item Despawn Rate: 6000
+[02:56:00 INFO]: Item Merge Radius: 2.5
+[02:56:00 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:56:00 INFO]: Zombie Aggressive Towards Villager: true
+[02:56:00 INFO]: Nerfing mobs spawned from spawners: false
+[02:56:00 INFO]: [WorldGuard] (Akama) TNT ignition is PERMITTED.
+[02:56:00 INFO]: [WorldGuard] (Akama) Lighters are PERMITTED.
+[02:56:00 INFO]: [WorldGuard] (Akama) Lava fire is blocked.
+[02:56:00 INFO]: [WorldGuard] (Akama) Fire spread is UNRESTRICTED.
+[02:56:00 INFO]: [WorldGuard] Loaded configuration for world 'Akama'
+[02:56:00 INFO]: [dynmap] Loaded 2 maps of world 'Akama'.
+[02:56:00 INFO]: -------- World Settings For [IridiumSkyblock] --------
+[02:56:00 INFO]: Mob Spawn Range: 4
+[02:56:00 INFO]: Experience Merge Radius: 3.0
+[02:56:00 INFO]: Cactus Growth Modifier: 100%
+[02:56:00 INFO]: Cane Growth Modifier: 100%
+[02:56:00 INFO]: Melon Growth Modifier: 100%
+[02:56:00 INFO]: Mushroom Growth Modifier: 100%
+[02:56:00 INFO]: Pumpkin Growth Modifier: 100%
+[02:56:00 INFO]: Sapling Growth Modifier: 100%
+[02:56:00 INFO]: Beetroot Growth Modifier: 100%
+[02:56:00 INFO]: Carrot Growth Modifier: 100%
+[02:56:00 INFO]: Potato Growth Modifier: 100%
+[02:56:00 INFO]: Wheat Growth Modifier: 100%
+[02:56:00 INFO]: NetherWart Growth Modifier: 100%
+[02:56:00 INFO]: Vine Growth Modifier: 100%
+[02:56:00 INFO]: Cocoa Growth Modifier: 100%
+[02:56:00 INFO]: Bamboo Growth Modifier: 100%
+[02:56:00 INFO]: SweetBerry Growth Modifier: 100%
+[02:56:00 INFO]: Kelp Growth Modifier: 100%
+[02:56:00 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:56:00 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:56:00 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:56:00 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[02:56:00 INFO]: Max TNT Explosions: 100
+[02:56:00 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:56:00 INFO]: View Distance: 10
+[02:56:00 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:56:00 INFO]: Item Despawn Rate: 6000
+[02:56:00 INFO]: Item Merge Radius: 2.5
+[02:56:00 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:56:00 INFO]: Zombie Aggressive Towards Villager: true
+[02:56:00 INFO]: Nerfing mobs spawned from spawners: false
+[02:56:00 INFO]: Preparing start region for dimension 'IridiumSkyblock'/minecraft:overworld
+[02:56:00 INFO]: Preparing spawn area: 0%
+[02:56:00 INFO]: Preparing spawn area: 83%
+[02:56:01 INFO]: Loaded 441 spawn chunks for world IridiumSkyblock
+[02:56:01 INFO]: Time elapsed: 711 ms
+[02:56:01 INFO]: [WorldGuard] (IridiumSkyblock) TNT ignition is PERMITTED.
+[02:56:01 INFO]: [WorldGuard] (IridiumSkyblock) Lighters are PERMITTED.
+[02:56:01 INFO]: [WorldGuard] (IridiumSkyblock) Lava fire is blocked.
+[02:56:01 INFO]: [WorldGuard] (IridiumSkyblock) Fire spread is UNRESTRICTED.
+[02:56:01 INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock'
+[02:56:01 INFO]: [dynmap] Loaded 3 maps of world 'IridiumSkyblock'.
+[02:56:01 INFO]: [Multiverse-Core] 12 - World(s) loaded.
+[02:56:03 INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[02:56:03 INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[02:56:03 INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[02:56:03 INFO]: [CustomPolls] Enabling CustomPolls v1.1.1*
+[02:56:03 INFO]: [CustomPolls] Database set to 'FlatfileDatabase'
+[02:56:03 INFO]: [CustomPolls] Beginning reminder task.
+[02:56:03 INFO]: [Minepacks] Enabling Minepacks v2.3.5-Release
+[02:56:03 INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[02:56:03 INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[02:56:03 INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[02:56:04 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[02:56:04 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[02:56:04 INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[02:56:04 INFO]: [Minepacks] Loading item translations ...
+[02:56:04 INFO]: [Minepacks] Finished loading item translations for 830 items.
+[02:56:05 INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[02:56:05 INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.1.0-b805
+[02:56:05 INFO]: [Multiverse-Portals] 6 - Portals(s) loaded
+[02:56:05 INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[02:56:05 INFO]: [Multiverse-Portals 4.1.0-b805]  Enabled - By Rigby and fernferret
+[02:56:05 INFO]: [ChestShop] Enabling ChestShop v3.10.1 (build 174)
+[02:56:06 INFO]: [ChestShop] Lockette version 1.8.21 loaded.
+[02:56:06 INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[02:56:06 INFO]: [ChestShop] Vault loaded!
+[02:56:06 WARN]: [ChestShop] Could not convert numeric IDs in priceLimits.yml to Material names!
+[02:56:06 WARN]: [ChestShop] If you want to automatically convert them you have to run this version on a pre 1.13 server.
+[02:56:06 WARN]: [ChestShop] If you want to manually convert it and hide this message set the uses_materials key to true.
+[02:56:06 INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[02:56:06 INFO]: [SlotMachine] Enabling SlotMachine v6.1.0
+[02:56:06 INFO]: [SlotMachine] Detected Minecraft version 1.15.2
+[02:56:06 INFO]: [SlotMachine] Slot Machine version 6.1.0 (53) for Spigot 1.14
+[02:56:06 INFO]: [SlotMachine] Adding language 'ENGLISH'
+[02:56:06 INFO]: [SlotMachine] Adding language 'FRENCH'
+[02:56:06 INFO]: [SlotMachine] Loading Tokens
+[02:56:06 INFO]: [SlotMachine] 1 tokens found
+[02:56:06 INFO]: [SlotMachine] Loading token 'default'
+[02:56:06 INFO]: [SlotMachine] 1 tokens loaded
+[02:56:06 INFO]: [SlotMachine] Finished loading Tokens
+[02:56:06 INFO]: [SlotMachine] Configuration version 5
+[02:56:06 INFO]: [SlotMachine] Detected 0 files in /machines
+[02:56:06 INFO]: [SlotMachine] Loading finished
+[02:56:06 INFO]: [Essentials] Enabling Essentials v2.16.0.3
+[02:56:06 ERROR]: [Essentials] You are running an unsupported server version!
+[02:56:07 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:56:07 INFO]: [Essentials] No kits found to migrate.
+[02:56:07 INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[02:56:07 INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[02:56:07 INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[02:56:07 INFO]: [Essentials] Loaded 17746 items from items.json.
+[02:56:07 INFO]: [Essentials] Using locale en_US
+[02:56:07 INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[02:56:07 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:56:07 INFO]: [Vault][Economy] Essentials Economy hooked.
+[02:56:07 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[02:56:08 INFO]: [PVP Arena] Enabling pvparena v1.3.1.50*
+[02:56:08 INFO]: [PVP Arena] debugging: off
+[02:56:08 INFO]: [PVP Arena] Downloading module update file...
+[02:56:09 INFO]: [PVP Arena] Downloaded module update file
+[02:56:09 INFO]: [PVP Arena] enabled (version pvparena v1.3.1.50)
+[02:56:09 INFO]: [Autorank] Enabling Autorank v3.7*
+[02:56:09 INFO]: [Autorank] Simple config file loaded
+[02:56:09 INFO]: [Autorank] Advanced config file loaded
+[02:56:09 INFO]: [Autorank] Settings config file loaded
+[02:56:09 INFO]: [Autorank] Internal properties file loaded
+[02:56:09 INFO]: [Autorank] Backup data file loaded (backup-data.yml)
+[02:56:09 INFO]: You are using v1.3.1.50, an outdated version! Latest: v1.3.2.140
+[02:56:09 INFO]: https://www.spigotmc.org/resources/pvp-arena.16584/
+[02:56:09 INFO]: [Autorank] Loaded stored uuids.
+[02:56:09 INFO]: [Autorank] Loaded playerdata.
+[02:56:09 INFO]: [Autorank] No stats plugin found! Most requirements cannot be used!
+[02:56:09 INFO]: [Autorank] Loaded libraries and dependencies
+[02:56:09 INFO]: [Autorank] Interval check every 1 minutes.
+[02:56:09 INFO]: [Autorank] Data file loaded
+[02:56:09 INFO]: [Autorank] Language file loaded (lang.yml)
+[02:56:09 INFO]: [Autorank] Using timings of: autorank
+[02:56:09 INFO]: [Autorank] Autorank 3.7 has been enabled!
+[02:56:09 INFO]: [Towny] Enabling Towny v0.96.0.2
+[02:56:09 INFO]: Checking for updates...====================      Towny      ========================
+[02:56:10 INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[02:56:10 INFO]: [Towny] Database loaded in 611ms.
+[02:56:11 INFO]: [Towny] Warning: Essentials Economy has been known to reset town and nation bank accounts to their default amount. The authors of Essentials recommend using another economy plugin until they have fixed this bug.
+[02:56:11 WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: Questioner.jar present on server, Towny no longer requires Questioner for invites/confirmations.
+[02:56:11 WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: You may safely remove Questioner.jar from your plugins folder.
+[02:56:11 INFO]: [Towny] Using: Vault 1.5.3-b37 via Vault 1.5.3-b37, Essentials Economy via Vault
+[02:56:11 INFO]: [Towny] Time until a New Day: 9 hours, 3 minutes, 49 seconds
+[02:56:12 INFO]: =============================================================
+[02:56:12 INFO]: [Towny] Version: 0.96.0.2 - Mod Enabled
+[02:56:12 INFO]: =============================================================
+[02:56:12 INFO]: [MobArena] Enabling MobArena v0.104.2
+[02:56:12 INFO]: [MobArena] Vault found; economy rewards enabled.
+[02:56:12 ERROR]: [MobArena] You have an error in your config-file!
+
+  Failed to parse item for class Knight: potion:8197:3
+
+[02:56:12 ERROR]: [MobArena] Fix it, then run /ma reload
+[02:56:12 INFO]: [Jobs] Enabling Jobs v4.15.7
+[02:56:15 INFO]: [Jobs] Loaded 8 titles!
+[02:56:15 INFO]: [Jobs] Loaded 75 protected blocks timers!
+[02:56:15 INFO]: [Jobs] Loaded 995 custom item names!
+[02:56:15 INFO]: [Jobs] Loaded 67 custom entity names!
+[02:56:15 INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[02:56:15 INFO]: [Jobs] Loaded 37 custom enchant names!
+[02:56:15 INFO]: [Jobs] Loaded 16 custom color names!
+[02:56:15 ERROR]: [Jobs] Shop item SuperPickAxe has an invalid Icon name property. Skipping!
+[02:56:15 ERROR]: [Jobs] Shop item WoodenShovel has an invalid Icon name property. Skipping!
+[02:56:15 ERROR]: [Jobs] Shop item LureEnchantBook has an invalid Icon name property. Skipping!
+[02:56:15 ERROR]: [Jobs] Shop item Elytra has an invalid Icon name property. Skipping!
+[02:56:16 WARN]: [Jobs] Job Miner has an invalid Break type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
+[02:56:16 WARN]: [Jobs] Job Builder has an invalid Place type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
+[02:56:16 INFO]: [Jobs] Loaded 12 jobs!
+[02:56:16 INFO]: [Jobs] Explorer job manager registered!
+[02:56:16 INFO]: [Jobs] Started database save task.
+[02:56:16 INFO]: [Jobs] Started buffered payment thread.
+[02:56:16 INFO]: [Jobs] Preloaded 2 players data in 0.01
+[02:56:16 INFO]: [Jobs] WorldGuard detected.
+[02:56:16 INFO]: [Jobs] Loaded 20 block protection entries. 0
+[02:56:16 INFO]: [Jobs] Loading explorer data
+[02:56:16 INFO]: [Jobs] Loaded explorer data (308)
+[02:56:16 INFO]: [Jobs] Plugin has been enabled successfully.
+[02:56:16 INFO]: [MonsterBox] Enabling MonsterBox v1.2*
+[02:56:16 INFO]: [MonsterBox] Spout not detected. Disabling spout support.
+[02:56:16 INFO]: MonsterBox version 1.2 is enabled!
+[02:56:16 INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.7.8*
+[02:56:16 WARN]: [PerWorldInventory] Your PerWorldInventory config is out of date! Some options may be missing.
+[02:56:16 WARN]: [PerWorldInventory] Copy the new options from here: https://www.spigotmc.org/resources/per-world-inventory.4482/
+[02:56:16 INFO]: [PerWorldInventory] Registering commands...
+[02:56:16 INFO]: [PerWorldInventory] Commands registered! Registering listeners...
+[02:56:16 INFO]: [PerWorldInventory] Registered PlayerGameModeChangeListener.
+[02:56:16 INFO]: [PerWorldInventory] Listeners enabled!
+[02:56:16 INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[02:56:16 INFO]: [PerWorldInventory] Hooked into Vault!
+[02:56:16 INFO]: [Banknotes] Enabling Banknotes v0.1.5*
+[02:56:16 INFO]: [TownyChat] Enabling TownyChat v0.68
+[02:56:16 WARN]: [TownyChat] Loaded class org.dynmap.DynmapAPI from dynmap v3.0-beta-10-257 which is not a depend, softdepend or loadbefore of this plugin.
+[02:56:16 INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.0.3
+[02:56:16 INFO]: Continuing to enable Protect.
+[02:56:16 INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.16.0.3*
+[02:56:17 INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[02:56:17 INFO]: [PlayerInfo] Enabling PlayerInfo v2.0*
+[02:56:17 INFO]: [PlayerInfo] PlayerInfo has been enabled.
+[02:56:17 INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.75
+[02:56:17 INFO]: [Dynmap-Towny] initializing
+[02:56:17 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-town will have no effect
+[02:56:17 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-nation will have no effect
+[02:56:17 INFO]: [Dynmap-Towny] version 0.75 is activated
+[02:56:17 INFO]: [Dynmap-Towny] TownyChat detect: disabling normal chat-to-web processing in Dynmap
+[02:56:17 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.0.3*
+[02:56:17 WARN]: Could not register alias sg because it contains commands that do not exist: server bukkitgames
+[02:56:18 INFO]: Done (119.897s)! For help, type "help"
+[02:56:18 INFO]: Timings Reset
+[02:56:18 INFO]: [Autorank] Making a backup of data.yml.
+[02:56:18 INFO]: [Autorank] Making a backup of playerdata.yml.
+[02:56:19 INFO]: -------- Autorank Leaderboard --------
+[02:56:19 INFO]: 1 | Markd315 - 0 days, 15 hours and 33 minutes.
+[02:56:19 INFO]: 2 | dalekcaan64 - 0 days, 3 hours and 31 minutes.
+[02:56:19 INFO]: 3 | CocaCola0610 - 0 days, 0 hours and 15 minutes.
+[02:56:19 INFO]: ------------------------------------
+[02:56:19 INFO]: Multiverse already knows about 'IridiumSkyblock'!
+[02:56:19 INFO]: Success! Property generator was set to IridiumSkyblock
+[02:56:19 INFO]: Multiverse already knows about 'IridiumSkyblock_nether'!
+[02:56:19 INFO]: Success! Property generator was set to IridiumSkyblock
+[02:56:19 INFO]: [IridiumSkyblock] Loading file: /home/markd315/mycraft/plugins/IridiumSkyblock/schematics/island.schematic
+[02:56:19 INFO]: [IridiumSkyblock] Loading file: /home/markd315/mycraft/plugins/IridiumSkyblock/schematics/nether.schematic
+[02:56:19 INFO]: [IridiumSkyblock] -------------------------------
+[02:56:19 INFO]: [IridiumSkyblock] 
+[02:56:19 INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
+[02:56:19 INFO]: [IridiumSkyblock] 
+[02:56:19 INFO]: [IridiumSkyblock] -------------------------------
+[02:56:19 INFO]: [Jobs] Successfully linked with Vault.
+[02:56:19 INFO]: [TownyChat] -******* TownyChat enabled *******-
+[02:56:20 INFO]: [dynmap] Loading default resource pack
+[02:56:28 INFO]: [Autorank] Config files have been correctly setup!
+[02:57:26 INFO]: UUID of player Markd315 is acbcd8c3-4612-394c-9332-643f3c0c2b47
+[02:57:28 INFO]: Markd315[/73.171.227.64:56141] logged in with entity id 639 at ([Sonora]364.11036589982484, 69.0, 72.5756848664337)
+[02:57:31 INFO]: Markd315 issued server command: /login mwd315
+[02:57:34 WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[02:57:51 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 349
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:57:56 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 367
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.substract(Economy.java:180) ~[?:?]
+	at com.earth2me.essentials.api.Economy.subtract(Economy.java:172) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.withdrawPlayer(Economy_Essentials.java:106) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.withdrawPlayer(AbstractEconomy.java:40) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.withdrawPlayer(VaultEconomy.java:43) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:43) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:58:01 INFO]: Markd315 issued server command: /bal
+[02:58:10 INFO]: Markd315 issued server command: /jobs browse
+[02:58:51 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 527
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:58:53 INFO]: Markd315 issued server command: /bal
+[02:59:11 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 591
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:59:15 INFO]: Markd315 issued server command: /bal
+[02:59:27 INFO]: Markd315 issued server command: /bal
+[02:59:41 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 678
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[02:59:56 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 729
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:00:01 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 752
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:00:16 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 797
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:00:26 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 826
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:00:36 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 862
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:01:01 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 938
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:01:06 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 954
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:01:15 INFO]: Markd315 issued server command: /jobs:jobs
+[03:01:30 INFO]: Markd315 issued server command: /jobs help 2
+[03:01:39 INFO]: Markd315 issued server command: /jobs help 3
+[03:01:45 INFO]: Markd315 issued server command: /jobs help 4
+[03:01:54 INFO]: Markd315 issued server command: /jobs glog
+[03:02:00 INFO]: Markd315 issued server command: /Jobs glog
+[03:02:03 INFO]: Markd315 issued server command: /jobs help 5
+[03:02:08 INFO]: Markd315 issued server command: /jobs shop
+[03:02:15 INFO]: Markd315 issued server command: /jobs help 6
+[03:02:24 INFO]: Markd315 issued server command: /jobs help 7
+[03:02:30 INFO]: Markd315 issued server command: /jobs info
+[03:02:39 INFO]: Markd315 issued server command: /jobs help 8
+[03:04:57 INFO]: Markd315 issued server command: /mv tp akama
+[03:05:02 INFO]: Markd315 issued server command: /bal
+[03:05:06 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 1592
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:05:08 INFO]: Markd315 issued server command: /bal
+[03:05:26 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 1652
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:06:11 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 1956
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:06:31 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 2036
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:06:41 WARN]: [Jobs] Plugin Jobs v4.15.7 generated an exception while executing task 2062
+java.lang.IllegalStateException: UserBalanceUpdateEvent may only be triggered synchronously.
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:595) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.earth2me.essentials.User.setMoney(User.java:429) ~[?:?]
+	at com.earth2me.essentials.api.Economy.setMoney(Economy.java:129) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:156) ~[?:?]
+	at com.earth2me.essentials.api.Economy.add(Economy.java:148) ~[?:?]
+	at net.milkbowl.vault.economy.plugins.Economy_Essentials.depositPlayer(Economy_Essentials.java:146) ~[?:?]
+	at net.milkbowl.vault.economy.AbstractEconomy.depositPlayer(AbstractEconomy.java:50) ~[?:?]
+	at com.gamingmesh.jobs.economy.VaultEconomy.depositPlayer(VaultEconomy.java:32) ~[?:?]
+	at com.gamingmesh.jobs.tasks.BufferedPaymentTask.run(BufferedPaymentTask.java:41) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.15.2.jar:git-Paper-193]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.15.2.jar:git-Paper-193]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.15.2.jar:git-Paper-193]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[03:06:42 INFO]: Markd315 issued server command: /spawn
+[03:06:46 INFO]: Markd315 issued server command: /bal
+[03:06:50 INFO]: Markd315 issued server command: /balance
+[03:06:55 INFO]: Markd315 issued server command: /economy
+[03:07:04 INFO]: Markd315 issued server command: /economy give markd315 1
+[03:07:06 INFO]: Markd315 issued server command: /balance
+[03:07:13 INFO]: Markd315 issued server command: /t spawn
+[03:09:15 INFO]: Markd315 issued server command: /reload
+[03:09:15 INFO]: Markd315: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[03:09:19 INFO]: Markd315 issued server command: /reload confirm
+[03:09:19 INFO]: Markd315: Please note that this command is not supported and may cause issues when using some plugins.
+[03:09:19 INFO]: Markd315: If you encounter any issues please use the /stop command to restart your server.
+[03:09:19 INFO]: Server Ping Player Sample Count: 12
+[03:09:19 INFO]: Using 4 threads for Netty based IO
+[03:09:19 INFO]: Debug logging is disabled
+[03:09:19 INFO]: -------- World Settings For [Sonora] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Sonora_nether] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Sonora_the_end] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Legora] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [EpicSkyblock] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [IridiumSkyblock_nether] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Gillamoor] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Voxity] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Lachrysa] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Ehiria] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [Akama] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: -------- World Settings For [IridiumSkyblock] --------
+[03:09:19 INFO]: Mob Spawn Range: 4
+[03:09:19 INFO]: Experience Merge Radius: 3.0
+[03:09:19 INFO]: Cactus Growth Modifier: 100%
+[03:09:19 INFO]: Cane Growth Modifier: 100%
+[03:09:19 INFO]: Melon Growth Modifier: 100%
+[03:09:19 INFO]: Mushroom Growth Modifier: 100%
+[03:09:19 INFO]: Pumpkin Growth Modifier: 100%
+[03:09:19 INFO]: Sapling Growth Modifier: 100%
+[03:09:19 INFO]: Beetroot Growth Modifier: 100%
+[03:09:19 INFO]: Carrot Growth Modifier: 100%
+[03:09:19 INFO]: Potato Growth Modifier: 100%
+[03:09:19 INFO]: Wheat Growth Modifier: 100%
+[03:09:19 INFO]: NetherWart Growth Modifier: 100%
+[03:09:19 INFO]: Vine Growth Modifier: 100%
+[03:09:19 INFO]: Cocoa Growth Modifier: 100%
+[03:09:19 INFO]: Bamboo Growth Modifier: 100%
+[03:09:19 INFO]: SweetBerry Growth Modifier: 100%
+[03:09:19 INFO]: Kelp Growth Modifier: 100%
+[03:09:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:09:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:09:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:09:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[03:09:19 INFO]: Max TNT Explosions: 100
+[03:09:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:09:19 INFO]: View Distance: 10
+[03:09:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:09:19 INFO]: Item Despawn Rate: 6000
+[03:09:19 INFO]: Item Merge Radius: 2.5
+[03:09:19 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03:09:19 INFO]: Zombie Aggressive Towards Villager: true
+[03:09:19 INFO]: Nerfing mobs spawned from spawners: false
+[03:09:19 INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.0.3
+[03:09:19 INFO]: [Dynmap-Towny] Disabling Dynmap-Towny v0.75
+[03:09:19 INFO]: [PlayerInfo] Disabling PlayerInfo v2.0
+[03:09:19 INFO]: [PlayerInfo] PlayerInfo has been disabled.
+[03:09:19 INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.16.0.3
+[03:09:19 INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.0.3
+[03:09:19 INFO]: [TownyChat] Disabling TownyChat v0.68
+[03:09:19 INFO]: [Banknotes] Disabling Banknotes v0.1.5
+[03:09:19 INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.7.8
+[03:09:19 INFO]: [MonsterBox] Disabling MonsterBox v1.2
+[03:09:19 INFO]: MonsterBox disabled!
+[03:09:19 INFO]: [Jobs] Disabling Jobs v4.15.7
+[03:09:19 INFO]: [Jobs] Saved 18 new explorer entries.
+[03:09:19 INFO]: [Jobs] Database save task shutdown!
+[03:09:19 INFO]: [Jobs] Buffered payment thread shutdown.
+[03:09:19 INFO]: [Jobs] Plugin has been disabled successfully.
+[03:09:19 INFO]: [MobArena] Disabling MobArena v0.104.2
+[03:09:19 INFO]: [Towny] Disabling Towny v0.96.0.2
+[03:09:19 INFO]: ==============================================================
+[03:09:19 INFO]: [Towny] Version: 0.96.0.2 - Mod Disabled
+[03:09:19 INFO]: =============================================================
+[03:09:19 INFO]: [Autorank] Disabling Autorank v3.7
+[03:09:19 INFO]: [Autorank] Autorank 3.7 has been disabled!
+[03:09:19 INFO]: [PVP Arena] Disabling pvparena v1.3.1.50
+[03:09:19 INFO]: [PVP Arena] Plugin tracking disabled. See you soon?
+[03:09:19 INFO]: [PVP Arena] disabled (version pvparena v1.3.1.50)
+[03:09:19 INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v2.3.6
+[03:09:19 INFO]: [IridiumSkyblock] -------------------------------
+[03:09:19 INFO]: [IridiumSkyblock] 
+[03:09:19 INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
+[03:09:19 INFO]: [IridiumSkyblock] 
+[03:09:19 INFO]: [IridiumSkyblock] -------------------------------
+[03:09:19 INFO]: [Essentials] Disabling Essentials v2.16.0.3
+[03:09:19 INFO]: [Vault][Economy] Essentials Economy unhooked.
+[03:09:19 INFO]: [SlotMachine] Disabling SlotMachine v6.1.0
+[03:09:19 INFO]: [SlotMachine] Removing old backup
+[03:09:20 INFO]: [SlotMachine] Creating a backup of /machines to /machinesLastBakup
+[03:09:20 INFO]: [ChestShop] Disabling ChestShop v3.10.1 (build 174)
+[03:09:20 INFO]: [Vault] Disabling Vault v1.5.3-b37
+[03:09:20 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[03:09:20 INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.1.0-b805
+[03:09:20 INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[03:09:20 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[03:09:20 INFO]: [Minepacks] Disabling Minepacks v2.3.5-Release
+[03:09:21 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[03:09:21 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[03:09:21 INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[03:09:21 INFO]: [CustomPolls] Disabling CustomPolls v1.1.1
+[03:09:21 INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
+[03:09:21 INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[03:09:21 INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:09:21 INFO]: [Votifier] Disabling Votifier v2.5.0
+[03:09:21 INFO]: [Votifier] Votifier disabled.
+[03:09:21 INFO]: [Lockette] Disabling Lockette v1.8.21
+[03:09:21 INFO]: [XPConomy] Disabling XPConomy v1.1
+[03:09:21 INFO]: [XPConomy] Has been disabled
+[03:09:21 INFO]: [LoginSecurity] Disabling LoginSecurity v3.0.1
+[03:09:21 INFO]: [LoginSecurity] Waiting for queued tasks...
+[03:09:21 INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[03:09:21 INFO]: [CityWorld] Disabling CityWorld v4.04
+[03:09:21 INFO]: [Minecraft.CityWorld] [CityWorld] Disabled
+[03:09:21 INFO]: [Questioner] Disabling Questioner v0.6
+[03:09:21 INFO]: [Questioner] v0.6 - Disabled
+[03:09:21 INFO]: [ColoredSigns] Disabling ColoredSigns v2.0
+[03:09:21 WARN]: [ColoredSigns] ColoredSigns version 2.0 disabling...
+[03:09:21 INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[03:09:21 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:09:21 INFO]: [dynmap] Disabling dynmap v3.0-beta-10-257
+[03:09:21 INFO]: [dynmap] Unloaded 11 components.
+[03:09:21 INFO]: [dynmap] Stopping map renderer...
+[03:09:22 INFO]: [dynmap] Saved 6 pending tile renders in world 'Sonora'
+[03:09:22 INFO]: [dynmap] Disabled
+[03:09:22 INFO]: [CleanroomGenerator] Disabling CleanroomGenerator v1.0.0
+[03:09:22 INFO]: Reloading ResourceManager: Default, bukkit
+[03:09:23 INFO]: Loaded 6 recipes
+[03:09:23 WARN]: Exception in thread "Votifier NIO boss" java.lang.IllegalStateException: zip file closed
+[03:09:23 WARN]: 	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:686)
+[03:09:23 WARN]: 	at java.util.zip.ZipFile.getEntry(ZipFile.java:315)
+[03:09:23 WARN]: 	at java.util.jar.JarFile.getEntry(JarFile.java:240)
+[03:09:23 WARN]: 	at java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+[03:09:23 WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:133)
+[03:09:23 WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100)
+[03:09:23 WARN]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:419)
+[03:09:23 WARN]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:352)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:428)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:95)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+[03:09:23 WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:09:23 WARN]: Exception in thread "Votifier NIO worker" java.lang.IllegalStateException: zip file closed
+[03:09:23 WARN]: 	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:686)
+[03:09:23 WARN]: 	at java.util.zip.ZipFile.getEntry(ZipFile.java:315)
+[03:09:23 WARN]: 	at java.util.jar.JarFile.getEntry(JarFile.java:240)
+[03:09:23 WARN]: 	at java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+[03:09:23 WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:133)
+[03:09:23 WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100)
+[03:09:23 WARN]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:419)
+[03:09:23 WARN]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:352)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:428)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:95)
+[03:09:23 WARN]: 	at com.vexsoftware.votifier.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+[03:09:23 WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:09:23 INFO]: Reloading ResourceManager: Default, bukkit
+[03:09:24 INFO]: Loaded 6 recipes
+[03:09:24 WARN]: Legacy plugin CleanroomGenerator v1.0.0 does not specify an api-version.
+[03:09:24 WARN]: Legacy plugin dynmap v3.0-beta-10-257 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin ColoredSigns v2.0 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin Questioner v0.6 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin LoginSecurity v3.0.1 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin XPConomy v1.1 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin Lockette v1.8.21 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin CustomPolls v1.1.1 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin Vault v1.5.3-b37 does not specify an api-version.
+[03:09:25 WARN]: Legacy plugin pvparena v1.3.1.50 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin Autorank v3.7 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin MonsterBox v1.2 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin PerWorldInventory v1.7.8 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin Banknotes v0.1.5 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin EssentialsGeoIP v2.16.0.3 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin PlayerInfo v2.0 does not specify an api-version.
+[03:09:26 WARN]: Legacy plugin EssentialsSpawn v2.16.0.3 does not specify an api-version.
+[03:09:26 INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[03:09:26 INFO]: [dynmap] Loading dynmap v3.0-beta-10-257
+[03:09:26 INFO]: [dynmap] version=git-Paper-193 (MC: 1.15.2)
+[03:09:26 INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[03:09:26 INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[03:09:26 INFO]: [dynmap] Mod Support API available
+[03:09:26 INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[03:09:27 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@39fe5e6a]
+[03:09:27 INFO]: [ColoredSigns] Loading ColoredSigns v2.0
+[03:09:27 INFO]: [Questioner] Loading Questioner v0.6
+[03:09:27 INFO]: [CityWorld] Loading CityWorld v4.04
+[03:09:27 INFO]: [LoginSecurity] Loading LoginSecurity v3.0.1
+[03:09:27 INFO]: [XPConomy] Loading XPConomy v1.1
+[03:09:27 INFO]: [XPConomy] Has been loaded
+[03:09:27 INFO]: [Lockette] Loading Lockette v1.8.21
+[03:09:27 INFO]: [Votifier] Loading Votifier v2.5.0
+[03:09:27 INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[03:09:27 INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[03:09:27 INFO]: [CustomPolls] Loading CustomPolls v1.1.1
+[03:09:27 INFO]: [Minepacks] Loading Minepacks v2.3.5-Release
+[03:09:27 INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[03:09:27 INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[03:09:27 WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[03:09:27 INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.1.0-b805
+[03:09:27 INFO]: [Vault] Loading Vault v1.5.3-b37
+[03:09:27 INFO]: [ChestShop] Loading ChestShop v3.10.1 (build 174)
+[03:09:28 INFO]: [ChestShop] Lockette version 1.8.21 loaded.
+[03:09:28 INFO]: [ChestShop] WorldGuard version 7.0.2-SNAPSHOT;bf2593e loaded.
+[03:09:28 INFO]: [SlotMachine] Loading SlotMachine v6.1.0
+[03:09:28 INFO]: [Essentials] Loading Essentials v2.16.0.3
+[03:09:28 INFO]: [IridiumSkyblock] Loading IridiumSkyblock v2.3.6
+[03:09:28 INFO]: [PVP Arena] Loading pvparena v1.3.1.50
+[03:09:28 INFO]: [Autorank] Loading Autorank v3.7
+[03:09:28 INFO]: [Towny] Loading Towny v0.96.0.2
+[03:09:28 INFO]: [MobArena] Loading MobArena v0.104.2
+[03:09:28 INFO]: [Jobs] Loading Jobs v4.15.7
+[03:09:28 INFO]: [MonsterBox] Loading MonsterBox v1.2
+[03:09:28 INFO]: [PerWorldInventory] Loading PerWorldInventory v1.7.8
+[03:09:28 INFO]: [Banknotes] Loading Banknotes v0.1.5
+[03:09:28 INFO]: [TownyChat] Loading TownyChat v0.68
+[03:09:28 INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.0.3
+[03:09:28 INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.16.0.3
+[03:09:28 INFO]: [PlayerInfo] Loading PlayerInfo v2.0
+[03:09:28 INFO]: [Dynmap-Towny] Loading Dynmap-Towny v0.75
+[03:09:28 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.0.3
+[03:09:28 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:09:28 INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0*
+[03:09:28 INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[03:09:28 INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[03:09:28 WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:28 INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:09:28 WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[03:09:28 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[03:09:30 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:09:30 INFO]: [CityWorld] Enabling CityWorld v4.04
+[03:09:30 INFO]: [Minecraft.CityWorld] [CityWorld] Loading default settings
+[03:09:30 INFO]: [Minecraft.CityWorld] [CityWorld] Enabled
+[03:09:30 INFO]: [Vault] Enabling Vault v1.5.3-b37*
+[03:09:30 WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.16.0.3 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:30 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:09:30 WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:30 INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[03:09:30 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:09:30 INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[03:09:30 INFO]: [Vault] Enabled Version 1.5.3-b37
+[03:09:30 INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:09:30 INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v2.3.6
+[03:09:31 INFO]: [dynmap] Enabling dynmap v3.0-beta-10-257*
+[03:09:31 INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
+[03:09:31 INFO]: [PermissionsEx] Initializing file backend
+[03:09:31 INFO]: [PermissionsEx] Permissions file successfully reloaded
+[03:09:31 INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[03:09:31 INFO]: [Vault][Permission] PermissionsEx hooked.
+[03:09:31 INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[03:09:31 INFO]: [dynmap] Using PermissionsEx 1.23.4 for access control
+[03:09:31 WARN]: [dynmap] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:32 WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[03:09:32 INFO]: [dynmap] Mod Support processing completed
+[03:09:33 INFO]: [dynmap] Loaded 25 shaders.
+[03:09:33 INFO]: [dynmap] Loaded 82 perspectives.
+[03:09:33 INFO]: [dynmap] Loaded 14 lightings.
+[03:09:34 INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[03:09:34 INFO]: [dynmap] version 3.0-beta-10-257 is enabled - core version 3.0-beta-10-257
+[03:09:34 INFO]: [dynmap] For support, visit https://forums.dynmap.us
+[03:09:34 INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Sonora'.
+[03:09:34 INFO]: [dynmap] Loaded 6 pending tile renders for world 'Sonora'
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Sonora_nether'.
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Sonora_the_end'.
+[03:09:34 INFO]: [dynmap] World 'Legora' disabled
+[03:09:34 INFO]: [dynmap] Loaded 3 maps of world 'EpicSkyblock'.
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'IridiumSkyblock_nether'.
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Gillamoor'.
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Voxity'.
+[03:09:34 INFO]: [dynmap] World 'Lachrysa' disabled
+[03:09:34 INFO]: [dynmap] World 'Ehiria' disabled
+[03:09:34 INFO]: [dynmap] Loaded 2 maps of world 'Akama'.
+[03:09:34 INFO]: [dynmap] Loaded 3 maps of world 'IridiumSkyblock'.
+[03:09:34 INFO]: [dynmap] Enabled
+[03:09:34 INFO]: [ColoredSigns] Enabling ColoredSigns v2.0*
+[03:09:34 INFO]: [ColoredSigns] ColoredSigns enabling.
+[03:09:34 WARN]: [ColoredSigns] PermissionsEx support is disabled.
+[03:09:34 INFO]: [ColoredSigns] Starting services.. loading file and library's.
+[03:09:34 INFO]: [Questioner] Enabling Questioner v0.6*
+[03:09:34 INFO]: [Questioner] v0.6 - Enabled
+[03:09:34 INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.1*
+[03:09:34 INFO]: [LoginSecurity] Loading base translations from "en_us"
+[03:09:34 INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[03:09:35 INFO]: [LoginSecurity] Registering commands...
+[03:09:35 INFO]: [LoginSecurity] Registering listeners...
+[03:09:35 INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[03:09:35 INFO]: [XPConomy] Enabling XPConomy v1.1*
+[03:09:35 INFO]: [XPConomy] Has been enabled
+[03:09:35 INFO]: [Lockette] Enabling Lockette v1.8.21*
+[03:09:35 INFO]: [Lockette] Version 1.8.21 is being enabled!  Yay!  (Core version 1.3.5)
+[03:09:35 ERROR]: [Lockette] Detected Bukkit build [v1_15_R1], but requires version [1.8] or greater!
+[03:09:35 ERROR]: [Lockette] Aborting enable!
+[03:09:35 INFO]: [Votifier] Enabling Votifier v2.5.0
+[03:09:35 INFO]: [Votifier] Loaded token for website: default
+[03:09:35 INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[03:09:35 INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
+[03:09:35 INFO]: [Votifier] Votifier enabled on socket /0:0:0:0:0:0:0:0:8192.
+[03:09:35 INFO]: [WorldGuard] (Sonora) TNT ignition is PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora) Lighters are PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora) Lava fire is blocked.
+[03:09:35 INFO]: [WorldGuard] (Sonora) Fire spread is UNRESTRICTED.
+[03:09:35 INFO]: [WorldGuard] Loaded configuration for world 'Sonora'
+[03:09:35 INFO]: [WorldGuard] (Sonora_nether) TNT ignition is PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora_nether) Lighters are PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora_nether) Lava fire is blocked.
+[03:09:35 INFO]: [WorldGuard] (Sonora_nether) Fire spread is UNRESTRICTED.
+[03:09:35 INFO]: [WorldGuard] Loaded configuration for world 'Sonora_nether'
+[03:09:35 INFO]: [WorldGuard] (Sonora_the_end) TNT ignition is PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora_the_end) Lighters are PERMITTED.
+[03:09:35 INFO]: [WorldGuard] (Sonora_the_end) Lava fire is blocked.
+[03:09:35 INFO]: [WorldGuard] (Sonora_the_end) Fire spread is UNRESTRICTED.
+[03:09:35 INFO]: [WorldGuard] Loaded configuration for world 'Sonora_the_end'
+[03:09:36 INFO]: [WorldGuard] (Legora) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Legora) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Legora) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Legora) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Legora'
+[03:09:36 INFO]: [WorldGuard] (EpicSkyblock) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (EpicSkyblock) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (EpicSkyblock) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (EpicSkyblock) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'EpicSkyblock'
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock_nether) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock_nether) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock_nether) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock_nether) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock_nether'
+[03:09:36 INFO]: [WorldGuard] (Gillamoor) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Gillamoor) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Gillamoor) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Gillamoor) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Gillamoor'
+[03:09:36 INFO]: [WorldGuard] (Voxity) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Voxity) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Voxity) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Voxity) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Voxity'
+[03:09:36 INFO]: [WorldGuard] (Lachrysa) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Lachrysa) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Lachrysa) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Lachrysa) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Lachrysa'
+[03:09:36 INFO]: [WorldGuard] (Ehiria) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Ehiria) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Ehiria) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Ehiria) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Ehiria'
+[03:09:36 INFO]: [WorldGuard] (Akama) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Akama) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (Akama) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (Akama) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'Akama'
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock) TNT ignition is PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock) Lighters are PERMITTED.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock) Lava fire is blocked.
+[03:09:36 INFO]: [WorldGuard] (IridiumSkyblock) Fire spread is UNRESTRICTED.
+[03:09:36 INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock'
+[03:09:36 INFO]: [WorldGuard] Loading region data...
+[03:09:36 INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[03:09:36 WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.5.3-b37 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:36 WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[03:09:36 INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[03:09:37 INFO]: [Minecraft.CityWorld] CityWorld creating world 'Voxity'
+[03:09:37 INFO]: [Minecraft.CityWorld] [CityWorld] Found Minecraft v1.150, CityWorld is compatible - WOOT!
+[03:09:37 INFO]: [Multiverse-Core] 12 - World(s) loaded.
+[03:09:37 INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[03:09:37 INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[03:09:37 INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[03:09:37 INFO]: [CustomPolls] Enabling CustomPolls v1.1.1*
+[03:09:37 INFO]: [CustomPolls] Database set to 'FlatfileDatabase'
+[03:09:37 INFO]: [CustomPolls] Beginning reminder task.
+[03:09:38 INFO]: [Minepacks] Enabling Minepacks v2.3.5-Release
+[03:09:38 INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[03:09:38 INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[03:09:38 INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[03:09:38 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[03:09:38 INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[03:09:39 INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[03:09:39 INFO]: [Minepacks] Loading item translations ...
+[03:09:39 INFO]: [Minepacks] Finished loading item translations for 830 items.
+[03:09:39 INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[03:09:39 INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.1.0-b805
+[03:09:39 INFO]: [Multiverse-Portals] 6 - Portals(s) loaded
+[03:09:39 INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[03:09:39 INFO]: [Multiverse-Portals 4.1.0-b805]  Enabled - By Rigby and fernferret
+[03:09:39 INFO]: [ChestShop] Enabling ChestShop v3.10.1 (build 174)
+[03:09:40 INFO]: [ChestShop] Lockette version 1.8.21 loaded.
+[03:09:40 INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[03:09:40 INFO]: [ChestShop] Vault loaded!
+[03:09:40 WARN]: [ChestShop] Could not convert numeric IDs in priceLimits.yml to Material names!
+[03:09:40 WARN]: [ChestShop] If you want to automatically convert them you have to run this version on a pre 1.13 server.
+[03:09:40 WARN]: [ChestShop] If you want to manually convert it and hide this message set the uses_materials key to true.
+[03:09:40 INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[03:09:40 INFO]: [SlotMachine] Enabling SlotMachine v6.1.0
+[03:09:40 INFO]: [SlotMachine] Detected Minecraft version 1.15.2
+[03:09:40 INFO]: [SlotMachine] Slot Machine version 6.1.0 (53) for Spigot 1.14
+[03:09:40 INFO]: [SlotMachine] Adding language 'ENGLISH'
+[03:09:40 INFO]: [SlotMachine] Adding language 'FRENCH'
+[03:09:40 INFO]: [SlotMachine] Loading Tokens
+[03:09:40 INFO]: [SlotMachine] 1 tokens found
+[03:09:40 INFO]: [SlotMachine] Loading token 'default'
+[03:09:40 INFO]: [SlotMachine] 1 tokens loaded
+[03:09:40 INFO]: [SlotMachine] Finished loading Tokens
+[03:09:40 INFO]: [SlotMachine] Configuration version 5
+[03:09:40 INFO]: [SlotMachine] Detected 0 files in /machines
+[03:09:40 INFO]: [SlotMachine] Loading finished
+[03:09:41 INFO]: [Essentials] Enabling Essentials v2.16.0.3
+[03:09:41 ERROR]: [Essentials] You are running an unsupported server version!
+[03:09:41 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:09:41 INFO]: [Essentials] No kits found to migrate.
+[03:09:41 INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[03:09:41 INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[03:09:41 INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[03:09:41 INFO]: [Essentials] Loaded 17746 items from items.json.
+[03:09:41 INFO]: [Essentials] Using locale en_US
+[03:09:41 INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[03:09:41 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:09:41 INFO]: [Vault][Economy] Essentials Economy hooked.
+[03:09:41 INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[03:09:42 INFO]: [PVP Arena] Enabling pvparena v1.3.1.50*
+[03:09:42 INFO]: [PVP Arena] debugging: off
+[03:09:42 INFO]: [PVP Arena] Downloading module update file...
+[03:09:43 INFO]: [PVP Arena] Downloaded module update file
+[03:09:43 INFO]: [PVP Arena] enabled (version pvparena v1.3.1.50)
+[03:09:43 INFO]: You are using v1.3.1.50, an outdated version! Latest: v1.3.2.140
+[03:09:43 INFO]: https://www.spigotmc.org/resources/pvp-arena.16584/
+[03:09:43 INFO]: [Autorank] Enabling Autorank v3.7*
+[03:09:43 INFO]: [Autorank] Simple config file loaded
+[03:09:43 INFO]: [Autorank] Advanced config file loaded
+[03:09:43 INFO]: [Autorank] Settings config file loaded
+[03:09:43 INFO]: [Autorank] Internal properties file loaded
+[03:09:43 INFO]: [Autorank] Backup data file loaded (backup-data.yml)
+[03:09:43 INFO]: [Autorank] Loaded stored uuids.
+[03:09:43 INFO]: [Autorank] Loaded playerdata.
+[03:09:43 INFO]: [Autorank] No stats plugin found! Most requirements cannot be used!
+[03:09:43 INFO]: [Autorank] Loaded libraries and dependencies
+[03:09:43 INFO]: [Autorank] Interval check every 1 minutes.
+[03:09:43 INFO]: [Autorank] Data file loaded
+[03:09:43 INFO]: [Autorank] Language file loaded (lang.yml)
+[03:09:43 INFO]: [Autorank] Using timings of: autorank
+[03:09:43 INFO]: [Autorank] Autorank 3.7 has been enabled!
+[03:09:43 INFO]: -------- Autorank Leaderboard --------
+[03:09:43 INFO]: 1 | Markd315 - 0 days, 15 hours and 33 minutes.
+[03:09:43 INFO]: 2 | dalekcaan64 - 0 days, 3 hours and 31 minutes.
+[03:09:43 INFO]: 3 | CocaCola0610 - 0 days, 0 hours and 15 minutes.
+[03:09:43 INFO]: ------------------------------------
+[03:09:44 INFO]: [Towny] Enabling Towny v0.96.0.2
+[03:09:44 INFO]: Checking for updates...====================      Towny      ========================
+[03:09:44 INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[03:09:45 INFO]: [Towny] Database loaded in 386ms.
+[03:09:45 INFO]: [Towny] Warning: Essentials Economy has been known to reset town and nation bank accounts to their default amount. The authors of Essentials recommend using another economy plugin until they have fixed this bug.
+[03:09:45 WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: Questioner.jar present on server, Towny no longer requires Questioner for invites/confirmations.
+[03:09:45 WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: You may safely remove Questioner.jar from your plugins folder.
+[03:09:45 INFO]: [Towny] Using: Vault 1.5.3-b37 via Vault 1.5.3-b37, Essentials Economy via Vault
+[03:09:45 INFO]: [Towny] Time until a New Day: 8 hours, 50 minutes, 15 seconds
+[03:09:46 INFO]: =============================================================
+[03:09:46 INFO]: [Towny] Version: 0.96.0.2 - Mod Enabled
+[03:09:46 INFO]: =============================================================
+[03:09:46 INFO]: [MobArena] Enabling MobArena v0.104.2
+[03:09:46 INFO]: [MobArena] Vault found; economy rewards enabled.
+[03:09:46 ERROR]: [MobArena] You have an error in your config-file!
+
+  Failed to parse item for class Knight: potion:8197:3
+
+[03:09:46 ERROR]: [MobArena] Fix it, then run /ma reload
+[03:09:47 INFO]: [Jobs] Enabling Jobs v4.15.7
+[03:09:53 INFO]: [Jobs] Loaded 8 titles!
+[03:09:53 INFO]: [Jobs] Loaded 75 protected blocks timers!
+[03:09:53 INFO]: [Jobs] Loaded 995 custom item names!
+[03:09:53 INFO]: [Jobs] Loaded 67 custom entity names!
+[03:09:53 INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[03:09:53 INFO]: [Jobs] Loaded 37 custom enchant names!
+[03:09:53 INFO]: [Jobs] Loaded 16 custom color names!
+[03:09:53 ERROR]: [Jobs] Shop item SuperPickAxe has an invalid Icon name property. Skipping!
+[03:09:53 ERROR]: [Jobs] Shop item WoodenShovel has an invalid Icon name property. Skipping!
+[03:09:53 ERROR]: [Jobs] Shop item LureEnchantBook has an invalid Icon name property. Skipping!
+[03:09:53 ERROR]: [Jobs] Shop item Elytra has an invalid Icon name property. Skipping!
+[03:09:53 WARN]: [Jobs] Job Miner has an invalid Break type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
+[03:09:53 WARN]: [Jobs] Job Builder has an invalid Place type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
+[03:09:53 INFO]: [Jobs] Loaded 12 jobs!
+[03:09:53 INFO]: [Jobs] Explorer job manager registered!
+[03:09:54 INFO]: [Jobs] Started database save task.
+[03:09:54 INFO]: [Jobs] Started buffered payment thread.
+[03:09:54 INFO]: [Jobs] Preloaded 2 players data in 0.02
+[03:09:54 INFO]: [Jobs] WorldGuard detected.
+[03:09:54 INFO]: [Jobs] Loaded 20 block protection entries. 0
+[03:09:54 INFO]: [Jobs] Loading explorer data
+[03:09:54 INFO]: [Jobs] Loaded explorer data (326)
+[03:09:54 INFO]: [Jobs] Plugin has been enabled successfully.
+[03:09:55 INFO]: [MonsterBox] Enabling MonsterBox v1.2*
+[03:09:55 INFO]: [MonsterBox] Spout not detected. Disabling spout support.
+[03:09:55 INFO]: MonsterBox version 1.2 is enabled!
+[03:09:55 INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.7.8*
+[03:09:55 WARN]: [PerWorldInventory] Your PerWorldInventory config is out of date! Some options may be missing.
+[03:09:55 WARN]: [PerWorldInventory] Copy the new options from here: https://www.spigotmc.org/resources/per-world-inventory.4482/
+[03:09:55 INFO]: [PerWorldInventory] Registering commands...
+[03:09:55 INFO]: [PerWorldInventory] Commands registered! Registering listeners...
+[03:09:55 INFO]: [PerWorldInventory] Registered PlayerGameModeChangeListener.
+[03:09:55 INFO]: [PerWorldInventory] Listeners enabled!
+[03:09:55 INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[03:09:55 INFO]: [PerWorldInventory] Hooked into Vault!
+[03:09:55 INFO]: [Banknotes] Enabling Banknotes v0.1.5*
+[03:09:55 INFO]: [TownyChat] Enabling TownyChat v0.68
+[03:09:55 WARN]: [TownyChat] Loaded class org.dynmap.DynmapAPI from dynmap v3.0-beta-10-257 which is not a depend, softdepend or loadbefore of this plugin.
+[03:09:56 INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.0.3
+[03:09:56 INFO]: Continuing to enable Protect.
+[03:09:56 INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.16.0.3*
+[03:09:56 INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[03:09:56 INFO]: [PlayerInfo] Enabling PlayerInfo v2.0*
+[03:09:56 INFO]: [PlayerInfo] PlayerInfo has been enabled.
+[03:09:56 INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.75
+[03:09:56 INFO]: [Dynmap-Towny] initializing
+[03:09:56 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-town will have no effect
+[03:09:56 INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-nation will have no effect
+[03:09:56 INFO]: [Dynmap-Towny] version 0.75 is activated
+[03:09:56 INFO]: [Dynmap-Towny] TownyChat detect: disabling normal chat-to-web processing in Dynmap
+[03:09:56 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.0.3*
+[03:09:56 WARN]: Could not register alias sg because it contains commands that do not exist: server bukkitgames
+[03:09:59 INFO]: Markd315: Reload complete.
+[03:09:59 WARN]: Can't keep up! Is the server overloaded? Running 40525ms or 810 ticks behind
+[03:09:59 INFO]: Timings Reset
+[03:09:59 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-193 (MC: 1.15.2) ---
+[03:09:59 ERROR]: The server has not responded for 40 seconds! Creating thread dump
+[03:09:59 ERROR]: ------------------------------
+[03:09:59 ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[03:09:59 ERROR]: ------------------------------
+[03:09:59 ERROR]: Current Thread: Server thread
+[03:09:59 ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[03:09:59 ERROR]: 	Stack:
+[03:09:59 ERROR]: 		org.bukkit.plugin.SimplePluginManager.unsubscribeFromPermission(SimplePluginManager.java:801)
+[03:09:59 ERROR]: 		org.bukkit.permissions.PermissibleBase.clearPermissions(PermissibleBase.java:189)
+[03:09:59 ERROR]: 		org.bukkit.permissions.PermissibleBase.recalculatePermissions(PermissibleBase.java:169)
+[03:09:59 ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.command.ServerCommandSender.recalculatePermissions(ServerCommandSender.java:75)
+[03:09:59 ERROR]: 		org.bukkit.plugin.SimplePluginManager.dirtyPermissibles(SimplePluginManager.java:782)
+[03:09:59 ERROR]: 		org.bukkit.plugin.SimplePluginManager.calculatePermissionDefault(SimplePluginManager.java:761)
+[03:09:59 ERROR]: 		org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:728)
+[03:09:59 ERROR]: 		org.bukkit.plugin.SimplePluginManager.addPermission(SimplePluginManager.java:716)
+[03:09:59 ERROR]: 		net.milkbowl.vault.Vault$1.run(Vault.java:155)
+[03:09:59 ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[03:09:59 ERROR]: 		org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452)
+[03:09:59 ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1246)
+[03:09:59 ERROR]: 		net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:430)
+[03:09:59 ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1164)
+[03:09:59 ERROR]: 		net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:958)
+[03:09:59 ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[03:09:59 ERROR]: ------------------------------
+[03:09:59 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[03:09:59 ERROR]: ------------------------------
+[03:09:59 INFO]: Multiverse already knows about 'IridiumSkyblock'!
+[03:10:00 INFO]: Success! Property generator was set to IridiumSkyblock
+[03:10:00 INFO]: Multiverse already knows about 'IridiumSkyblock_nether'!
+[03:10:00 INFO]: Success! Property generator was set to IridiumSkyblock
+[03:10:00 INFO]: [IridiumSkyblock] Loading file: /home/markd315/mycraft/plugins/IridiumSkyblock/schematics/island.schematic
+[03:10:00 INFO]: [IridiumSkyblock] Loading file: /home/markd315/mycraft/plugins/IridiumSkyblock/schematics/nether.schematic
+[03:10:00 INFO]: [IridiumSkyblock] -------------------------------
+[03:10:00 INFO]: [IridiumSkyblock] 
+[03:10:00 INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
+[03:10:00 INFO]: [IridiumSkyblock] 
+[03:10:00 INFO]: [IridiumSkyblock] -------------------------------
+[03:10:00 INFO]: [Jobs] Successfully linked with Vault.
+[03:10:00 INFO]: [TownyChat] -******* TownyChat enabled *******-
+[03:10:01 INFO]: [dynmap] Loading default resource pack
+[03:10:04 INFO]: [Autorank] Config files have been correctly setup!
+[03:10:52 INFO]: Markd315 issued server command: /login mwd315
+[03:10:59 INFO]: Markd315 issued server command: /jobs browse
+[03:11:14 INFO]: Markd315 issued server command: /jobs browse
+[03:11:29 INFO]: Markd315 issued server command: /jobs leaveall
+[03:11:31 INFO]: Markd315 issued server command: /jobs browse
+[03:20:11 INFO]: Markd315 issued server command: /bal
+[03:20:28 INFO]: Markd315 issued server command: /bal
+[03:26:23 INFO]: Markd315 issued server command: /jobs browse
+[03:26:40 INFO]: Markd315 issued server command: /jobs browse
+[03:27:07 INFO]: Markd315 issued server command: /bal
+[03:27:09 INFO]: Markd315 issued server command: /home
+[03:35:35 INFO]: Markd315 issued server command: /home
+[03:36:47 INFO]: Markd315 issued server command: /bal
+[03:36:56 INFO]: Markd315 issued server command: /t deposit 500
+[03:36:56 INFO]: [com.palmergames.bukkit.towny.Towny] [Town Msg] Zanzaland: Markd315 deposited 500 into the Town bank.
+[03:38:56 WARN]: Markd315 moved too quickly! -9.59802658516972,2.0,2.9495666484639287
+[03:40:10 INFO]: Markd315 has made the advancement [Ol' Betsy]
+[03:44:51 INFO]: Markd315 issued server command: /town
+[03:45:02 INFO]: Markd315 issued server command: /town homeblock
+[03:45:43 INFO]: Markd315 issued server command: /home
+[03:46:05 INFO]: Markd315 issued server command: /back
+[03:48:32 WARN]: ecdef401-8932-4dc4-976b-238b4814276e (vehicle of Markd315) moved wrongly!
+[03:49:01 INFO]: Markd315 issued server command: /home
+[03:49:37 INFO]: Markd315 issued server command: /home
+[03:51:49 INFO]: Markd315 issued server command: /home
+[03:51:59 INFO]: Markd315 issued server command: /bal
+[03:52:08 INFO]: Markd315 issued server command: /deposit 500
+[03:52:17 INFO]: Markd315 issued server command: /t deposit 1000
+[03:52:17 INFO]: [com.palmergames.bukkit.towny.Towny] [Town Msg] Zanzaland: Markd315 deposited 1000 into the Town bank.
+[03:52:19 INFO]: Markd315 issued server command: /t
+[03:53:10 INFO]: Markd315 lost connection: Disconnected
+[03:53:10 INFO]: Markd315 left the game

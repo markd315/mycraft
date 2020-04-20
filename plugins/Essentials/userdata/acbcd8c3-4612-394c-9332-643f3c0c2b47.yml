@@ -1,24 +1,24 @@
 lastAccountName: Markd315
 timestamps:
-  login: 1587340207429
-  lastteleport: 1587340496073
-  logout: 1587266539394
+  login: 1587351448502
+  lastteleport: 1587354709902
+  logout: 1587354790127
   kits:
     tools: 1587345237927
 ipAddress: 73.171.227.64
 lastlocation:
   world: Sonora
-  x: 376.01356615758476
-  y: 69.875
-  z: 61.321658626566716
-  yaw: 67.71622
-  pitch: 42.75611
+  x: 375.30000001192093
+  y: 67.0
+  z: 79.69999998807907
+  yaw: 64.01768
+  pitch: 3.4501903
 logoutlocation:
-  world: Akama
-  x: 340.2744424621601
-  y: 61.335694816013245
-  z: 2.70975034022638
-  yaw: -90.21733
-  pitch: 20.952915
+  world: Sonora
+  x: 359.5814201690152
+  y: 69.0
+  z: 73.15469733101182
+  yaw: -230.88202
+  pitch: 22.554499
 afk: false
-money: '63.9962000000000031'
+money: '604.0311999999998875'
