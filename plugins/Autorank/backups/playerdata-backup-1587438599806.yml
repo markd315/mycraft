@@ -1,0 +1,94 @@
+# This file contains all the data Autorank needs of players
+c5821ea2-711c-4602-82e2-43e4042795d7:
+  exempt leaderboard: true
+  last group: Admin
+  progress: []
+  completed ranks:
+  - Newcomer
+  - Newcomer
+  - Immigrant
+  - Newcomer
+  - Immigrant
+  - Newcomer
+  - Immigrant
+f33e3eae-1894-4759-b97c-6a4d0c07a039:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+acbcd8c3-4612-394c-9332-643f3c0c2b47:
+  exempt leaderboard: false
+  last group: Admin
+  progress: []
+  completed ranks:
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Newcomer
+  - Immigrant
+  - Newcomer
+  - Immigrant
+  chosen path: Newcomer to Immigrant
+  completed requirements: []
+  started paths:
+  - Newcomer to Immigrant
+ff1d7c51-67af-3f54-9ca8-ca15fb01c5f8:
+  exempt leaderboard: false
+  last group: Developer
+  progress: []
+b50ad385-829d-3141-a216-7e7d7539ba7f:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+67caa998-cac2-31b7-a325-804b13dedcde:
+  exempt leaderboard: false
+  last group: Developer
+  progress: []
+  completed ranks:
+  - Newcomer
+3428f589-def8-376b-95ce-e7d0c516a5a5:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+  completed requirements: []
+  started paths:
+  - Immigrant to Citizen
+b99a1959-1c08-484f-8fa2-4886c1086197:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+d24d5313-1c41-44ae-9249-dc261d9b48ac:
+  exempt leaderboard: false
+  last group: Citizen
+  progress: []
+  completed ranks:
+  - Newcomer
+  - Newcomer
+  - Immigrant
+39da51b0-40fc-4c82-b4f2-556540ff68fd:
+  exempt leaderboard: false
+  last group: Immigrant
+  progress: []
+  completed ranks:
+  - Newcomer
+f816a646-0eca-3b97-abaa-e1db704a865a:
+  exempt leaderboard: false
+  completed requirements:
+  - 0
+  started paths:
+  - Newcomer to Immigrant
+  last group: Citizen
+  progress: []
+134491e8-1170-39ce-90b6-1b8d65726978:
+  exempt leaderboard: false
+  started paths: []
+  completed paths:
+  - Newcomer to Immigrant

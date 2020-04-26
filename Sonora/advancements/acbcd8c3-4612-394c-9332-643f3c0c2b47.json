@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2020-04-26 03:46:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2017-10-27 00:25:52 +0000"
@@ -760,6 +766,12 @@
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2019-01-27 07:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2020-04-26 02:57:09 +0000"
     },
     "done": true
   },
@@ -1503,6 +1515,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2019-01-27 05:38:46 +0000",
+      "sweet_berries": "2020-04-26 02:56:51 +0000",
       "cooked_beef": "2020-04-20 00:10:38 +0000",
       "baked_potato": "2020-04-19 23:58:25 +0000",
       "potato": "2020-04-19 01:59:44 +0000",
