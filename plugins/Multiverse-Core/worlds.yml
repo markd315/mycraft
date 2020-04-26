@@ -362,16 +362,16 @@ worlds:
     keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 3.0
-      y: 64.0
-      z: 11.0
-      pitch: 0.0
-      yaw: 0.0
+      x: -277.3030792953736
+      y: 70.0
+      z: -469.0094033275549
+      pitch: 20.703196
+      yaw: 188.03879
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '0'
+    seed: '-899337167229767578'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

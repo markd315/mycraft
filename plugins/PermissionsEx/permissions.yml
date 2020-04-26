@@ -13,6 +13,9 @@ groups:
     - essentials.eco
     - essentials.help
     - essentials.home
+    - essentials.buy
+    - essentials.sell
+    - essentials.worth
     - essentials.sethome
     - essentials.sethome.multiple
     - essentials.sethome.multiple.unlimited
@@ -20,11 +23,9 @@ groups:
     - essentials.pay
     - essentials.more
     - essentials.msg
-    - -essentials.sell
     - essentials.tpahere
     - essentials.tpa
     - essentials.tpaccept
-    - -essentials.worth
     - globalshop.trade.*
     - mcmmo.ability.*
     - mcmmo.commands.mcstats
@@ -95,8 +96,8 @@ groups:
     - essentials.warp
     - essentials.warp.*
     - essentials.warp.list
-    - -essentials.sell
-    - -essentials.worth
+    - essentials.sell
+    - essentials.worth
     - -towny.command.plot.asmayor
     - towny.command.plot.*
     - multiverse.access.*
@@ -168,8 +169,6 @@ groups:
     - essentials.chat.color
     - essentials.nick
     - essentials.nick.color
-    - -essentials.sell
-    - -essentials.worth
     - mcmmo.perks.*
     - modifyworld.*
     - randomtp.*
@@ -182,8 +181,6 @@ groups:
     inheritance:
     - Citizen
     permissions:
-    - -essentials.sell
-    - -essentials.worth
     - autorank.leaderboard.broadcast
     - essentials.afk.kickexempt
     - essentials.fly
@@ -201,8 +198,6 @@ groups:
     - Helper
     permissions:
     - auctions.bypass.end
-    - -essentials.sell
-    - -essentials.worth
     - essentials.ban.exempt
     - essentials.delwarp
     - essentials.feed
@@ -238,8 +233,6 @@ groups:
     - autorank.set.*
     - authme.admin.*
     - bukkit.command.gamemode
-    - -essentials.sell
-    - -essentials.worth
     - essentials.ban.*
     - essentials.broadcast
     - essentials.burn
@@ -275,8 +268,6 @@ groups:
     inheritance:
     - Developer
     permissions:
-    - -essentials.sell
-    - -essentials.worth
     - '*'
     options:
       prefix: '&8[&4Admin&8]'
