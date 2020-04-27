@@ -18,7 +18,7 @@ f33e3eae-1894-4759-b97c-6a4d0c07a039:
   completed ranks:
   - Newcomer
 acbcd8c3-4612-394c-9332-643f3c0c2b47:
-  exempt leaderboard: true
+  exempt leaderboard: false
   last group: Admin
   progress: []
   completed ranks:
@@ -92,3 +92,6 @@ f816a646-0eca-3b97-abaa-e1db704a865a:
   started paths: []
   completed paths:
   - Newcomer to Immigrant
+85457734-4460-37c1-8980-ec307e897bea:
+  exempt leaderboard: false
+  last group: Newcomer

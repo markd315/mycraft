@@ -46,14 +46,14 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  IridiumSkyblock_nether:
+  Sonora_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: IridiumSkyblock_nether
+    alias: Sonora_the_end
     color: WHITE
     style: NORMAL
-    pvp: 'true'
-    scale: '8.0'
+    pvp: 'false'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -77,20 +77,20 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
+    keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 64.0
-      z: 0.0
+      x: -80.0
+      y: 48.0
+      z: -69.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NETHER
-    seed: '6165119441408832899'
-    generator: IridiumSkyblock
+    environment: THE_END
+    seed: '-112264684490207063'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   EpicSkyblock:
@@ -140,14 +140,14 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  Sonora_the_end:
+  IridiumSkyblock_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: Sonora_the_end
+    alias: IridiumSkyblock_nether
     color: WHITE
     style: NORMAL
-    pvp: 'false'
-    scale: '1.0'
+    pvp: 'true'
+    scale: '8.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -171,20 +171,20 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
+    keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -80.0
-      y: 48.0
-      z: -69.0
+      x: 0.0
+      y: 64.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: THE_END
-    seed: '-112264684490207063'
-    generator: 'null'
+    environment: NETHER
+    seed: '6165119441408832899'
+    generator: IridiumSkyblock
     playerLimit: '-1'
     allowFlight: 'true'
   Gillamoor:
@@ -328,6 +328,53 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
+  Ehiria:
+    ==: MVWorld
+    hidden: 'false'
+    alias: Ehiria
+    color: WHITE
+    style: NORMAL
+    pvp: 'false'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'false'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 669.0
+      y: 49.0
+      z: 1667.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-9014513414827894076'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   Akama:
     ==: MVWorld
     hidden: 'false'
@@ -375,10 +422,10 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  Ehiria:
+  Sonora:
     ==: MVWorld
     hidden: 'false'
-    alias: Ehiria
+    alias: Sonora
     color: WHITE
     style: NORMAL
     pvp: 'false'
@@ -409,16 +456,16 @@ worlds:
     keepSpawnInMemory: 'false'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 669.0
-      y: 49.0
-      z: 1667.0
+      x: 25.0
+      y: 148.0
+      z: -18.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-9014513414827894076'
+    seed: '141107'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -467,53 +514,6 @@ worlds:
     environment: NORMAL
     seed: '-8637730529466809104'
     generator: IridiumSkyblock
-    playerLimit: '-1'
-    allowFlight: 'true'
-  Sonora:
-    ==: MVWorld
-    hidden: 'false'
-    alias: Sonora
-    color: WHITE
-    style: NORMAL
-    pvp: 'false'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 25.0
-      y: 148.0
-      z: -18.0
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '141107'
-    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   Sonora_nether:
