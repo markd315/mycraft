@@ -1,1113 +1,510 @@
-[20:56:03] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[20:56:03] [Server thread/INFO]: Loading properties
-[20:56:03] [Server thread/INFO]: This server is running Paper version git-Paper-193 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[20:56:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:56:03] [Server thread/INFO]: Debug logging is disabled
-[20:56:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:56:04] [Server thread/INFO]: Default game type: SURVIVAL
-[20:56:04] [Server thread/INFO]: Generating keypair
-[20:56:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:56:04] [Server thread/INFO]: Using default channel type
-[20:56:07] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:56:13] [Server thread/WARN]: Legacy plugin CleanroomGenerator v1.0.0 does not specify an api-version.
-[20:56:13] [Server thread/WARN]: Legacy plugin dynmap v3.0-beta-10-257 does not specify an api-version.
-[20:56:14] [Server thread/WARN]: Legacy plugin ColoredSigns v2.0 does not specify an api-version.
-[20:56:14] [Server thread/WARN]: Legacy plugin Questioner v0.6 does not specify an api-version.
-[20:56:14] [Server thread/WARN]: Legacy plugin LoginSecurity v3.0.1 does not specify an api-version.
-[20:56:14] [Server thread/WARN]: Legacy plugin XPConomy v1.1 does not specify an api-version.
-[20:56:14] [Server thread/WARN]: Legacy plugin Lockette v1.8.21 does not specify an api-version.
-[20:56:15] [Server thread/WARN]: Legacy plugin CustomPolls v1.1.1 does not specify an api-version.
-[20:56:15] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
-[20:56:15] [Server thread/WARN]: Legacy plugin Vault v1.5.3-b37 does not specify an api-version.
-[20:56:16] [Server thread/WARN]: Legacy plugin pvparena v1.3.1.50 does not specify an api-version.
-[20:56:16] [Server thread/WARN]: Legacy plugin Autorank v3.7 does not specify an api-version.
-[20:56:17] [Server thread/WARN]: Legacy plugin MonsterBox v1.2 does not specify an api-version.
-[20:56:17] [Server thread/WARN]: Legacy plugin PerWorldInventory v1.7.8 does not specify an api-version.
-[20:56:17] [Server thread/WARN]: Legacy plugin Banknotes v0.1.5 does not specify an api-version.
-[20:56:18] [Server thread/WARN]: Legacy plugin EssentialsGeoIP v2.16.0.3 does not specify an api-version.
-[20:56:18] [Server thread/WARN]: Legacy plugin PlayerInfo v2.0 does not specify an api-version.
-[20:56:18] [Server thread/WARN]: Legacy plugin EssentialsSpawn v2.16.0.3 does not specify an api-version.
-[20:56:19] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
-[20:56:19] [Server thread/INFO]: [dynmap] Loading dynmap v3.0-beta-10-257
-[20:56:19] [Server thread/INFO]: [dynmap] version=git-Paper-193 (MC: 1.15.2)
-[20:56:19] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
-[20:56:19] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
-[20:56:19] [Server thread/INFO]: [dynmap] Mod Support API available
-[20:56:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
-[20:56:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@aaca586]
-[20:56:21] [Server thread/INFO]: [ColoredSigns] Loading ColoredSigns v2.0
-[20:56:21] [Server thread/INFO]: [Questioner] Loading Questioner v0.6
-[20:56:21] [Server thread/INFO]: [CityWorld] Loading CityWorld v4.04
-[20:56:21] [Server thread/INFO]: [Skript] Loading Skript v2.5-alpha3
-[20:56:21] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.0.1
-[20:56:21] [Server thread/INFO]: [XPConomy] Loading XPConomy v1.1
-[20:56:21] [Server thread/INFO]: [XPConomy] Has been loaded
-[20:56:21] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.21
-[20:56:21] [Server thread/INFO]: [Votifier] Loading Votifier v2.5.0
-[20:56:21] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
-[20:56:21] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[20:56:21] [Server thread/INFO]: [CustomPolls] Loading CustomPolls v1.1.1
-[20:56:21] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.3.5-Release
-[20:56:21] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[20:56:21] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[20:56:21] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[20:56:21] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.1.0-b805
-[20:56:21] [Server thread/INFO]: [Vault] Loading Vault v1.5.3-b37
-[20:56:21] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10.1 (build 174)
-[20:56:21] [Server thread/INFO]: [ChestShop] Lockette version 1.8.21 loaded.
-[20:56:21] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.2-SNAPSHOT;bf2593e loaded.
-[20:56:21] [Server thread/INFO]: [SlotMachine] Loading SlotMachine v6.1.0
-[20:56:21] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.0.3
-[20:56:21] [Server thread/INFO]: [IridiumSkyblock] Loading IridiumSkyblock v2.3.6
-[20:56:21] [Server thread/INFO]: [PVP Arena] Loading pvparena v1.3.1.50
-[20:56:21] [Server thread/INFO]: [Autorank] Loading Autorank v3.7
-[20:56:21] [Server thread/INFO]: [Towny] Loading Towny v0.96.0.2
-[20:56:21] [Server thread/INFO]: [Jobs] Loading Jobs v4.15.7
-[20:56:21] [Server thread/INFO]: [MobArena] Loading MobArena v0.104.2
-[20:56:21] [Server thread/INFO]: [MonsterBox] Loading MonsterBox v1.2
-[20:56:21] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.7.8
-[20:56:21] [Server thread/INFO]: [Banknotes] Loading Banknotes v0.1.5
-[20:56:21] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.68
-[20:56:21] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.16.0.3
-[20:56:21] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.16.0.3
-[20:56:21] [Server thread/INFO]: [PlayerInfo] Loading PlayerInfo v2.0
-[20:56:21] [Server thread/INFO]: [Dynmap-Towny] Loading Dynmap-Towny v0.75
-[20:56:21] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.16.0.3
-[20:56:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:56:21] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0*
-[20:56:21] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
-[20:56:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
-[20:56:21] [Server thread/WARN]: [WorldEdit] Loaded class ru.tehkode.permissions.PermissionManager from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
-[20:56:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:56:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
-[20:56:23] [Server thread/INFO]: [CityWorld] Enabling CityWorld v4.04
-[20:56:23] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Loading default settings
-[20:56:23] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Enabled
-[20:56:23] [Server thread/INFO]: [Vault] Enabling Vault v1.5.3-b37*
-[20:56:24] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.16.0.3 which is not a depend, softdepend or loadbefore of this plugin.
-[20:56:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:56:24] [Server thread/WARN]: [Vault] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
-[20:56:24] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[20:56:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:56:24] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[20:56:24] [Server thread/INFO]: [Vault] Enabled Version 1.5.3-b37
-[20:56:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:56:24] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v2.3.6
-[20:56:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:56:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:56:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:56:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:56:25] [Server thread/INFO]: Preparing level "Sonora"
-[20:56:25] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[20:56:35] [Server thread/INFO]: Loaded 6 recipes
-[20:56:36] [Server thread/INFO]: -------- World Settings For [Sonora] --------
-[20:56:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:56:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:56:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:56:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:56:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:56:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:56:36] [Server thread/INFO]: Mob Spawn Range: 4
-[20:56:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:56:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:56:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:56:36] [Server thread/INFO]: Max TNT Explosions: 100
-[20:56:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:56:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:56:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:56:36] [Server thread/INFO]: View Distance: 10
-[20:56:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:56:36] [Server thread/INFO]: -------- World Settings For [Sonora_nether] --------
-[20:56:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:56:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:56:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:56:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:56:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:56:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:56:36] [Server thread/INFO]: Mob Spawn Range: 4
-[20:56:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:56:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:56:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:56:36] [Server thread/INFO]: Max TNT Explosions: 100
-[20:56:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:56:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:56:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:56:36] [Server thread/INFO]: View Distance: 10
-[20:56:36] [Server thread/INFO]: -------- World Settings For [Sonora_the_end] --------
-[20:56:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:56:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:56:36] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:56:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:56:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:56:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:56:36] [Server thread/INFO]: Mob Spawn Range: 4
-[20:56:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:56:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:56:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:56:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:56:36] [Server thread/INFO]: Max TNT Explosions: 100
-[20:56:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:56:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:56:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:56:36] [Server thread/INFO]: View Distance: 10
-[20:56:36] [Server thread/INFO]: Preparing start region for dimension 'Sonora'/minecraft:overworld
-[20:56:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:38] [Server thread/INFO]: Preparing spawn area: 1%
-[20:56:38] [Server thread/INFO]: Preparing spawn area: 8%
-[20:56:38] [Server thread/INFO]: Preparing spawn area: 94%
-[20:56:39] [Server thread/INFO]: Preparing spawn area: 100%
-[20:56:40] [Server thread/INFO]: Preparing spawn area: 100%
-[20:56:40] [Server thread/INFO]: Preparing spawn area: 100%
-[20:56:40] [Server thread/INFO]: Loaded 441 spawn chunks for world Sonora
-[20:56:40] [Server thread/INFO]: Time elapsed: 3703 ms
-[20:56:40] [Server thread/INFO]: Preparing start region for dimension 'Sonora_nether'/minecraft:the_nether
-[20:56:40] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:40] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:41] [Server thread/INFO]: Preparing spawn area: 2%
-[20:56:41] [Server thread/INFO]: Preparing spawn area: 100%
-[20:56:42] [Server thread/INFO]: Loaded 441 spawn chunks for world Sonora_nether
-[20:56:42] [Server thread/INFO]: Time elapsed: 1958 ms
-[20:56:42] [Server thread/INFO]: Preparing start region for dimension 'Sonora_the_end'/minecraft:the_end
-[20:56:42] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:42] [Server thread/INFO]: Preparing spawn area: 100%
-[20:56:43] [Server thread/INFO]: Loaded 441 spawn chunks for world Sonora_the_end
-[20:56:43] [Server thread/INFO]: Time elapsed: 915 ms
-[20:56:43] [Server thread/INFO]: [dynmap] Enabling dynmap v3.0-beta-10-257*
-[20:56:43] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
-[20:56:43] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[20:56:43] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[20:56:43] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[20:56:43] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[20:56:43] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[20:56:43] [Server thread/INFO]: [dynmap] Using PermissionsEx 1.23.4 for access control
-[20:56:43] [Server thread/WARN]: [dynmap] Loaded class ru.tehkode.permissions.bukkit.PermissionsEx from PermissionsEx v1.23.4 which is not a depend, softdepend or loadbefore of this plugin.
-[20:56:44] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[20:56:45] [Thread-13/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
-[20:56:45] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
-[20:56:45] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
-[20:56:45] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
-[20:56:46] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[20:56:46] [Server thread/INFO]: [dynmap] version 3.0-beta-10-257 is enabled - core version 3.0-beta-10-257
-[20:56:46] [Server thread/INFO]: [dynmap] For support, visit https://forums.dynmap.us
-[20:56:46] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[20:56:46] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Sonora'.
-[20:56:46] [Server thread/INFO]: [dynmap] Loaded 2 pending tile renders for world 'Sonora'
-[20:56:46] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Sonora_nether'.
-[20:56:46] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Sonora_the_end'.
-[20:56:46] [Server thread/INFO]: [dynmap] Enabled
-[20:56:46] [Server thread/INFO]: [ColoredSigns] Enabling ColoredSigns v2.0*
-[20:56:46] [Server thread/INFO]: [ColoredSigns] ColoredSigns enabling.
-[20:56:46] [Server thread/WARN]: [ColoredSigns] PermissionsEx support is disabled.
-[20:56:46] [Server thread/INFO]: [ColoredSigns] Starting services.. loading file and library's.
-[20:56:46] [Server thread/INFO]: [Questioner] Enabling Questioner v0.6*
-[20:56:46] [Server thread/INFO]: [Questioner] v0.6 - Enabled
-[20:56:46] [Server thread/INFO]: [Skript] Enabling Skript v2.5-alpha3
-[20:56:46] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
-[20:56:47] [ForkJoinPool.commonPool-worker-3/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[20:56:55] [Server thread/INFO]: [Skript] Loaded 114752 aliases in 8924ms
-[20:56:56] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[20:56:56] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.1*
-[20:56:56] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[20:56:56] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[20:56:57] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[20:56:57] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[20:56:57] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[20:56:57] [Server thread/INFO]: [XPConomy] Enabling XPConomy v1.1*
-[20:56:57] [Server thread/INFO]: [XPConomy] Has been enabled
-[20:56:57] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.21*
-[20:56:57] [Server thread/INFO]: [Lockette] Version 1.8.21 is being enabled!  Yay!  (Core version 1.3.5)
-[20:56:57] [Server thread/ERROR]: [Lockette] Detected Bukkit build [v1_15_R1], but requires version [1.8] or greater!
-[20:56:57] [Server thread/ERROR]: [Lockette] Aborting enable!
-[20:56:57] [Server thread/INFO]: [Votifier] Enabling Votifier v2.5.0
-[20:56:57] [Server thread/INFO]: [Votifier] Loaded token for website: default
-[20:56:58] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
-[20:56:58] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
-[20:56:58] [Server thread/WARN]: [Multiverse-Core] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.5.3-b37 which is not a depend, softdepend or loadbefore of this plugin.
-[20:56:58] [Votifier NIO boss/INFO]: [Votifier] Votifier enabled on socket /0:0:0:0:0:0:0:0:8192.
-[20:56:58] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
-[20:56:58] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
-[20:56:59] [Server thread/INFO]: -------- World Settings For [Legora] --------
-[20:56:59] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:56:59] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:56:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:56:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:56:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:56:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:56:59] [Server thread/INFO]: Mob Spawn Range: 4
-[20:56:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:56:59] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:56:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:56:59] [Server thread/INFO]: Max TNT Explosions: 100
-[20:56:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:56:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:56:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:56:59] [Server thread/INFO]: View Distance: 10
-[20:56:59] [Server thread/INFO]: [dynmap] World 'Legora' disabled
-[20:56:59] [Server thread/INFO]: -------- World Settings For [EpicSkyblock] --------
-[20:56:59] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:56:59] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:56:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:56:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:56:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:56:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:56:59] [Server thread/INFO]: Mob Spawn Range: 4
-[20:56:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:56:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:56:59] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:56:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:56:59] [Server thread/INFO]: Max TNT Explosions: 100
-[20:56:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:56:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:56:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:56:59] [Server thread/INFO]: View Distance: 10
-[20:56:59] [Server thread/INFO]: Preparing start region for dimension 'EpicSkyblock'/minecraft:overworld
-[20:56:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:56:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:00] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:00] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[20:57:03] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:04] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:04] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:05] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:05] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:06] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:06] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:07] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:07] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:08] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:08] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:09] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:09] [Server thread/INFO]: Loaded 441 spawn chunks for world EpicSkyblock
-[20:57:09] [Server thread/INFO]: Time elapsed: 10517 ms
-[20:57:09] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'EpicSkyblock'.
-[20:57:09] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock_nether] --------
-[20:57:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:09] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:09] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:09] [Server thread/INFO]: View Distance: 10
-[20:57:09] [Server thread/INFO]: Preparing start region for dimension 'IridiumSkyblock_nether'/minecraft:the_nether
-[20:57:09] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:10] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:10] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:11] [Server thread/INFO]: Loaded 441 spawn chunks for world IridiumSkyblock_nether
-[20:57:11] [Server thread/INFO]: Time elapsed: 1450 ms
-[20:57:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'IridiumSkyblock_nether'.
-[20:57:11] [Server thread/INFO]: -------- World Settings For [Gillamoor] --------
-[20:57:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:11] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:11] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:11] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:11] [Server thread/INFO]: View Distance: 10
-[20:57:11] [Server thread/INFO]: Preparing start region for dimension 'Gillamoor'/minecraft:overworld
-[20:57:11] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:11] [Server thread/INFO]: Preparing spawn area: 82%
-[20:57:12] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:14] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:14] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:14] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:14] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:15] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:15] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:15] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:16] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:16] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:17] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:17] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:18] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:18] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:19] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:19] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:20] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[20:57:20] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[20:57:21] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:21] [Server thread/INFO]: Loaded 441 spawn chunks for world Gillamoor
-[20:57:21] [Server thread/INFO]: Time elapsed: 10165 ms
-[20:57:21] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Gillamoor'.
-[20:57:21] [Server thread/INFO]: [Minecraft.CityWorld] CityWorld creating world 'Voxity'
-[20:57:21] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Found Minecraft v1.150, CityWorld is compatible - WOOT!
-[20:57:21] [Server thread/INFO]: -------- World Settings For [Voxity] --------
-[20:57:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:21] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:21] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:21] [Server thread/INFO]: View Distance: 10
-[20:57:21] [Server thread/INFO]: Preparing start region for dimension 'Voxity'/minecraft:overworld
-[20:57:21] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:22] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:23] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:23] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:24] [Server thread/INFO]: Preparing spawn area: 100%
-[20:57:24] [Server thread/INFO]: Loaded 441 spawn chunks for world Voxity
-[20:57:24] [Server thread/INFO]: Time elapsed: 2743 ms
-[20:57:24] [Server thread/INFO]: [Minecraft.CityWorld] CityWorld creating world 'Voxity'
-[20:57:24] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Found Minecraft v1.150, CityWorld is compatible - WOOT!
-[20:57:24] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Voxity'.
-[20:57:24] [Server thread/INFO]: -------- World Settings For [Lachrysa] --------
-[20:57:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:24] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:24] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:24] [Server thread/INFO]: View Distance: 10
-[20:57:24] [Server thread/INFO]: [dynmap] World 'Lachrysa' disabled
-[20:57:24] [Server thread/INFO]: -------- World Settings For [Ehiria] --------
-[20:57:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:24] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:24] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:24] [Server thread/INFO]: View Distance: 10
-[20:57:24] [Server thread/INFO]: [dynmap] World 'Ehiria' disabled
-[20:57:24] [Server thread/INFO]: -------- World Settings For [Akama] --------
-[20:57:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:24] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:24] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:24] [Server thread/INFO]: View Distance: 10
-[20:57:24] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Akama'.
-[20:57:24] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock] --------
-[20:57:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:57:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:57:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:57:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:57:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:57:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:57:24] [Server thread/INFO]: Mob Spawn Range: 4
-[20:57:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:57:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:57:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:57:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:57:24] [Server thread/INFO]: Max TNT Explosions: 100
-[20:57:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[20:57:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:57:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:57:24] [Server thread/INFO]: View Distance: 10
-[20:57:24] [Server thread/INFO]: Preparing start region for dimension 'IridiumSkyblock'/minecraft:overworld
-[20:57:24] [Server thread/INFO]: Preparing spawn area: 0%
-[20:57:24] [Server thread/INFO]: Loaded 441 spawn chunks for world IridiumSkyblock
-[20:57:24] [Server thread/INFO]: Time elapsed: 481 ms
-[20:57:25] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'IridiumSkyblock'.
-[20:57:25] [Server thread/INFO]: [Multiverse-Core] 12 - World(s) loaded.
-[20:57:25] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[20:57:25] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
-[20:57:25] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[20:57:25] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[20:57:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Sonora'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_nether) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_nether) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_nether) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_nether) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Sonora_nether'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_the_end) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_the_end) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_the_end) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Sonora_the_end) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Sonora_the_end'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Legora) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Legora) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Legora) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Legora) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Legora'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (EpicSkyblock) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (EpicSkyblock) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (EpicSkyblock) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (EpicSkyblock) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'EpicSkyblock'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock_nether) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock_nether) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock_nether) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock_nether) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock_nether'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Gillamoor) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Gillamoor) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Gillamoor) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Gillamoor) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Gillamoor'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Voxity) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Voxity) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Voxity) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Voxity) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Voxity'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Lachrysa) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Lachrysa) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Lachrysa) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Lachrysa) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lachrysa'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Ehiria) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Ehiria) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Ehiria) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Ehiria) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Ehiria'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Akama) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Akama) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Akama) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (Akama) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Akama'
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock) TNT ignition is PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock) Lighters are PERMITTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock) Lava fire is blocked.
-[20:57:25] [Server thread/INFO]: [WorldGuard] (IridiumSkyblock) Fire spread is UNRESTRICTED.
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'IridiumSkyblock'
-[20:57:25] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:57:26] [Server thread/INFO]: [CustomPolls] Enabling CustomPolls v1.1.1*
-[20:57:26] [Server thread/INFO]: [CustomPolls] Database set to 'FlatfileDatabase'
-[20:57:26] [Server thread/INFO]: [CustomPolls] Beginning reminder task.
-[20:57:26] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.3.5-Release
-[20:57:26] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[20:57:26] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
-[20:57:26] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[20:57:26] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[20:57:26] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[20:57:26] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[20:57:26] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[20:57:26] [Server thread/INFO]: [Minepacks] Finished loading item translations for 830 items.
-[20:57:27] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
-[20:57:27] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.1.0-b805
-[20:57:27] [Server thread/INFO]: [Multiverse-Portals] 6 - Portals(s) loaded
-[20:57:27] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[20:57:27] [Server thread/INFO]: [Multiverse-Portals 4.1.0-b805]  Enabled - By Rigby and fernferret
-[20:57:27] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10.1 (build 174)
-[20:57:27] [Server thread/INFO]: [ChestShop] Lockette version 1.8.21 loaded.
-[20:57:27] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[20:57:27] [Server thread/INFO]: [ChestShop] Vault loaded!
-[20:57:27] [Server thread/WARN]: [ChestShop] Could not convert numeric IDs in priceLimits.yml to Material names!
-[20:57:27] [Server thread/WARN]: [ChestShop] If you want to automatically convert them you have to run this version on a pre 1.13 server.
-[20:57:27] [Server thread/WARN]: [ChestShop] If you want to manually convert it and hide this message set the uses_materials key to true.
-[20:57:27] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
-[20:57:27] [Server thread/INFO]: [SlotMachine] Enabling SlotMachine v6.1.0
-[20:57:27] [Server thread/INFO]: [SlotMachine] Detected Minecraft version 1.15.2
-[20:57:27] [Server thread/INFO]: [SlotMachine] Slot Machine version 6.1.0 (53) for Spigot 1.14
-[20:57:27] [Server thread/INFO]: [SlotMachine] Adding language 'ENGLISH'
-[20:57:27] [Server thread/INFO]: [SlotMachine] Adding language 'FRENCH'
-[20:57:27] [Server thread/INFO]: [SlotMachine] Loading Tokens
-[20:57:27] [Server thread/INFO]: [SlotMachine] 1 tokens found
-[20:57:27] [Server thread/INFO]: [SlotMachine] Loading token 'default'
-[20:57:27] [Server thread/INFO]: [SlotMachine] 1 tokens loaded
-[20:57:27] [Server thread/INFO]: [SlotMachine] Finished loading Tokens
-[20:57:27] [Server thread/INFO]: [SlotMachine] Configuration version 5
-[20:57:27] [Server thread/INFO]: [SlotMachine] Detected 0 files in /machines
-[20:57:27] [Server thread/INFO]: [SlotMachine] Loading finished
-[20:57:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.0.3
-[20:57:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[20:57:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:57:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:57:28] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[20:57:28] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[20:57:28] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[20:57:28] [Server thread/INFO]: [Essentials] Loaded 17746 items from items.json.
-[20:57:28] [Server thread/INFO]: [Essentials] Using locale en_US
-[20:57:28] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
-[20:57:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:57:28] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[20:57:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[20:57:28] [Server thread/INFO]: [PVP Arena] Enabling pvparena v1.3.1.50*
-[20:57:29] [Server thread/INFO]: [PVP Arena] debugging: off
-[20:57:29] [Server thread/INFO]: [PVP Arena] Downloading module update file...
-[20:57:29] [Server thread/INFO]: [PVP Arena] Downloaded module update file
-[20:57:29] [Server thread/INFO]: [PVP Arena] enabled (version pvparena v1.3.1.50)
-[20:57:29] [Server thread/INFO]: [Autorank] Enabling Autorank v3.7*
-[20:57:29] [Server thread/INFO]: [Autorank] Simple config file loaded
-[20:57:29] [Server thread/INFO]: [Autorank] Advanced config file loaded
-[20:57:29] [Server thread/INFO]: [Autorank] Settings config file loaded
-[20:57:29] [Server thread/INFO]: [Autorank] Internal properties file loaded
-[20:57:29] [Server thread/INFO]: [Autorank] Backup data file loaded (backup-data.yml)
-[20:57:29] [Server thread/INFO]: [Autorank] Loaded stored uuids.
-[20:57:29] [Server thread/INFO]: [Autorank] Loaded playerdata.
-[20:57:29] [Thread-27/INFO]: You are using v1.3.1.50, an outdated version! Latest: v1.3.2.140
-[20:57:29] [Thread-27/INFO]: https://www.spigotmc.org/resources/pvp-arena.16584/
-[20:57:29] [Server thread/INFO]: [Autorank] No stats plugin found! Most requirements cannot be used!
-[20:57:29] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
-[20:57:29] [Server thread/INFO]: [Autorank] Interval check every 1 minutes.
-[20:57:29] [Server thread/INFO]: [Autorank] Data file loaded
-[20:57:30] [Server thread/INFO]: [Autorank] Language file loaded (lang.yml)
-[20:57:30] [Server thread/INFO]: [Autorank] Using timings of: autorank
-[20:57:30] [Server thread/INFO]: [Autorank] Autorank 3.7 has been enabled!
-[20:57:30] [Server thread/INFO]: [Towny] Enabling Towny v0.96.0.2
-[20:57:30] [Server thread/INFO]: Checking for updates...====================      Towny      ========================
-[20:57:30] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
-[20:57:30] [Server thread/INFO]: [Towny] Database loaded in 280ms.
-[20:57:31] [Server thread/INFO]: [Towny] Warning: Essentials Economy has been known to reset town and nation bank accounts to their default amount. The authors of Essentials recommend using another economy plugin until they have fixed this bug.
-[20:57:31] [Server thread/WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: Questioner.jar present on server, Towny no longer requires Questioner for invites/confirmations.
-[20:57:31] [Server thread/WARN]: [com.palmergames.bukkit.towny.Towny] [Towny] Error: You may safely remove Questioner.jar from your plugins folder.
-[20:57:31] [Server thread/INFO]: [Towny] Using: Vault 1.5.3-b37 via Vault 1.5.3-b37, Essentials Economy via Vault
-[20:57:31] [Server thread/INFO]: [Towny] Time until a New Day: 15 hours, 2 minutes, 29 seconds
-[20:57:31] [Server thread/INFO]: =============================================================
-[20:57:31] [Server thread/INFO]: [Towny] Version: 0.96.0.2 - Mod Enabled
-[20:57:31] [Server thread/INFO]: =============================================================
-[20:57:31] [Server thread/INFO]: [Jobs] Enabling Jobs v4.15.7
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 8 titles!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 75 protected blocks timers!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 995 custom item names!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 67 custom entity names!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 37 custom enchant names!
-[20:57:32] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
-[20:57:32] [Server thread/ERROR]: [Jobs] Shop item SuperPickAxe has an invalid Icon name property. Skipping!
-[20:57:32] [Server thread/ERROR]: [Jobs] Shop item WoodenShovel has an invalid Icon name property. Skipping!
-[20:57:32] [Server thread/ERROR]: [Jobs] Shop item LureEnchantBook has an invalid Icon name property. Skipping!
-[20:57:32] [Server thread/ERROR]: [Jobs] Shop item Elytra has an invalid Icon name property. Skipping!
-[20:57:33] [Server thread/WARN]: [Jobs] Job Miner has an invalid Break type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
-[20:57:33] [Server thread/WARN]: [Jobs] Job Builder has an invalid Place type property: NETHER_BRICK (nether_brick)! Material must be a block! Use "/jobs blockinfo" on a target block
-[20:57:33] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
-[20:57:33] [Server thread/INFO]: [Jobs] Explorer job manager registered!
-[20:57:33] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
-[20:57:33] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
-[20:57:33] [Server thread/INFO]: [Jobs] Preloaded 3 players data in 0.02
-[20:57:33] [Server thread/INFO]: [Jobs] WorldGuard detected.
-[20:57:33] [Server thread/INFO]: [Jobs] Loaded 43 block protection entries. 0
-[20:57:33] [Server thread/INFO]: [Jobs] Loading explorer data
-[20:57:33] [Server thread/INFO]: [Jobs] Loaded explorer data (829)
-[20:57:33] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
-[20:57:33] [Server thread/INFO]: [MobArena] Enabling MobArena v0.104.2
-[20:57:33] [Server thread/INFO]: [MobArena] Vault found; economy rewards enabled.
-[20:57:33] [Server thread/ERROR]: [MobArena] You have an error in your config-file!
-
-  Failed to parse item for class Knight: potion:8197:3
-
-[20:57:33] [Server thread/ERROR]: [MobArena] Fix it, then run /ma reload
-[20:57:33] [Server thread/INFO]: [MonsterBox] Enabling MonsterBox v1.2*
-[20:57:33] [Server thread/INFO]: [MonsterBox] Spout not detected. Disabling spout support.
-[20:57:33] [Server thread/INFO]: MonsterBox version 1.2 is enabled!
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.7.8*
-[20:57:33] [Server thread/WARN]: [PerWorldInventory] Could not save default.json to plugins\PerWorldInventory\default.json because default.json already exists.
-[20:57:33] [Server thread/WARN]: [PerWorldInventory] Your PerWorldInventory config is out of date! Some options may be missing.
-[20:57:33] [Server thread/WARN]: [PerWorldInventory] Copy the new options from here: https://www.spigotmc.org/resources/per-world-inventory.4482/
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Registering commands...
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Commands registered! Registering listeners...
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Registered PlayerGameModeChangeListener.
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Listeners enabled!
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
-[20:57:33] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
-[20:57:33] [Server thread/INFO]: [Banknotes] Enabling Banknotes v0.1.5*
-[20:57:33] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.68
-[20:57:33] [Server thread/WARN]: [TownyChat] Loaded class org.dynmap.DynmapAPI from dynmap v3.0-beta-10-257 which is not a depend, softdepend or loadbefore of this plugin.
-[20:57:33] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.16.0.3
-[20:57:33] [Server thread/INFO]: Continuing to enable Protect.
-[20:57:33] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.16.0.3*
-[20:57:33] [Server thread/INFO]: Downloading GeoIP database... this might take a while (country: 1.7 MB, city: 30MB)
-[20:57:33] [Server thread/ERROR]: Failed to open connection.
-java.net.UnknownHostException: geolite.maxmind.com
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220) ~[?:?]
-	at java.net.Socket.connect(Socket.java:591) ~[?:?]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:474) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:569) ~[?:?]
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:?]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:341) ~[?:?]
-	at sun.net.www.http.HttpClient.New(HttpClient.java:362) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009) ~[?:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.downloadDatabase(EssentialsGeoIPPlayerListener.java:179) ~[?:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:146) ~[?:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:47) ~[?:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.15.2.jar:git-Paper-193]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:364) ~[patched_1.15.2.jar:git-Paper-193]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.15.2.jar:git-Paper-193]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:470) ~[patched_1.15.2.jar:git-Paper-193]
-	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:384) ~[patched_1.15.2.jar:git-Paper-193]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:488) ~[patched_1.15.2.jar:git-Paper-193]
-	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:298) ~[patched_1.15.2.jar:git-Paper-193]
-	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:908) ~[patched_1.15.2.jar:git-Paper-193]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[20:57:34] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[20:57:34] [Server thread/INFO]: [PlayerInfo] Enabling PlayerInfo v2.0*
-[20:57:34] [Server thread/INFO]: [PlayerInfo] PlayerInfo has been enabled.
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.75
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] initializing
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-town will have no effect
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-nation will have no effect
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] version 0.75 is activated
-[20:57:34] [Server thread/INFO]: [Dynmap-Towny] TownyChat detect: disabling normal chat-to-web processing in Dynmap
-[20:57:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.16.0.3*
-[20:57:34] [Server thread/WARN]: Could not register alias sg because it contains commands that do not exist: server bukkitgames
-[20:57:35] [Server thread/INFO]: Done (70.021s)! For help, type "help"
-[20:57:35] [Server thread/INFO]: Timings Reset
-[20:57:35] [Server thread/INFO]: Multiverse already knows about 'IridiumSkyblock'!
-[20:57:35] [Server thread/INFO]: Success! Property generator was set to IridiumSkyblock
-[20:57:35] [Server thread/INFO]: Multiverse already knows about 'IridiumSkyblock_nether'!
-[20:57:35] [Server thread/INFO]: Success! Property generator was set to IridiumSkyblock
-[20:57:35] [Craft Scheduler Thread - 15/INFO]: -------- Autorank Leaderboard --------
-[20:57:35] [Craft Scheduler Thread - 15/INFO]: 1 | Markd315 - 1 day, 0 hours and 51 minutes.
-[20:57:35] [Craft Scheduler Thread - 15/INFO]: 2 | dalekcaan64 - 0 days, 3 hours and 31 minutes.
-[20:57:35] [Craft Scheduler Thread - 15/INFO]: 3 | CocaCola0610 - 0 days, 0 hours and 15 minutes.
-[20:57:35] [Craft Scheduler Thread - 15/INFO]: ------------------------------------
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] Loading file: C:\Users\markd\desktop\games\Spigot\plugins\IridiumSkyblock\schematics\island.schematic
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] Loading file: C:\Users\markd\desktop\games\Spigot\plugins\IridiumSkyblock\schematics\nether.schematic
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] 
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] 
-[20:57:35] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[20:57:35] [Server thread/WARN]: [Skript] Loaded class com.sk89q.worldguard.WorldGuard from WorldGuard v7.0.2-SNAPSHOT;bf2593e which is not a depend, softdepend or loadbefore of this plugin.
-[20:57:35] [Server thread/WARN]: [Skript] Loaded class com.sk89q.worldedit.math.BlockVector3 from WorldEdit v7.1.0;8e55131 which is not a depend, softdepend or loadbefore of this plugin.
-[20:57:35] [Server thread/WARN]: [Skript] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.5.3-b37 which is not a depend, softdepend or loadbefore of this plugin.
-[20:57:35] [Server thread/INFO]: [Skript] Loading variables...
-[20:57:35] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[20:57:35] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (wayfarer.sk, line 2115: if {Oyster::Card::%lore of event-item%::firstzone::touchedin} is not set:')
-[20:57:40] [Server thread/WARN]: [Skript] Possible name conflict of variables {Oyster::gate::location::%loop-index%} and {Oyster::gate::location::*} (there might be more conflicts). (wayfarer.sk, line 1389: clear {Oyster::gate::location::%loop-index%}')
-[20:57:40] [Server thread/WARN]: [Skript] Possible name conflict of variables {Oyster::Stationtemp::%loop-index%} and {Oyster::Stationtemp::*} (there might be more conflicts). (wayfarer.sk, line 1400: clear {Oyster::Stationtemp::%loop-index%}')
-[20:57:43] [Server thread/WARN]: [Skript] List is missing 'and' or 'or', defaulting to 'and': "&4&lThis cannot be changed.", "&c&lTo reset, Break and Re-place the gate sign." (wayfarer.sk, line 2468: set slot 4 of player's current inventory to detector rail named "&cStation: %{Oyster::gate::location::%{oyster::%player%::countdown}%::station}%" with lore "&4&lThis cannot be changed.", "&c&lTo reset, Break and Re-place the gate sign."')
-[20:57:43] [Server thread/WARN]: [Skript] List is missing 'and' or 'or', defaulting to 'and': "&6&lIf the door isnt opening,", "&6&ltry using this button", "&8&l================================", "&f&lImfomation for support/developer:", "&f&lGate in use is &n%{Oyster::gate::location::%{oyster::%player%::countdown}%::inuse}%" (wayfarer.sk, line 2471: set slot 7 of player's current inventory to barrier named "Troubleshoot..." with lore "&6&lIf the door isnt opening,", "&6&ltry using this button", "&8&l================================", "&f&lImfomation for support/developer:", "&f&lGate in use is &n%{Oyster::gate::location::%{oyster::%player%::countdown}%::inuse}%"')
-[20:57:47] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[20:57:47] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 148 triggers and 1 command in 11.82 seconds
-[20:57:47] [Server thread/INFO]: [Skript] Finished loading.
-[20:57:47] [Server thread/INFO]: [Jobs] Successfully linked with Vault.
-[20:57:47] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
-[20:57:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12514ms or 250 ticks behind
-[20:57:48] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:128)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:259)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1329)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1204)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1151)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:392)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:444)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:421)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:178)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:164)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1152)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1063)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:402)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:567)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1117)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:350)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:259)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:321)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:221)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:129)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1313)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	... 24 more
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:345)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	... 30 more
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 07:32:08 EDT 2020
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:687)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	at java.base/sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
-[20:57:51] [Craft Scheduler Thread - 8/WARN]: 	... 35 more
-[20:57:53] [Craft Scheduler Thread - 4/INFO]: [Autorank] Config files have been correctly setup!
-[20:58:17] [User Authenticator #1/INFO]: UUID of player Markd315 is acbcd8c3-4612-394c-9332-643f3c0c2b47
-[20:58:18] [Server thread/INFO]: Markd315[/127.0.0.1:58368] logged in with entity id 645 at ([Sonora]339.9270135796679, 66.0, 69.13200014610081)
-[20:58:23] [Server thread/INFO]: Markd315 issued server command: /login mwd315
-[20:58:36] [Server thread/INFO]: Markd315 issued server command: /spawn
-[20:58:51] [Server thread/INFO]: Markd315 issued server command: /gamemode 1
-[21:00:24] [Server thread/INFO]: Markd315 issued server command: /t spawn
-[21:00:24] [Server thread/WARN]: Markd315 moved too quickly! 350.2742759807206,-76.0,79.76265457182703
-[21:02:22] [Server thread/INFO]: Markd315 issued server command: /gamemode 0
-[21:03:04] [Server thread/INFO]: Markd315 issued server command: /spawn
-[21:04:49] [Server thread/INFO]: Markd315 issued server command: /gamemode 1
-[21:14:08] [Server thread/INFO]: Markd315 issued server command: /t spawn
-[21:14:08] [Server thread/WARN]: Markd315 moved too quickly! 345.1957199501727,-70.0,45.115105014958345
-[21:14:25] [Server thread/INFO]: Markd315 issued server command: /setwarp stations2
-[21:14:25] [pool-95-thread-1/INFO]: [Essentials] Creating empty config: C:\Users\markd\desktop\games\Spigot\plugins\Essentials\warps\stations2.yml
-[21:14:30] [Server thread/INFO]: Markd315 issued server command: /spawn
-[21:14:36] [Server thread/INFO]: Markd315 issued server command: /warp stations2
-[21:14:36] [Server thread/WARN]: Markd315 moved too quickly! 323.2224701652822,-82.0,80.60210416316195
-[21:14:42] [Server thread/INFO]: Made Markd315 no longer a server operator
-[21:14:49] [Server thread/INFO]: User groups set!
-[21:15:01] [Server thread/INFO]: Markd315 issued server command: /warp stations2
-[21:15:03] [Server thread/INFO]: Markd315 issued server command: /spawn
-[21:15:11] [Server thread/INFO]: Markd315 lost connection: Disconnected
-[21:15:11] [Server thread/INFO]: Markd315 left the game
-[21:15:21] [Server thread/INFO]: Stopping the server
-[21:15:21] [Server thread/INFO]: Stopping server
-[21:15:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.0.3
-[21:15:21] [Server thread/INFO]: [Dynmap-Towny] Disabling Dynmap-Towny v0.75
-[21:15:21] [Server thread/INFO]: [PlayerInfo] Disabling PlayerInfo v2.0
-[21:15:21] [Server thread/INFO]: [PlayerInfo] PlayerInfo has been disabled.
-[21:15:21] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.16.0.3
-[21:15:21] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.0.3
-[21:15:21] [Server thread/INFO]: [TownyChat] Disabling TownyChat v0.68
-[21:15:21] [Server thread/INFO]: [Banknotes] Disabling Banknotes v0.1.5
-[21:15:21] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.7.8
-[21:15:21] [Server thread/INFO]: [MonsterBox] Disabling MonsterBox v1.2
-[21:15:21] [Server thread/INFO]: MonsterBox disabled!
-[21:15:21] [Server thread/INFO]: [MobArena] Disabling MobArena v0.104.2
-[21:15:21] [Server thread/INFO]: [Jobs] Disabling Jobs v4.15.7
-[21:15:21] [Server thread/INFO]: [Jobs] Plugin has been disabled successfully.
-[21:15:21] [Server thread/INFO]: [Towny] Disabling Towny v0.96.0.2
-[21:15:21] [Server thread/INFO]: ==============================================================
-[21:15:21] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Database save task shutdown!
-[21:15:21] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Buffered payment thread shutdown.
-[21:15:21] [Server thread/INFO]: [Towny] Version: 0.96.0.2 - Mod Disabled
-[21:15:21] [Server thread/INFO]: =============================================================
-[21:15:21] [Server thread/INFO]: [Autorank] Disabling Autorank v3.7
-[21:15:21] [Server thread/INFO]: [Autorank] Autorank 3.7 has been disabled!
-[21:15:21] [Server thread/INFO]: [PVP Arena] Disabling pvparena v1.3.1.50
-[21:15:21] [Server thread/INFO]: [PVP Arena] Plugin tracking disabled. See you soon?
-[21:15:21] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v1.3.1.50)
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v2.3.6
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] 
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] 
-[21:15:21] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[21:15:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.0.3
-[21:15:21] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
-[21:15:21] [Server thread/INFO]: [SlotMachine] Disabling SlotMachine v6.1.0
-[21:15:21] [Server thread/INFO]: [SlotMachine] Removing old backup
-[21:15:21] [Server thread/INFO]: [SlotMachine] Creating a backup of /machines to /machinesLastBakup
-[21:15:21] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10.1 (build 174)
-[21:15:21] [Server thread/INFO]: [Vault] Disabling Vault v1.5.3-b37
-[21:15:21] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[21:15:21] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.1.0-b805
-[21:15:21] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[21:15:21] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[21:15:21] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.3.5-Release
-[21:15:22] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[21:15:22] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[21:15:22] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
-[21:15:22] [Server thread/INFO]: [CustomPolls] Disabling CustomPolls v1.1.1
-[21:15:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.2-SNAPSHOT;bf2593e
-[21:15:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:15:22] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.1.0-b775
-[21:15:22] [Server thread/INFO]: [Votifier] Disabling Votifier v2.5.0
-[21:15:22] [Server thread/INFO]: [Votifier] Votifier disabled.
-[21:15:22] [Server thread/INFO]: [Lockette] Disabling Lockette v1.8.21
-[21:15:22] [Server thread/INFO]: [XPConomy] Disabling XPConomy v1.1
-[21:15:22] [Server thread/INFO]: [XPConomy] Has been disabled
-[21:15:22] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.0.1
-[21:15:22] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[21:15:22] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[21:15:22] [Server thread/INFO]: [Skript] Disabling Skript v2.5-alpha3
-[21:15:22] [Server thread/INFO]: [CityWorld] Disabling CityWorld v4.04
-[21:15:22] [Server thread/INFO]: [Minecraft.CityWorld] [CityWorld] Disabled
-[21:15:22] [Server thread/INFO]: [Questioner] Disabling Questioner v0.6
-[21:15:22] [Server thread/INFO]: [Questioner] v0.6 - Disabled
-[21:15:22] [Server thread/INFO]: [ColoredSigns] Disabling ColoredSigns v2.0
-[21:15:22] [Server thread/WARN]: [ColoredSigns] ColoredSigns version 2.0 disabling...
-[21:15:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
-[21:15:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:15:22] [Server thread/INFO]: [dynmap] Disabling dynmap v3.0-beta-10-257
-[21:15:22] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[21:15:22] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[21:15:23] [Server thread/INFO]: [dynmap] Disabled
-[21:15:23] [Server thread/INFO]: [CleanroomGenerator] Disabling CleanroomGenerator v1.0.0
-[21:15:23] [Server thread/INFO]: Saving players
-[21:15:23] [Server thread/INFO]: Saving worlds
-[21:15:23] [Server thread/INFO]: Saving chunks for level 'Sonora'/minecraft:overworld
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Sonora): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Sonora_nether'/minecraft:the_nether
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Sonora_the_end'/minecraft:the_end
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Legora'/minecraft:legora
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Legora): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'EpicSkyblock'/minecraft:epicskyblock
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'IridiumSkyblock_nether'/minecraft:iridiumskyblock_nether
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Gillamoor'/minecraft:gillamoor
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gillamoor): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Voxity'/minecraft:voxity
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Voxity): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Lachrysa'/minecraft:lachrysa
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Ehiria'/minecraft:ehiria
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ehiria): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'Akama'/minecraft:akama
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Akama): All chunks are saved
-[21:15:24] [Server thread/INFO]: Saving chunks for level 'IridiumSkyblock'/minecraft:iridiumskyblock
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Sonora): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Legora): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (EpicSkyblock): All chunks are saved
-[21:15:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Gillamoor): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Voxity): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Ehiria): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Akama): All chunks are saved
-[21:15:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
-[21:15:25] [Server thread/INFO]: Flushing Chunk IO
-[21:15:25] [Server thread/INFO]: Closing Thread Pool
-[21:15:25] [Server thread/INFO]: Closing Server
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	... 21 more
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	... 27 more
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[00:09:32] [Craft Scheduler Thread - 8189/WARN]: 	... 32 more
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	... 21 more
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	... 27 more
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[00:39:32] [Craft Scheduler Thread - 8210/WARN]: 	... 32 more
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	... 21 more
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	... 27 more
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[01:09:32] [Craft Scheduler Thread - 8229/WARN]: 	... 32 more
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	... 21 more
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	... 27 more
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[01:39:32] [Craft Scheduler Thread - 8254/WARN]: 	... 32 more
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	... 21 more
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	... 27 more
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[02:09:33] [Craft Scheduler Thread - 8274/WARN]: 	... 32 more
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	... 21 more
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	... 27 more
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[02:39:32] [Craft Scheduler Thread - 8291/WARN]: 	... 32 more
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	... 21 more
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	... 27 more
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[03:09:32] [Craft Scheduler Thread - 8315/WARN]: 	... 32 more
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	... 21 more
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	... 27 more
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[03:39:32] [Craft Scheduler Thread - 8324/WARN]: 	... 32 more
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	... 21 more
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	... 27 more
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[04:09:32] [Craft Scheduler Thread - 8357/WARN]: 	... 32 more
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:316)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:310)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1639)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:223)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1037)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:965)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1064)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at java.net.URL.openStream(URL.java:1068)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at fr.klemms.slotmachine.apache.org.apache.commons.io.IOUtils.toString(IOUtils.java:1198)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at fr.klemms.slotmachine.KlemmsUpdate$1.run(KlemmsUpdate.java:75)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:380)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:285)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.validator.Validator.validate(Validator.java:262)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:330)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:237)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1621)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	... 21 more
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: Caused by: java.security.cert.CertPathValidatorException: validity check failed
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:233)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:141)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:80)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:375)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	... 27 more
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: Caused by: java.security.cert.CertificateExpiredException: NotAfter: Fri Apr 24 11:32:08 UTC 2020
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+[04:39:32] [Craft Scheduler Thread - 8379/WARN]: 	... 32 more
