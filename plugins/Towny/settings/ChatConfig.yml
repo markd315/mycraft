@@ -1,7 +1,7 @@
  
 version:
   # This is the current version of Towny.  Please do not edit.
-  version: '0.68'
+  version: '0.88'
   # This is for showing the changelog on updates.  Please do not edit.
   last_run_version: '0.68'
  
@@ -62,6 +62,13 @@ version:
 # -------------
 # Bold = &l, Italics = &o, Underlined = &n,
 # Magic = &k, Strike = &m, Reset = &r
+#
+# Hex Chat Coloring
+# -----------------
+# Valid formats: 
+# #RRGGBB
+# &#RRGGBB
+# {#RRGGBB}
 chatconfigcomments: ''
 spam_time: '0.5'
 heroicdeathtoirc:
@@ -155,19 +162,25 @@ worlds:
     nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
     alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     default: '&b[&0Voxity&b]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
-  EpicSkyblock:
+  IridiumSkyblock:
     global: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
     town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
     nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
     alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     default: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
-  IridiumSkyblock:
-    global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
-    default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
   IridiumSkyblock_nether:
+    global: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  IridiumSkyblock_the_end:
+    global: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+    town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    nation: '{channelTag}{towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}&f:{msgcolour} {msg}'
+    alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+    default: '&c[&9Velea&c]&f {townytagoverride}{townycolor}{permprefix} {modplayername}&f:{msgcolour} {msg}'
+  EpicSkyblock:
     global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
     nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'

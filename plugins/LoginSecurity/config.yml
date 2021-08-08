@@ -47,6 +47,6 @@ login-timeout: 120
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.
-# List: http://lang.lenis0012.com/list
-# Note: Changing this setting will request info from lang.lenis0012.com!
+# List: https://github.com/lenis0012/Translations
+# This setting should be set tot he file name without .json
 language: en_us

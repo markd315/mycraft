@@ -6,5 +6,6 @@ outpost=false
 permissions=residentBuild,residentDestroy,residentSwitch,residentItemUse,pvp,fire
 changed=true
 locked=false
+claimedAt=0
 metadata=
 groupID=

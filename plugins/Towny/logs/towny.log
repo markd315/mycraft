@@ -1,10 +1,19 @@
-2020-04-27 22:09:12,001 [Server thread]: [Towny] Error: Questioner.jar present on server, Towny no longer requires Questioner for invites/confirmations.
-2020-04-27 22:09:12,002 [Server thread]: [Towny] Error: You may safely remove Questioner.jar from your plugins folder.
-2020-04-28 12:00:19,564 [Craft Scheduler Thread - 596]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-04-29 12:00:19,563 [Craft Scheduler Thread - 1608]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-04-30 12:00:19,563 [Craft Scheduler Thread - 2591]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-05-01 12:00:19,563 [Craft Scheduler Thread - 3640]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-05-02 12:00:19,563 [Craft Scheduler Thread - 4637]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-05-03 12:00:19,563 [Craft Scheduler Thread - 5644]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-05-04 12:00:19,563 [Craft Scheduler Thread - 6660]: [Global Message] A new day is here! Taxes and rent have been collected
-2020-05-05 12:00:19,563 [Craft Scheduler Thread - 7669]: [Global Message] A new day is here! Taxes and rent have been collected
+2021-08-08 16:08:52,574 [ForkJoinPool.commonPool-worker-19]: [Towny] Cleaning up old backups...
+2021-08-08 16:08:52,575 [ForkJoinPool.commonPool-worker-19]: [Towny] Successfully cleaned backups.
+2021-08-08 16:08:52,577 [ForkJoinPool.commonPool-worker-19]: [Towny] Making backup...
+2021-08-08 16:08:52,655 [ForkJoinPool.commonPool-worker-19]: [Towny] Towny flatfiles and settings successfully backed up.
+2021-08-08 16:27:52,287 [Server thread]: [Towny] Disabling Towny v0.97.0.0
+2021-08-08 16:27:57,447 [Server thread]: [Towny] Loading Towny v0.97.0.0
+2021-08-08 16:28:09,085 [Server thread]: [Towny] Enabling Towny v0.97.0.0
+2021-08-08 16:28:09,224 [ForkJoinPool.commonPool-worker-15]: [Towny] Cleaning up old backups...
+2021-08-08 16:28:09,225 [ForkJoinPool.commonPool-worker-15]: [Towny] Successfully cleaned backups.
+2021-08-08 16:28:09,225 [ForkJoinPool.commonPool-worker-29]: [Towny] Making backup...
+2021-08-08 16:28:09,279 [ForkJoinPool.commonPool-worker-29]: [Towny] Towny flatfiles and settings successfully backed up.
+2021-08-08 17:16:53,210 [Server thread]: [Towny] Disabling Towny v0.97.0.0
+2021-08-08 17:16:58,046 [Server thread]: [Towny] Loading Towny v0.97.0.0
+2021-08-08 17:17:09,847 [Server thread]: [Towny] Enabling Towny v0.97.0.0
+2021-08-08 17:17:09,966 [ForkJoinPool.commonPool-worker-3]: [Towny] Cleaning up old backups...
+2021-08-08 17:17:09,966 [ForkJoinPool.commonPool-worker-3]: [Towny] Successfully cleaned backups.
+2021-08-08 17:17:09,967 [ForkJoinPool.commonPool-worker-27]: [Towny] Making backup...
+2021-08-08 17:17:10,022 [ForkJoinPool.commonPool-worker-27]: [Towny] Towny flatfiles and settings successfully backed up.
+2021-08-08 18:40:40,466 [Server thread]: [Towny] Disabling Towny v0.97.0.0

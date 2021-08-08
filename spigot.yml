@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   log-villager-deaths: true
   debug: false
   save-user-cache-on-stop-only: false
@@ -65,6 +66,12 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    seed-bastion: 30084232
+    seed-fortress: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    end-portal-sound-radius: 0
     seed-endcity: 10387313
     seed-outpost: 165745296
     view-distance: default
@@ -168,3 +175,5 @@ world-settings:
       min: 45.0
   worldeditregentempworld:
     verbose: false
+players:
+  disable-saving: false

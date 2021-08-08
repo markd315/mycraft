@@ -1312,8 +1312,6 @@ Voxity:
   - WHITE_TERRACOTTA
   - QUARTZ_BLOCK
   - STONE_SLAB
-  - GRASS_PATH
-  - GRASS_PATH
   Materials_List_For_NormalOres:
   - WATER
   - LAVA
@@ -1378,7 +1376,6 @@ Voxity:
   - SPIDER
   - WITCH
   - WITCH
-  - PIG_ZOMBIE
   - ENDERMAN
   - PHANTOM
   - BLAZE
@@ -1467,7 +1464,6 @@ Voxity:
   - BAT
   - ENDERMITE
   Entities_For_Bunker:
-  - PIG_ZOMBIE
   - ENDERMAN
   - EVOKER
   - ILLUSIONER
@@ -2467,3 +2463,43 @@ Voxity:
   - Testificats
   - Testificatd
   - Testificatr
+  IncludeMunicipalities: true
+  IncludeIndustrialSectors: true
+  IncludeFires: true
+  UseMinecraftLootTables: true
+  Materials_For_OilPlatformFloor:
+  - WHITE_CONCRETE
+  - ORANGE_CONCRETE
+  - MAGENTA_CONCRETE
+  - LIGHT_BLUE_CONCRETE
+  - YELLOW_CONCRETE
+  - LIME_CONCRETE
+  - PINK_CONCRETE
+  - GRAY_CONCRETE
+  - LIGHT_GRAY_CONCRETE
+  - CYAN_CONCRETE
+  - PURPLE_CONCRETE
+  - BLUE_CONCRETE
+  - BROWN_CONCRETE
+  - GREEN_CONCRETE
+  - RED_CONCRETE
+  - BLACK_CONCRETE
+  - STONE
+  Materials_For_OilPlatformColumn:
+  - WHITE_CONCRETE
+  - ORANGE_CONCRETE
+  - MAGENTA_CONCRETE
+  - LIGHT_BLUE_CONCRETE
+  - YELLOW_CONCRETE
+  - LIME_CONCRETE
+  - PINK_CONCRETE
+  - GRAY_CONCRETE
+  - LIGHT_GRAY_CONCRETE
+  - CYAN_CONCRETE
+  - PURPLE_CONCRETE
+  - BLUE_CONCRETE
+  - BROWN_CONCRETE
+  - GREEN_CONCRETE
+  - RED_CONCRETE
+  - BLACK_CONCRETE
+  - STONE

@@ -5,5 +5,6 @@ type=0
 outpost=false
 changed=false
 locked=false
+claimedAt=0
 metadata=
 groupID=

@@ -37,7 +37,9 @@ groups:
     default-gamemode: SURVIVAL
   skyblock:
     worlds:
-    - EpicSkyblock
+    - IridiumSkyblock
+    - IridiumSkyblock_nether
+    - IridiumSkyblock_the_end
     default-gamemode: SURVIVAL
   freebuild:
     worlds:

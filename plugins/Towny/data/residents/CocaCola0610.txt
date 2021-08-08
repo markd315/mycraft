@@ -1,5 +1,7 @@
+uuid=ff1d7c51-67af-3f54-9ca8-ca15fb01c5f8
 lastOnline=0
 registered=1587162702230
+joinedTownAt=0
 isNPC=false
 isJailed=false
 JailSpawn=0

@@ -1,0 +1,27 @@
+enable_default_command: true
+min_x: -500
+max_x: 500
+min_z: -500
+max_z: 500
+play_sounds: true
+show_particles: true
+console_msg: true
+disabled_blocks:
+- LAVA
+- STATIONARY_LAVA
+- WATER
+- STATIONARY_WATER
+- WATER_LILY
+reloaded: '&8[&9RandomTP&8] &aReloaded RandomTP.'
+world_not_exists: '&8[&9RandomTP&8] &cThe specified world does not exist.'
+player_not_exists: '&8[&9RandomTP&8] &cThe specified player is not online.'
+teleport_msg: '&8[&9RandomTP&8] &aYou were teleported into the world {world}.'
+sneak_to_destroy: '&8[&9RandomTP&8] &cSneak to remove the sign.'
+specify_world: '&8[&9RandomTP&8] &cPlease specify a world in line 4.'
+noPermissions: '&8[&9RandomTP&8] &cYou don''t have eneugh permissions for that.'
+help_message: |-
+  &8[&9RandomTP&8] &aHelp for RandomTP Version {version}:
+  &8[&9RandomTP&8] &e/randomtp &7 - &amain command
+sign_1: '&8[&9RandomTP&8]'
+sign_2: ' '
+sign_3: '&aRandom TP:'

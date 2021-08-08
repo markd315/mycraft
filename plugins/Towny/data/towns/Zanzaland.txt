@@ -1,5 +1,4 @@
 name=Zanzaland
-residents=Markd315,CocaCola0610
 mayor=Markd315
 assistants=
 
@@ -10,6 +9,7 @@ protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse,pv
 bonusBlocks=0
 purchasedBlocks=0
 taxpercent=false
+maxPercentTaxAmount=10000.0
 taxes=0.0
 plotPrice=0.0
 plotTax=0.0
@@ -27,9 +27,14 @@ conquered=false
 conqueredDays 0
 uuid=347a7acc-1f4a-4a9b-ae60-99759f02efb0
 registered=1587084983121
+joinedNationAt=0
 homeBlock=Sonora,22,4
 spawn=Sonora,362.6730175676344,69.0,68.96016509602228,14.280255,251.69174
 outpostspawns=
 jailspawns=
 outlaws=
 metadata=
+ruined=false
+ruinedTime=0
+neutral=false
+debtBalance=0.0

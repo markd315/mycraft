@@ -1,1 +1,8 @@
-{"sets": {"towny.markerset": {"hide": false,"circles": {},"areas": {},"label": "Towny","markers": {},"lines": {},"layerprio": 2},"markers": {"hide": false,"circles": {},"areas": {},"label": "Markers","markers": {"_spawn_IridiumSkyblock_nether": {"markup": false,"x": 0.0,"icon": "world","y": 64.0,"dim": "16x16","z": 0.0,"label": "Spawn"}},"lines": {},"layerprio": 0}},"timestamp": 1588025374247}
+{"sets": {"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_IridiumSkyblock_nether": {"markup": false,"x": 0.00,"icon": "world","y": 64.00,"dim": "16x16","z": 0.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1628457438847}

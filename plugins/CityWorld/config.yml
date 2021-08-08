@@ -605,3 +605,7 @@ default:
   BuildOutsideRadius: false
   MinInbetweenChunkDistanceOfCities: 0
   RuralnessLevel: 0.0
+  IncludeMunicipalities: true
+  IncludeIndustrialSectors: true
+  IncludeFires: true
+  UseMinecraftLootTables: true

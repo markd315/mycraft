@@ -1,4 +1,5 @@
 # IMPORTANT : When you need to add apostrophes : ' please add TWO apostrophes, like this '' otherwise the config file will be wiped
+notEnoughGamePoints: gamepoints.notenough
 debug: false
 pluginVersion: 5
 language: ENGLISH
